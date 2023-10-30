@@ -1,0 +1,57 @@
+{
+  "name": "@watermark-design/dom",
+  "version": "0.0.0",
+  "description": "watermark design dom",
+  "author": "zhensherlock",
+  "homepage": "https://github.com/watermark-design/watermark/tree/master/packages/dom#readme",
+  "keywords": [
+    "Watermark",
+    "Watermark Design",
+    "watermark",
+    "watermark design",
+    "水印",
+    "水印组件"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "license": "MIT",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "webpack": "dist/index.cjs.js",
+  "browser": "dist/index.umd.prod.js",
+  "unpkg": "dist/index.umd.prod.js",
+  "jsdelivr": "dist/index.umd.prod.js",
+  "types": "dist/types/main.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/types/main.d.ts",
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js"
+    },
+    "./*": "./*",
+    "./dist/*": "./dist/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watermark-design/watermark.git"
+  },
+  "scripts": {
+    "clean:dist": "rimraf dist",
+    "build": "npm run clean:dist && rollup -c --bundleConfigAsCjs --environment NODE_ENV:production"
+  },
+  "bugs": {
+    "url": "https://github.com/watermark-design/watermark/issues"
+  },
+  "dependencies": {
+    "@watermark-design/core": "workspace:^",
+    "@watermark-design/shared": "workspace:^"
+  }
+}
