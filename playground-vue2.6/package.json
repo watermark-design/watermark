@@ -1,0 +1,32 @@
+{
+  "name": "@watermark-design/playground-vue2.6",
+  "version": "1.0.0",
+  "private": true,
+  "description": "watermark design playground-vue2.6",
+  "scripts": {
+    "switch:2": "vue-demi-switch 2",
+    "dev": "npm run switch:2 && vite"
+  },
+  "keywords": [],
+  "author": "zhensherlock",
+  "license": "MIT",
+  "dependencies": {
+    "@watermark-design/style": "workspace:^",
+    "@watermark-design/vue": "workspace:^",
+    "vue-demi": "^0.14.6"
+  },
+  "peerDependencies": {
+    "vue": "2.6.14"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@vue/composition-api": "^1.7.2",
+    "vite-plugin-vue2": "^2.0.3",
+    "vue": "2.6.14",
+    "vue-template-compiler": "2.6.14"
+  }
+}

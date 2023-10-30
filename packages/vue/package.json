@@ -1,0 +1,89 @@
+{
+  "name": "@watermark-design/vue",
+  "version": "0.0.0",
+  "description": "watermark design vue",
+  "author": "zhensherlock",
+  "homepage": "https://github.com/watermark-design/watermark/tree/master/packages/vue#readme",
+  "keywords": [
+    "Watermark",
+    "Watermark Design",
+    "watermark",
+    "watermark design",
+    "水印",
+    "水印组件"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "webpack": "lib/index.js",
+  "browser": "dist/index.full.js",
+  "unpkg": "dist/index.full.js",
+  "jsdelivr": "dist/index.full.js",
+  "types": "es/types/main.d.ts",
+  "exports": {
+    ".": {
+      "types": "./es/types/main.d.ts",
+      "import": "./es/index.mjs",
+      "require": "./lib/index.js"
+    },
+    "./es": {
+      "types": "./es/types/main.d.ts",
+      "import": "./es/index.mjs"
+    },
+    "./lib": {
+      "types": "./lib/types/main.d.ts",
+      "require": "./lib/index.js"
+    },
+    "./dist/*": "./dist/*",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "es",
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watermark-design/watermark.git"
+  },
+  "scripts": {
+    "clean:dist": "rimraf dist && rimraf es && rimraf lib",
+    "switch:2": "vue-demi-switch 2",
+    "switch:3": "vue-demi-switch 3",
+    "build": "npm run clean:dist && vite build",
+    "dev": "npm run switch:3 && vite"
+  },
+  "bugs": {
+    "url": "https://github.com/watermark-design/watermark/issues"
+  },
+  "dependencies": {
+    "@watermark-design/core": "workspace:^",
+    "@watermark-design/shared": "workspace:^",
+    "@watermark-design/style": "workspace:^",
+    "lodash.debounce": "^4.0.8",
+    "lodash.omit": "^4.5.0",
+    "nanoid": "^5.0.2",
+    "vue-demi": "^0.14.6"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.7.2",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.8",
+    "@types/lodash.omit": "^4.5.8",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "vue": "^3.3.7"
+  }
+}
