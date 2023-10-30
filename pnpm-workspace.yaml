@@ -1,0 +1,6 @@
+packages:
+  - "packages/*"
+  - "docs"
+  - "playground"
+  - "playground-vue2.6"
+  - "playground-vue2.7"

@@ -1,0 +1,11 @@
+*/build/*.js
+*/public
+dist
+lib
+es
+playground
+cache
+.husky/
+lib
+*/node_modules
+package-lock.json

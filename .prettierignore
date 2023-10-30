@@ -1,0 +1,14 @@
+/dist/*
+.local
+.output.js
+/node_modules/**
+
+/packages/**/node_modules/**
+/packages/**/dist/**
+/packages/**/lib/**
+/packages/**/es/**
+
+**/*.svg
+**/*.sh
+
+/public/*

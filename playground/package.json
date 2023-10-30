@@ -1,0 +1,38 @@
+{
+  "name": "@watermark-design/playground",
+  "version": "1.0.0",
+  "private": true,
+  "description": "watermark design playground",
+  "scripts": {
+    "switch:3": "vue-demi-switch 3",
+    "dev": "npm run switch:3 && vite"
+  },
+  "keywords": [],
+  "author": "zhensherlock",
+  "license": "MIT",
+  "peerDependencies": {
+    "@vue/composition-api": "^1.7.2",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
+    "@vitejs/plugin-react": "^4.1.0",
+    "@vitejs/plugin-vue": "^4.4.0",
+    "@watermark-design/dom": "workspace:^",
+    "@watermark-design/shared": "workspace:^",
+    "@watermark-design/style": "workspace:^",
+    "@watermark-design/vue": "workspace:^",
+    "element-plus": "^2.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "vue": "^3.3.7",
+    "vue-demi": "^0.14.6"
+  }
+}

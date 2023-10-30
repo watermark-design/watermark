@@ -1,0 +1,47 @@
+#name: deploy
+#
+#on:
+#  push:
+#    branches:
+#      - main
+#
+#permissions: write-all
+#
+#jobs:
+#  deploy:
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout
+#        uses: actions/checkout@4
+#        with:
+#          fetch-depth: 0
+#
+#      - name: Install Node
+#        uses: actions/setup-node@v4
+#        with:
+#          node-version: 16
+#
+#      - name: Install PNPM
+#        run: npm i pnpm@latest -g
+#
+#      - name: Setup npmrc
+#        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
+#
+#      - name: setup pnpm config
+#        run: pnpm config set store-dir $PNPM_CACHE_FOLDER
+#
+#      - name: Install Package
+#        run: pnpm install
+#
+#      - name: Build Package
+#        run: pnpm build
+#
+#      - name: Build Docs Package
+#        run: pnpm run docs:build
+#
+#      - name: Deploy Docs
+#        uses: peaceiris/actions-gh-pages@v3
+#        with:
+#          github_token: ${{ secrets.GITHUB_TOKEN }}
+#          publish_dir: docs/.vitepress/dist
+#          # cname: example.com # if wanna deploy to custom domain
