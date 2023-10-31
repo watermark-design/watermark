@@ -45,7 +45,7 @@ jobs:
 
       - name: Publish NPM Package
         run: |
-          cd packages/$PKG_NAME
+          cd packages/PACKAGE_NAME
           pnpm publish --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
