@@ -14,7 +14,9 @@ jobs:
       - name: Get package name
         id: package
         run: |
-          echo ::set-output name=name::$(echo ${{ github.event.release.name }} | sed -E 's/^@watermark-design/(.+)@.+$/\1/')
+          echo PKG_NAME=${RELEASE_NAME##*/%%@*} >> $GITHUB_ENV
+        env:
+          RELEASE_NAME: ${{ github.event.release.name }}
 
       - name: Checkout
         uses: actions/checkout@v4
@@ -43,7 +45,7 @@ jobs:
 
       - name: Publish NPM Package
         run: |
-          cd packages/${{ steps.package.outputs.name }}
+          cd packages/$PKG_NAME
           pnpm publish --no-git-checks
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
