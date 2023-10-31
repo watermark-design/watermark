@@ -1,0 +1,25 @@
+{
+  "name": "@watermark-design/docs",
+  "version": "1.0.0",
+  "private": true,
+  "description": "watermark design docs",
+  "scripts": {
+    "dev": "vitepress dev .",
+    "build": "vitepress build .",
+    "serve": "vitepress serve ."
+  },
+  "keywords": [],
+  "author": "zhensherlock",
+  "license": "MIT",
+  "dependencies": {
+    "@watermark-design/dom": "workspace:^",
+    "@watermark-design/shared": "workspace:^",
+    "@watermark-design/style": "workspace:^",
+    "@watermark-design/vue": "workspace:^"
+  },
+  "devDependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@vue/theme": "^2.2.5",
+    "element-plus": "^2.4.1"
+  }
+}

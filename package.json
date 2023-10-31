@@ -16,7 +16,7 @@
     "dev": "pnpm -r --aggregate-output --filter=./playground dev",
     "dev2.6": "pnpm -r --aggregate-output --filter=./playground-vue2.6 dev",
     "dev2.7": "pnpm -r --aggregate-output --filter=./playground-vue2.7 dev",
-    "build": "pnpm -r --aggregate-output --filter=./packages/dom build",
+    "build": "pnpm -r --aggregate-output --filter=./packages/* build",
     "clear": "rimraf 'packages/*/{dist,node_modules}' && rimraf node_modules",
     "docs:dev": "pnpm -r --aggregate-output --filter=./docs dev",
     "docs:build": "pnpm -r --aggregate-output --filter=./docs build",
