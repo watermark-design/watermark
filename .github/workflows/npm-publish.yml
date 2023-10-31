@@ -14,7 +14,7 @@ jobs:
       - name: Get package name
         id: package
         run: |
-          echo "PACKAGE_NAME=$(echo '$RELEASE_NAME' | sed -E 's/^@[^/]+\/(.+)@.+$/\1/')" >> $GITHUB_ENV
+          echo "PACKAGE_NAME=$(echo $RELEASE_NAME | sed -E 's/^@[^/]+\/(.+)@.+$/\1/')" >> $GITHUB_ENV
         env:
           RELEASE_NAME: ${{ github.event.release.name }}
 
