@@ -1,0 +1,42 @@
+{
+  "name": "@watermark-design/style",
+  "version": "0.0.0",
+  "private": true,
+  "description": "watermark design style",
+  "author": "zhensherlock",
+  "homepage": "https://github.com/watermark-design/watermark/tree/master/packages/style#readme",
+  "keywords": [
+    "Watermark",
+    "Watermark Design",
+    "watermark",
+    "watermark design",
+    "水印",
+    "水印组件"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "license": "MIT",
+  "main": "dist/index.css",
+  "browser": "dist/index.css",
+  "unpkg": "dist/index.css",
+  "jsdelivr": "dist/index.css",
+  "files": [
+    "dist/index.css",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watermark-design/watermark.git"
+  },
+  "scripts": {
+    "clean:dist": "rimraf dist",
+    "build": "npm run clean:dist && rollup -c --bundleConfigAsCjs --environment NODE_ENV:production",
+    "build2": "npm run clean:dist && vite build"
+  },
+  "bugs": {
+    "url": "https://github.com/watermark-design/watermark/issues"
+  }
+}
