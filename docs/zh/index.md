@@ -10,7 +10,7 @@ hero:
   tagline: 简易、强大、高性能。
   image:
     src: /full-logo.png
-    alt: company-ui
+    alt: watermark design
   actions:
     - theme: brand
       text: 开始 👆

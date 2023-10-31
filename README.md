@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://watermark-design.github.io/watermark/" target="_blank" rel="noopener noreferrer">
-    <img height="100" src="https://watermark-design.github.io/watermark/full-logo.png" alt="company ui">
+    <img height="100" src="https://watermark-design.github.io/watermark/full-logo.png" alt="watermark design">
   </a>
 </p>
 <p align="center">
@@ -21,59 +21,38 @@ Works with both Vue 2 , Vue 3 And React.
 
 ### Vue
 
-<a href="https://npmjs.com/package/@watermark-design/vue"><img src="https://badgen.net/npm/v/@watermark-design/vue" alt="npm package"></a>
-<img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@watermark-design/vue">
+<a href="https://npmjs.com/package/@watermark-design/vue"><img src="https://badgen.net/npm/v/@watermark-design/vue" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@watermark-design/vue">
 
 ```ts
-import '@watermark-design/style';
 import WatermarkDesign from '@watermark-design/vue';
 app.use(WatermarkDesign);
 ```
 
 ```vue
-<Watermark :width="200" :height="200" content="hello watermark" />
+<Watermark content="hello watermark" :width="200" :height="200">
+  <div style="height: 400px"></div>
+</Watermark>
 ```
 
-[//]: # (### React)
+### React
 
-[//]: # ()
-[//]: # (<a href="https://npmjs.com/package/@watermark-design/react"><img src="https://badgen.net/npm/v/@watermark-design/react" alt="npm package"></a>)
+<a href="https://npmjs.com/package/@watermark-design/react"><img src="https://badgen.net/npm/v/@watermark-design/react" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@watermark-design/react">
 
-[//]: # (<img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@watermark-design/react">)
+```ts
+import { Watermark } from '@watermark-design/react';
+```
 
-[//]: # ()
-[//]: # (```ts)
-
-[//]: # (import '@watermark-design/style';)
-
-[//]: # (import { AutoComplete } from '@watermark-design/react';)
-
-[//]: # (```)
-
-[//]: # ()
-[//]: # (```jsx)
-
-[//]: # (<AutoComplete)
-
-[//]: # (  popupAppendToBody={false})
-
-[//]: # (  defaultValue={inputValue})
-
-[//]: # (  value={inputValue})
-
-[//]: # (  onChange={setInputValue})
-
-[//]: # (></AutoComplete>)
-
-[//]: # (```)
+```jsx
+<Watermark width={200} height={200} content={inputValue}>
+  <div style={{ height: 400 }}></div>
+</Watermark>
+```
 
 ### Dom
 
-<a href="https://npmjs.com/package/@watermark-design/dom"><img src="https://badgen.net/npm/v/@watermark-design/dom" alt="npm package"></a>
-<img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@watermark-design/dom">
+<a href="https://npmjs.com/package/@watermark-design/dom"><img src="https://badgen.net/npm/v/@watermark-design/dom" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@watermark-design/dom">
 
 ```ts
-import '@watermark-design/style';
 import { Watermark } from '@watermark-design/dom';
 
 const watermark = new Watermark({
@@ -81,6 +60,7 @@ const watermark = new Watermark({
   width: 200,
   height: 200,
 });
+watermark.create();
 ```
 
 ## Documentation

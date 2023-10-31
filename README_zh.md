@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://watermark-design.github.io/watermark/" target="_blank" rel="noopener noreferrer">
-    <img width="300" src="https://watermark-design.github.io/watermark/logo-text.png" alt="company ui">
+    <img width="300" src="https://watermark-design.github.io/watermark/logo-text.png" alt="watermark design">
   </a>
 </p>
 <p align="center">
@@ -17,58 +17,46 @@
 
 ### Vue
 
+<a href="https://npmjs.com/package/@watermark-design/vue"><img src="https://badgen.net/npm/v/@watermark-design/vue" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@watermark-design/vue">
+
 ```ts
-import '@watermark-design/style';
 import WatermarkDesign from '@watermark-design/vue';
 app.use(WatermarkDesign);
 ```
 
 ```vue
-<Watermark :width="200" :height="200" content="hello watermark" />
+<Watermark content="hello watermark" :width="200" :height="200">
+  <div style="height: 400px"></div>
+</Watermark>
 ```
 
-[//]: # (### React)
+### React
 
-[//]: # ()
-[//]: # (```ts)
+<a href="https://npmjs.com/package/@watermark-design/react"><img src="https://badgen.net/npm/v/@watermark-design/react" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@watermark-design/react">
 
-[//]: # (import '@watermark-design/style';)
+```ts
+import { Watermark } from '@watermark-design/react';
+```
 
-[//]: # (import { Watermark } from '@watermark-design/react';)
-
-[//]: # (```)
-
-[//]: # ()
-[//]: # (```jsx)
-
-[//]: # (<Watermark)
-
-[//]: # (  content="hello my watermark")
-
-[//]: # (  width={200})
-
-[//]: # (  height={200})
-
-[//]: # (>)
-
-[//]: # (</Watermark>)
-
-[//]: # (```)
+```jsx
+<Watermark width={200} height={200} content={inputValue}>
+  <div style={{ height: 400 }}></div>
+</Watermark>
+```
 
 ### Dom
 
+<a href="https://npmjs.com/package/@watermark-design/dom"><img src="https://badgen.net/npm/v/@watermark-design/dom" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@watermark-design/dom">
+
 ```ts
-import '@watermark-design/style';
 import { Watermark } from '@watermark-design/dom';
 
 const watermark = new Watermark({
   content: 'hello my watermark',
   width: 200,
   height: 200,
-  onSuccess: () => {
-    // success callback
-  }
 });
+watermark.create();
 ```
 
 ## 文档
