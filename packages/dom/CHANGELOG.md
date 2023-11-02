@@ -1,5 +1,11 @@
 # @watermark-design/dom
 
+## 1.1.0
+
+### Minor Changes
+
+- [`f68df39`](https://github.com/watermark-design/watermark/commit/f68df39f72537a5c837b20a09cb3809acf569b52) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add BlindWatermark and ImageWatermark
+
 ## 1.0.0
 
 ### Major Changes
