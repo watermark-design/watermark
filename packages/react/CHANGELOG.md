@@ -1,5 +1,11 @@
 # @watermark-design/react
 
+## 1.0.1
+
+### Patch Changes
+
+- [`32a6cbc`](https://github.com/watermark-design/watermark/commit/32a6cbc3a64da75a9ab899a65ce9fcf40426006e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix install error
+
 ## 1.0.0
 
 ### Major Changes
