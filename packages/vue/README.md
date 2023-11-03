@@ -21,7 +21,6 @@ Works with both Vue 2 , Vue 3.
 ```bash
 # or pnpm or yarn
 npm install @watermark-design/vue
-npm install @watermark-design/style
 ```
 
 ## Usage
@@ -29,13 +28,14 @@ npm install @watermark-design/style
 ### General
 
 ```ts
-import '@watermark-design/style';
 import WatermarkDesign from '@watermark-design/vue';
 app.use(WatermarkDesign);
 ```
 
 ```vue
-<watermark />
+<Watermark content="hello watermark" :width="200" :height="200">
+	<div style="height: 400px"></div>
+</Watermark>
 ```
 
 ## Documentation

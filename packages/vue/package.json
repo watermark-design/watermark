@@ -65,7 +65,6 @@
   "dependencies": {
     "@watermark-design/core": "workspace:^",
     "@watermark-design/shared": "workspace:^",
-    "@watermark-design/style": "workspace:^",
     "lodash.debounce": "^4.0.8",
     "lodash.omit": "^4.5.0",
     "nanoid": "^5.0.2",
