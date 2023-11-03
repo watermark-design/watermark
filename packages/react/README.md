@@ -21,7 +21,6 @@ Works with React.
 ```bash
 # or pnpm or yarn
 npm install @watermark-design/react
-npm install @watermark-design/style
 ```
 
 ## Usage
@@ -29,16 +28,12 @@ npm install @watermark-design/style
 ### General
 
 ```ts
-import '@watermark-design/style';
 import { Watermark } from '@watermark-design/react';
 ```
 
 ```jsx
-<Watermark
-  content="hello my watermark"
-  width={200}
-  height={200}
->
+<Watermark width={200} height={200} content={inputValue}>
+  <div style={{ height: 400 }}></div>
 </Watermark>
 ```
 
