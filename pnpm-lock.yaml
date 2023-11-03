@@ -251,9 +251,6 @@ importers:
       '@watermark-design/shared':
         specifier: workspace:^
         version: link:../shared
-      '@watermark-design/style':
-        specifier: workspace:^
-        version: link:../style
       ahooks:
         specifier: ^3.7.8
         version: 3.7.8(react@18.2.0)
@@ -292,9 +289,6 @@ importers:
       '@watermark-design/shared':
         specifier: workspace:^
         version: link:../shared
-      '@watermark-design/style':
-        specifier: workspace:^
-        version: link:../style
       lodash.debounce:
         specifier: ^4.0.8
         version: 4.0.8
