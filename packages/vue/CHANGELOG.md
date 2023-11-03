@@ -1,5 +1,11 @@
 # @watermark-design/vue
 
+## 1.0.1
+
+### Patch Changes
+
+- [`1dbb531`](https://github.com/watermark-design/watermark/commit/1dbb5311769795b107f4b9c39ccc9e2c5bb566bb) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix install error
+
 ## 1.0.0
 
 ### Major Changes
