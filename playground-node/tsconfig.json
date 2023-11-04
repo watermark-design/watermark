@@ -1,0 +1,13 @@
+{
+  "extends": "../tsconfig.root.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "sourceMap": true,
+    "jsx": "preserve"
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@watermark-design/playground-node",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "watermark design playground-node",
+  "scripts": {
+    "dev": "ts-node ./node/main.ts"
+  },
+  "keywords": [],
+  "author": "zhensherlock",
+  "license": "MIT",
+  "dependencies": {
+    "@watermark-design/node": "workspace:^",
+    "ts-node": "^10.9.1"
+  }
+}

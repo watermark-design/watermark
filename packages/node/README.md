@@ -4,21 +4,23 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://npmjs.com/package/@watermark-design/style"><img src="https://badgen.net/npm/v/@watermark-design/style" alt="npm package"></a>
+  <a href="https://npmjs.com/package/@watermark-design/shared"><img src="https://badgen.net/npm/v/@watermark-design/node" alt="npm package"></a>
   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/watermark-design/watermark/deploy.yml?branch=main">
-  <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@watermark-design/style">
-  <img alt="npm download week" src="https://img.shields.io/npm/dw/@watermark-design/style">
+  <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@watermark-design/node">
+  <img alt="npm download week" src="https://img.shields.io/npm/dw/@watermark-design/node">
   <img alt="GitHub" src="https://img.shields.io/github/license/watermark-design/watermark">
   <a href="https://discord.gg/V5msNXCE"><img src="https://img.shields.io/discord/1170204572254474300" alt="Join the chat"></a>
 </p>
 
-# `@watermark-design/style`
+# `@watermark-design/node`
+
+The utils used internally by the Watermark Design. It includes common type checking, error assertions, component types/declarations/parameters, and more.
 
 ## Installing
 
 ```bash
 # or pnpm or yarn
-npm install @watermark-design/style
+npm install @watermark-design/node
 ```
 
 ## Documentation

@@ -6,7 +6,7 @@
 <p align="center">
   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/watermark-design/watermark/deploy.yml?branch=main">
   <img alt="GitHub" src="https://img.shields.io/github/license/watermark-design/watermark">
-  <a href="https://discord.gg/89xaVqpV"><img src="https://img.shields.io/discord/1143015541175496777" alt="Join the chat"></a>
+  <a href="https://discord.gg/V5msNXCE"><img src="https://img.shields.io/discord/1170204572254474300" alt="Join the chat"></a>
 </p>
 
 # watermark-design
@@ -17,7 +17,7 @@
 
 ### Vue
 
-<a href="https://npmjs.com/package/@watermark-design/vue"><img src="https://badgen.net/npm/v/@watermark-design/vue" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@watermark-design/vue">
+<a href="https://npmjs.com/package/@watermark-design/vue"><img src="https://badgen.net/npm/v/@watermark-design/vue" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@watermark-design/vue"> <img alt="npm download week" src="https://img.shields.io/npm/dw/@watermark-design/vue">
 
 ```ts
 import WatermarkDesign from '@watermark-design/vue';
@@ -32,7 +32,7 @@ app.use(WatermarkDesign);
 
 ### React
 
-<a href="https://npmjs.com/package/@watermark-design/react"><img src="https://badgen.net/npm/v/@watermark-design/react" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@watermark-design/react">
+<a href="https://npmjs.com/package/@watermark-design/react"><img src="https://badgen.net/npm/v/@watermark-design/react" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@watermark-design/react"> <img alt="npm download week" src="https://img.shields.io/npm/dw/@watermark-design/react">
 
 ```ts
 import { Watermark } from '@watermark-design/react';
@@ -46,7 +46,7 @@ import { Watermark } from '@watermark-design/react';
 
 ### Dom
 
-<a href="https://npmjs.com/package/@watermark-design/dom"><img src="https://badgen.net/npm/v/@watermark-design/dom" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@watermark-design/dom">
+<a href="https://npmjs.com/package/@watermark-design/dom"><img src="https://badgen.net/npm/v/@watermark-design/dom" alt="npm package"></a> <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@watermark-design/dom"> <img alt="npm download week" src="https://img.shields.io/npm/dw/@watermark-design/dom">
 
 ```ts
 import { Watermark } from '@watermark-design/dom';
