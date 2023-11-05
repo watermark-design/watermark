@@ -14,13 +14,24 @@
 
 # `@watermark-design/node`
 
-The utils used internally by the Watermark Design. It includes common type checking, error assertions, component types/declarations/parameters, and more.
-
 ## Installing
 
 ```bash
 # or pnpm or yarn
 npm install @watermark-design/node
+```
+
+## Usage
+
+```ts
+import * as watermark from '@watermark-design/node';
+watermark.blind
+  .decode({
+    url: 'https://cdn.jsdelivr.net/gh/zhensherlock/oss@main/uPic/blind-watermark-test-bxEJgQ.png',
+  })
+  .then((res) => {
+    console.log(res); // image base64 after decryption
+  });
 ```
 
 ## Documentation

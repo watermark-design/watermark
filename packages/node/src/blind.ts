@@ -1,14 +1,14 @@
-import { createCanvas, loadImage } from 'canvas';
+import { createCanvas, GlobalCompositeOperation, loadImage } from 'canvas';
 import fetch from 'node-fetch';
 
 export interface DecodeBlindWatermarkOptions {
   url: string;
-  fillColor: string;
-  compositeOperation: string;
-  mode: string;
+  fillColor?: string;
+  compositeOperation?: string;
+  mode?: string;
 }
 
-export const decodeBlindWatermark = async (props: DecodeBlindWatermarkOptions) => {
+export const decode = async (props: DecodeBlindWatermarkOptions) => {
   const options = Object.assign(
     {
       url: '',
@@ -28,7 +28,7 @@ export const decodeBlindWatermark = async (props: DecodeBlindWatermarkOptions) =
     const canvas = createCanvas(img.width, img.height);
     const ctx = canvas.getContext('2d');
     ctx.drawImage(img, 0, 0, img.width, img.height);
-    ctx.globalCompositeOperation = options.compositeOperation as any;
+    ctx.globalCompositeOperation = options.compositeOperation as GlobalCompositeOperation;
     ctx.fillStyle = options.fillColor;
     ctx.fillRect(0, 0, img.width, img.height);
     resultImage = canvas.toDataURL();
