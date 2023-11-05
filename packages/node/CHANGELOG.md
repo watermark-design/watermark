@@ -1,5 +1,11 @@
 # @watermark-design/node
 
+## 1.0.1
+
+### Patch Changes
+
+- [`6edcc70`](https://github.com/watermark-design/watermark/commit/6edcc7029e90de59d43208780b26c95969193443) Thanks [@zhensherlock](https://github.com/zhensherlock)! - replace **decodeBlindWatermark** with **decode**
+
 ## 1.0.0
 
 ### Major Changes
