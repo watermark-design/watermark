@@ -9,7 +9,7 @@
   <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@watermark-design/dom">
   <img alt="npm download week" src="https://img.shields.io/npm/dw/@watermark-design/dom">
   <img alt="GitHub" src="https://img.shields.io/github/license/watermark-design/watermark">
-  <a href="https://discord.gg/89xaVqpV"><img src="https://img.shields.io/discord/1143015541175496777" alt="Join the chat"></a>
+  <a href="https://discord.gg/V5msNXCE"><img src="https://img.shields.io/discord/1170204572254474300" alt="Join the chat"></a>
 </p>
 
 # `@watermark-design/dom`
@@ -21,7 +21,6 @@ Works with both Vue 2 , Vue 3 And React.
 ```bash
 # or pnpm or yarn
 npm install @watermark-design/dom
-npm install @watermark-design/style
 ```
 
 ## Usage
@@ -29,7 +28,6 @@ npm install @watermark-design/style
 ### General
 
 ```ts
-import '@watermark-design/style';
 import { Watermark } from '@watermark-design/dom';
 
 const watermark = new Watermark({
@@ -38,8 +36,9 @@ const watermark = new Watermark({
   height: 200,
   onSuccess: () => {
     // success callback
-  }
-})
+  },
+});
+watermark.create();
 ```
 
 ## Documentation
