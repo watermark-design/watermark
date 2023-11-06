@@ -6,6 +6,7 @@ export interface DecodeBlindWatermarkOptions {
   fillColor?: string;
   compositeOperation?: string;
   mode?: string;
+  compositeTimes?: number;
 }
 
 export const decode = async (props: DecodeBlindWatermarkOptions) => {
@@ -15,6 +16,7 @@ export const decode = async (props: DecodeBlindWatermarkOptions) => {
       fillColor: '#000',
       compositeOperation: 'color-burn',
       mode: 'canvas',
+      compositeTimes: 3,
     },
     props
   );
@@ -30,7 +32,9 @@ export const decode = async (props: DecodeBlindWatermarkOptions) => {
     ctx.drawImage(img, 0, 0, img.width, img.height);
     ctx.globalCompositeOperation = options.compositeOperation as GlobalCompositeOperation;
     ctx.fillStyle = options.fillColor;
-    ctx.fillRect(0, 0, img.width, img.height);
+    for (let i = 0; i < options.compositeTimes; i++) {
+      ctx.fillRect(0, 0, img.width, img.height);
+    }
     resultImage = canvas.toDataURL();
   });
   return resultImage;
