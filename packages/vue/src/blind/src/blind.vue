@@ -13,7 +13,7 @@
   import watermarkMixin, { WatermarkMixinType } from '../../mixins/watermark.mixin';
 
   export default defineComponent({
-    name: 'Watermark',
+    name: 'BlindWatermark',
     directives: {},
     mixins: [watermarkMixin as WatermarkMixinType],
     ...(isVue2
@@ -28,6 +28,14 @@
         }
       : null),
     props: {
+      globalAlpha: {
+        type: Number,
+        default: 0.005,
+      },
+      mode: {
+        type: String,
+        default: 'blind',
+      },
       modelValue: {
         type: Boolean,
         default: true,

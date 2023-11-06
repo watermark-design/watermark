@@ -57,7 +57,7 @@ module.exports = {
     'no-unused-vars': [
       'error',
       {
-        argsIgnorePattern: '^_',
+        argsIgnorePattern: '^_|this',
         varsIgnorePattern: '^_',
       },
     ],

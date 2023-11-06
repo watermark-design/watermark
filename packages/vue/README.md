@@ -9,7 +9,7 @@
   <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/@watermark-design/vue">
   <img alt="npm download week" src="https://img.shields.io/npm/dw/@watermark-design/vue">
   <img alt="GitHub" src="https://img.shields.io/github/license/watermark-design/watermark">
-  <a href="https://discord.gg/89xaVqpV"><img src="https://img.shields.io/discord/1143015541175496777" alt="Join the chat"></a>
+  <a href="https://discord.gg/V5msNXCE"><img src="https://img.shields.io/discord/1170204572254474300" alt="Join the chat"></a>
 </p>
 
 # `@watermark-design/vue`

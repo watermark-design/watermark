@@ -308,8 +308,8 @@ importers:
         specifier: ^4.5.0
         version: 4.5.0
       nanoid:
-        specifier: ^5.0.2
-        version: 5.0.2
+        specifier: ^5.0.3
+        version: 5.0.3
       vue-demi:
         specifier: ^0.14.6
         version: 0.14.6(@vue/composition-api@1.7.2)(vue@3.3.7)
@@ -358,8 +358,8 @@ importers:
         specifier: workspace:^
         version: link:../packages/vue
       element-plus:
-        specifier: ^2.4.1
-        version: 2.4.1(@vue/composition-api@1.7.2)(vue@3.3.7)
+        specifier: ^2.4.2
+        version: 2.4.2(@vue/composition-api@1.7.2)(vue@3.3.7)
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -8119,8 +8119,8 @@ packages:
     resolution: {integrity: sha512-iS7KhLYCSJbdo3rUSkhDTVuFNCV34RKs2UaB9Ecr7VlqzjjWW//0nfsFF5dtDmyXlZQaDYYtID5fjtC/6lpRug==}
     dev: true
 
-  /element-plus@2.4.1(@vue/composition-api@1.7.2)(vue@3.3.7):
-    resolution: {integrity: sha512-t7nl+vQlkBKVk1Ag6AufSDyFV8YIXxTFsaya4Nz/0tiRlcz65WPN4WMFeNURuFJleu1HLNtP4YyQKMuS7El8uA==}
+  /element-plus@2.4.2(@vue/composition-api@1.7.2)(vue@3.3.7):
+    resolution: {integrity: sha512-E/HwXX7JF1LPvQSjs0fZ8WblIoc0quoXsRXQZiL7QDq7xJdNGSUaXtdk7xiEv7axPmLfEFtxE5du9fFspDrmJw==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
@@ -12100,8 +12100,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  /nanoid@5.0.2:
-    resolution: {integrity: sha512-2ustYUX1R2rL/Br5B/FMhi8d5/QzvkJ912rBYxskcpu0myTHzSZfTr1LAS2Sm7jxRUObRrSBFoyzwAhL49aVSg==}
+  /nanoid@5.0.3:
+    resolution: {integrity: sha512-I7X2b22cxA4LIHXPSqbBCEQSL+1wv8TuoefejsX4HFWyC6jc5JG7CEaxOltiKjc1M+YCS2YkrZZcj4+dytw9GA==}
     engines: {node: ^18 || >=20}
     hasBin: true
     dev: false

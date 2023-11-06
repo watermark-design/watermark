@@ -1,4 +1,4 @@
-import { CSSProperties, PropType } from 'vue-demi';
+import { CSSProperties, PropType, ComponentOptions } from 'vue-demi';
 import { nanoid } from 'nanoid';
 import debounce from 'lodash.debounce';
 import {
@@ -8,156 +8,187 @@ import {
   renderLayout,
   WatermarkCanvas,
 } from '@watermark-design/core';
-import type { WatermarkOptions } from '@watermark-design/core';
+import type {
+  WatermarkOptions,
+  GridLayoutOptions,
+  CanvasShadowStyles,
+  AdvancedStyleType,
+} from '@watermark-design/core';
 
-export default {
+type OmittedWatermarkOptions = Omit<
+  WatermarkOptions,
+  'parent' | 'mutationObserve' | 'appendToBody'
+>;
+
+export type WatermarkMixinType = ComponentOptions &
+  OmittedWatermarkOptions & {
+    key: string;
+    watermarkCanvas: WatermarkCanvas;
+    watermarkImage: string;
+    observer: MutationObserver;
+    parentObserve: MutationObserver;
+    observing: boolean;
+    options: Partial<WatermarkOptions>;
+    watermarkWrapperStyle: CSSProperties;
+    watermarkStyle: CSSProperties;
+    generateKey: () => string;
+    create: () => Promise<void>;
+    update: () => Promise<void>;
+    draw: () => Promise<void>;
+    remove: () => void;
+    handleObserver: () => void;
+    addObserver: () => void;
+    removeObserver: () => void;
+  };
+
+const WatermarkMixin: ComponentOptions = {
   props: {
     width: {
-      type: Number as PropType<WatermarkOptions.width>,
+      type: Number,
       default: initialOptions.width,
     },
     height: {
-      type: Number as PropType<WatermarkOptions.height>,
+      type: Number,
       default: initialOptions.height,
     },
     rotate: {
-      type: Number as PropType<WatermarkOptions.rotate>,
+      type: Number,
       default: initialOptions.rotate,
     },
     layout: {
-      type: String as PropType<WatermarkOptions.layout>,
+      type: String,
       default: initialOptions.layout,
     },
     gridLayoutOptions: {
-      type: Object as PropType<WatermarkOptions.gridLayoutOptions>,
+      type: Object as PropType<GridLayoutOptions>,
       default: undefined,
     },
     auxiliaryLine: {
-      type: Boolean as PropType<WatermarkOptions.auxiliaryLine>,
+      type: Boolean,
       default: initialOptions.auxiliaryLine,
     },
     globalAlpha: {
-      type: Number as PropType<WatermarkOptions.globalAlpha>,
+      type: Number,
       default: initialOptions.globalAlpha,
     },
     zIndex: {
-      type: Number as PropType<WatermarkOptions.zIndex>,
+      type: Number,
       default: 10,
     },
-    // mutationObserve: {
-    //   type: Boolean as PropType<WatermarkOptions.mutationObserve>,
-    //   default: false,
-    // },
+    mutationObserve: {
+      type: Boolean,
+      default: false,
+    },
     movable: {
-      type: Boolean as PropType<WatermarkOptions.movable>,
+      type: Boolean,
       default: initialOptions.movable,
     },
     mode: {
-      type: String as PropType<WatermarkOptions.mode>,
+      type: String,
       default: initialOptions.mode,
     },
     backgroundPosition: {
-      type: String as PropType<WatermarkOptions.backgroundPosition>,
+      type: String,
       default: initialOptions.backgroundPosition,
     },
     backgroundRepeat: {
-      type: String as PropType<WatermarkOptions.backgroundRepeat>,
+      type: String,
       default: initialOptions.backgroundRepeat,
     },
     translatePlacement: {
-      type: String as PropType<WatermarkOptions.translatePlacement>,
+      type: String,
       default: undefined,
     },
     translateX: {
-      type: Number as PropType<WatermarkOptions.translateX>,
+      type: Number,
       default: undefined,
     },
     translateY: {
-      type: Number as PropType<WatermarkOptions.translateY>,
+      type: Number,
       default: undefined,
     },
     contentType: {
-      type: String as PropType<WatermarkOptions.contentType>,
+      type: String,
       default: initialOptions.contentType,
     },
     content: {
-      type: String as PropType<WatermarkOptions.content>,
+      type: String,
       default: initialOptions.content,
     },
     textType: {
-      type: String as PropType<WatermarkOptions.textType>,
+      type: String,
       default: initialOptions.textType,
     },
     lineHeight: {
-      type: Number as PropType<WatermarkOptions.lineHeight>,
+      type: Number,
       default: initialOptions.lineHeight,
     },
     fontSize: {
-      type: String as PropType<WatermarkOptions.fontSize>,
+      type: String,
       default: initialOptions.fontSize,
     },
     fontFamily: {
-      type: String as PropType<WatermarkOptions.fontFamily>,
+      type: String,
       default: initialOptions.fontFamily,
     },
     fontStyle: {
-      type: String as PropType<WatermarkOptions.fontStyle>,
+      type: String,
       default: initialOptions.fontStyle,
     },
     fontVariant: {
-      type: String as PropType<WatermarkOptions.fontVariant>,
+      type: String,
       default: initialOptions.fontVariant,
     },
     fontColor: {
-      type: String as PropType<WatermarkOptions.fontColor>,
+      type: String,
       default: initialOptions.fontColor,
     },
     fontWeight: {
-      type: String as PropType<WatermarkOptions.fontWeight>,
+      type: String,
       default: initialOptions.fontWeight,
     },
     textAlign: {
-      type: String as PropType<WatermarkOptions.textAlign>,
+      type: String,
       default: undefined,
     },
     textBaseline: {
-      type: String as PropType<WatermarkOptions.textBaseline>,
+      type: String,
       default: undefined,
     },
     filter: {
-      type: String as PropType<WatermarkOptions.filter>,
+      type: String,
       default: initialOptions.filter,
     },
     textRowMaxWidth: {
-      type: Number as PropType<WatermarkOptions.textRowMaxWidth>,
+      type: Number,
       default: undefined,
     },
     richTextWidth: {
-      type: Number as PropType<WatermarkOptions.richTextWidth>,
+      type: Number,
       default: undefined,
     },
     richTextHeight: {
-      type: Number as PropType<WatermarkOptions.richTextHeight>,
+      type: Number,
       default: undefined,
     },
     image: {
-      type: String as PropType<WatermarkOptions.image>,
+      type: String,
       default: undefined,
     },
     imageWidth: {
-      type: Number as PropType<WatermarkOptions.imageWidth>,
+      type: Number,
       default: initialOptions.imageWidth,
     },
     imageHeight: {
-      type: Number as PropType<WatermarkOptions.imageHeight>,
+      type: Number,
       default: initialOptions.imageHeight,
     },
     shadowStyle: {
-      type: Object as PropType<WatermarkOptions.shadowStyle>,
+      type: Object as PropType<Partial<CanvasShadowStyles>>,
       default: undefined,
     },
     advancedStyle: {
-      type: Object as PropType<WatermarkOptions.shadowStyle>,
+      type: Object as PropType<AdvancedStyleType>,
       default: undefined,
     },
     appendToBody: {
@@ -168,11 +199,11 @@ export default {
   emits: ['success', 'error', 'beforeDestroy', 'destroyed', 'observeSuccess', 'observeError'],
   data() {
     return {
-      key: null as string,
-      watermarkCanvas: null as WatermarkCanvas,
-      watermarkImage: null as string,
-      observer: null as MutationObserver,
-      parentObserve: null as MutationObserver,
+      key: '' as string,
+      watermarkCanvas: null as unknown as WatermarkCanvas,
+      watermarkImage: '' as string,
+      observer: null as unknown as MutationObserver,
+      parentObserve: null as unknown as MutationObserver,
       observing: false,
     };
   },
@@ -203,7 +234,7 @@ export default {
         width: this.width,
         height: this.height,
         gridLayoutOptions: this.gridLayoutOptions,
-      });
+      } as WatermarkOptions);
       return {
         ...(this.mutationObserve && {
           visibility: `visible${important}`,
@@ -244,10 +275,10 @@ export default {
     this.$emit('success');
   },
   methods: {
-    generateKey() {
+    generateKey(): string {
       return this.mutationObserve ? nanoid(6) : 'watermark';
     },
-    create: debounce(async function () {
+    create: debounce(async function (this: any) {
       this.watermarkCanvas = new WatermarkCanvas(this.$props, this.options);
       this.remove();
       this.key = this.generateKey();
@@ -259,7 +290,7 @@ export default {
         this.$emit('error');
       }
     }, 10),
-    update: debounce(async function () {
+    update: debounce(async function (this: any) {
       this.remove();
       this.key = this.generateKey();
       try {
@@ -344,3 +375,5 @@ export default {
     },
   },
 };
+
+export default WatermarkMixin;
