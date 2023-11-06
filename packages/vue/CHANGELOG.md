@@ -1,5 +1,16 @@
 # @watermark-design/vue
 
+## 1.1.0
+
+### Minor Changes
+
+- [`1af9ad5`](https://github.com/watermark-design/watermark/commit/1af9ad5b2e6b7fe5b16e8d140ff4b35cdd8857e3) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add blind watermark component in vue
+
+### Patch Changes
+
+- Updated dependencies [[`2844e73`](https://github.com/watermark-design/watermark/commit/2844e733851c4bbbe18818df8de1f1b9370e5b89)]:
+  - @watermark-design/core@1.0.1
+
 ## 1.0.1
 
 ### Patch Changes
