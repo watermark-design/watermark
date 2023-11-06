@@ -1,5 +1,11 @@
 # @watermark-design/core
 
+## 1.0.1
+
+### Patch Changes
+
+- [`2844e73`](https://github.com/watermark-design/watermark/commit/2844e733851c4bbbe18818df8de1f1b9370e5b89) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add **compositeTimes** in DecodeBlindWatermarkOptions
+
 ## 1.0.0
 
 ### Major Changes
