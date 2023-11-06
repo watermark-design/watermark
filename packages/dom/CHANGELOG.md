@@ -1,5 +1,13 @@
 # @watermark-design/dom
 
+## 1.1.1
+
+### Patch Changes
+
+- [`5cb804d`](https://github.com/watermark-design/watermark/commit/5cb804d753b2442ec390d4b3b36feae6cdde4597) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix decode blind watermark does not support dark mode
+- Updated dependencies [[`2844e73`](https://github.com/watermark-design/watermark/commit/2844e733851c4bbbe18818df8de1f1b9370e5b89)]:
+  - @watermark-design/core@1.0.1
+
 ## 1.1.0
 
 ### Minor Changes
