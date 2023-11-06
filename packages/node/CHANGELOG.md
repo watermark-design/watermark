@@ -1,5 +1,11 @@
 # @watermark-design/node
 
+## 1.0.2
+
+### Patch Changes
+
+- [`86b35d5`](https://github.com/watermark-design/watermark/commit/86b35d56b8032aacf2bfb998b4ea6177ce707125) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix decode blind watermark does not support dark mode
+
 ## 1.0.1
 
 ### Patch Changes
