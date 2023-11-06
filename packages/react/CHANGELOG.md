@@ -1,5 +1,16 @@
 # @watermark-design/react
 
+## 1.1.0
+
+### Minor Changes
+
+- [`46d4ce6`](https://github.com/watermark-design/watermark/commit/46d4ce6deb282614e7f97084970f447222e5b1aa) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add blind watermark component in react
+
+### Patch Changes
+
+- Updated dependencies [[`2844e73`](https://github.com/watermark-design/watermark/commit/2844e733851c4bbbe18818df8de1f1b9370e5b89)]:
+  - @watermark-design/core@1.0.1
+
 ## 1.0.1
 
 ### Patch Changes
