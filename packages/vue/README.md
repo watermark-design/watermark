@@ -42,6 +42,24 @@ app.use(WatermarkDesign);
 
 To learn more, check [its documentation](https://watermark-design.github.io/watermark/).
 
+## Maintainers
+
+[@zhensherlock](https://github.com/zhensherlock).
+
+## Contributing
+
+Feel free to dive in! [Open an issue](https://github.com/watermark-design/watermark/issues/new/choose) or submit PRs.
+
+Standard Readme follows the [Contributor Covenant](http://contributor-covenant.org/version/1/3/0/) Code of Conduct.
+
+### Contributors
+
+This project exists thanks to all the people who contribute.
+
+<a href="https://github.com/watermark-design/watermark/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=watermark-design/watermark" />
+</a>
+
 ## License
 
-[MIT](LICENSE).
+[MIT](LICENSE) © MichaelSun
