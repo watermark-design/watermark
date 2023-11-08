@@ -1,5 +1,14 @@
 # @watermark-design/react
 
+## 1.1.1
+
+### Patch Changes
+
+- [`a6dcee0`](https://github.com/watermark-design/watermark/commit/a6dcee09435f36f67a92df7c2ea680674db1837f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - add **globalAlpha** and **mode** in react component BlindWatermark
+- Updated dependencies [[`a12f032`](https://github.com/watermark-design/watermark/commit/a12f0329fe5caed465a7466b4e07069586cb4f2b), [`bf0b2dc`](https://github.com/watermark-design/watermark/commit/bf0b2dc46b533ae9bfaac0e53829a256dcc5e13d), [`f30e274`](https://github.com/watermark-design/watermark/commit/f30e274f6a88719b5f585f26bfbc72a827d0dfc2)]:
+  - @watermark-design/shared@1.0.1
+  - @watermark-design/core@1.0.2
+
 ## 1.1.0
 
 ### Minor Changes
