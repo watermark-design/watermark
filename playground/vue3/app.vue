@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>Watermark Design Vue3 Playground</h1>
-    <BlindWatermark
+    <Watermark
       v-model="form.visible"
       :content="form.content"
       :width="form.width"
@@ -18,7 +18,7 @@
           </el-form-item>
         </el-form>
       </div>
-    </BlindWatermark>
+    </Watermark>
   </div>
 </template>
 <script lang="ts" setup>
