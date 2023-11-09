@@ -1,5 +1,11 @@
 # @watermark-design/node
 
+## 1.1.0
+
+### Minor Changes
+
+- [`9b5f98c`](https://github.com/watermark-design/watermark/commit/9b5f98cf20a573f3ff73b1a3be28c1052f86f62d) Thanks [@zhensherlock](https://github.com/zhensherlock)! - decode images support relative path
+
 ## 1.0.2
 
 ### Patch Changes
