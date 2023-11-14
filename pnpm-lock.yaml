@@ -318,8 +318,8 @@ importers:
         specifier: ^4.0.9
         version: 4.0.9
       '@types/lodash.omit':
-        specifier: ^4.5.8
-        version: 4.5.8
+        specifier: ^4.5.9
+        version: 4.5.9
       '@vitejs/plugin-vue':
         specifier: ^4.4.0
         version: 4.4.0(vite@4.5.0)(vue@3.3.7)
@@ -4410,8 +4410,8 @@ packages:
       '@types/lodash': 4.14.200
     dev: true
 
-  /@types/lodash.omit@4.5.8:
-    resolution: {integrity: sha512-CeIDttD58jS7R7M4rI8ZNBbV6JGG+BkKQFnWjduFJwTxqo8NdT/xjbjmQc39MVB2TKJ0rvQxddNaIna+W/pQvw==}
+  /@types/lodash.omit@4.5.9:
+    resolution: {integrity: sha512-zuAVFLUPJMOzsw6yawshsYGgq2hWUHtsZgeXHZmSFhaQQFC6EQ021uDKHkSjOpNhSvtNSU9165/o3o/Q51GpTw==}
     dependencies:
       '@types/lodash': 4.14.200
     dev: true
