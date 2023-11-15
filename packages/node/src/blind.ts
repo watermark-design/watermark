@@ -26,8 +26,8 @@ export const decode = async (props: DecodeBlindWatermarkOptions) => {
     return;
   }
   let imageBuffer: Buffer;
-  if (/^\./.test(options.url)) {
-    const imagePath = path.resolve(options.url);
+  if (/^\./.test(options.url) || path.isAbsolute(options.url)) {
+    const imagePath = path.isAbsolute(options.url) ? options.url : path.resolve(options.url);
     imageBuffer = fs.readFileSync(imagePath);
   } else {
     const response = await fetch(options.url);
