@@ -1,5 +1,11 @@
 # @watermark-design/node
 
+## 1.2.0
+
+### Minor Changes
+
+- [`4f7fc54`](https://github.com/watermark-design/watermark/commit/4f7fc54bd1c250ac932eeeab327a1db0aa7f3787) Thanks [@zhensherlock](https://github.com/zhensherlock)! - decode image support absolute path
+
 ## 1.1.0
 
 ### Minor Changes
