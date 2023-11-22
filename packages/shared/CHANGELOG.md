@@ -1,5 +1,31 @@
 # @watermark-design/shared
 
+## 1.0.3
+
+### Patch Changes
+
+- [`6c2547c`](https://github.com/watermark-design/watermark/commit/6c2547c1f7d38c366861b69d1ef44bbfe915059d) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.0.2
+
+- [`aca14af`](https://github.com/watermark-design/watermark/commit/aca14afec5f294ba152d30a864fc1cb19bd074bb) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency unplugin-vue-define-options to v1.4.0
+
+- [`1c36323`](https://github.com/watermark-design/watermark/commit/1c36323bb3203ef2f0d9075f72b195e5f6ee5c50) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency typescript to v5.3.2
+
+- [`e584bdb`](https://github.com/watermark-design/watermark/commit/e584bdbe2a74564ba52096f24cadc8bbe8dfb9f6) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency core-js to v3.33.3
+
+- [`c3f6432`](https://github.com/watermark-design/watermark/commit/c3f64323aef030e29e03c8c0a2722282e0f8677b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @babel/plugin-transform-runtime to v7.23.4
+
+- [`3da0469`](https://github.com/watermark-design/watermark/commit/3da0469f410dbf2b513b614e2bd1c9ea87335fa5) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.57.7 (@unocss/postcss, unocss)
+
+- [`d9e0e70`](https://github.com/watermark-design/watermark/commit/d9e0e7081168b67a00e19bb63838104b45a5fc3b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint to v8.54.0
+
+- [`2afcb7f`](https://github.com/watermark-design/watermark/commit/2afcb7f92957780c27ef4072fb8f52089cb1d84d) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.12.0
+
+- [`6e67eb0`](https://github.com/watermark-design/watermark/commit/6e67eb0741119704ddf427edfc5138836abac4f0) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update commitlint monorepo to v18.4.3 (@commitlint/cli, @commitlint/config-conventional)
+
+- [`9d8a2fa`](https://github.com/watermark-design/watermark/commit/9d8a2faa87a427b78bd338a9335340e0e9c7b1bc) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.5.1
+
+- [`6c210a8`](https://github.com/watermark-design/watermark/commit/6c210a87bab6cb3308f0f24dcf5cd641fe84c093) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/markdown-it to v13.0.7
+
 ## 1.0.2
 
 ### Patch Changes
