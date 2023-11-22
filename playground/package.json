@@ -23,7 +23,7 @@
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "@vitejs/plugin-react": "^4.1.1",
-    "@vitejs/plugin-vue": "^4.4.1",
+    "@vitejs/plugin-vue": "^4.5.0",
     "@watermark-design/dom": "workspace:^",
     "@watermark-design/shared": "workspace:^",
     "@watermark-design/style": "workspace:^",
