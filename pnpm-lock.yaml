@@ -17,8 +17,8 @@ importers:
         specifier: ^7.23.3
         version: 7.23.3(@babel/core@7.23.3)(eslint@8.54.0)
       '@babel/plugin-transform-runtime':
-        specifier: ^7.23.3
-        version: 7.23.3(@babel/core@7.23.3)
+        specifier: ^7.23.4
+        version: 7.23.4(@babel/core@7.23.3)
       '@babel/preset-env':
         specifier: ^7.23.3
         version: 7.23.3(@babel/core@7.23.3)
@@ -775,7 +775,7 @@ packages:
     resolution: {integrity: sha512-0pYVBnDKZO2fnSPCrgM/6WMc7eS20Fbok+0r88fp+YtWVLZrp4CkafFGIp+W0VKw4a22sgebPT99y+FDNMdP4w==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.23.0
+      '@babel/types': 7.23.3
     dev: true
 
   /@babel/helper-module-transforms@7.23.3(@babel/core@7.23.3):
@@ -1865,8 +1865,8 @@ packages:
       '@babel/helper-plugin-utils': 7.22.5
     dev: true
 
-  /@babel/plugin-transform-runtime@7.23.3(@babel/core@7.23.3):
-    resolution: {integrity: sha512-XcQ3X58CKBdBnnZpPaQjgVMePsXtSZzHoku70q9tUAQp02ggPQNM04BF3RvlW1GSM/McbSOQAzEK4MXbS7/JFg==}
+  /@babel/plugin-transform-runtime@7.23.4(@babel/core@7.23.3):
+    resolution: {integrity: sha512-ITwqpb6V4btwUG0YJR82o2QvmWrLgDnx/p2A3CTPYGaRgULkDiC0DRA2C4jlRB9uXGUEfaSS/IGHfVW+ohzYDw==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -6517,7 +6517,7 @@ packages:
       '@babel/plugin-proposal-private-property-in-object': 7.21.11(@babel/core@7.23.3)
       '@babel/plugin-transform-flow-strip-types': 7.22.5(@babel/core@7.23.3)
       '@babel/plugin-transform-react-display-name': 7.22.5(@babel/core@7.23.3)
-      '@babel/plugin-transform-runtime': 7.23.3(@babel/core@7.23.3)
+      '@babel/plugin-transform-runtime': 7.23.4(@babel/core@7.23.3)
       '@babel/preset-env': 7.23.3(@babel/core@7.23.3)
       '@babel/preset-react': 7.22.15(@babel/core@7.23.3)
       '@babel/preset-typescript': 7.23.2(@babel/core@7.23.3)
