@@ -1,5 +1,11 @@
 # @watermark-design/node
 
+## 1.2.1
+
+### Patch Changes
+
+- [`b2796f3`](https://github.com/watermark-design/watermark/commit/b2796f3faab17298d5f4c9d0e93be8e25d61a0d9) Thanks [@zhensherlock](https://github.com/zhensherlock)! - refactor blind decode params
+
 ## 1.2.0
 
 ### Minor Changes
