@@ -15,9 +15,9 @@ export const decode = async ({
   fillColor = '#000',
   compositeOperation = 'color-burn',
   compositeTimes = 3,
-}: DecodeBlindWatermarkOptions) => {
+}: DecodeBlindWatermarkOptions): Promise<string> => {
   if (!url) {
-    return;
+    return '';
   }
   let imageBuffer: Buffer;
   if (/^\./.test(url) || path.isAbsolute(url)) {
