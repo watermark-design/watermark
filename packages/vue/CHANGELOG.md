@@ -1,5 +1,13 @@
 # @watermark-design/vue
 
+## 1.2.3
+
+### Patch Changes
+
+- Updated dependencies [[`a391356`](https://github.com/watermark-design/watermark/commit/a39135685c133513d338810bbdb6991f7464746e), [`4bc60e0`](https://github.com/watermark-design/watermark/commit/4bc60e0c4f0226438389e774cac0ff53970a4318)]:
+  - @watermark-design/shared@1.0.4
+  - @watermark-design/core@1.0.5
+
 ## 1.2.2
 
 ### Patch Changes
