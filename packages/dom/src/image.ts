@@ -30,7 +30,7 @@ class ImageWatermark {
     this.backgroundImage = this.getBackgroundImage();
   }
 
-  async create() {
+  async create(): Promise<void> {
     if (this.drew) {
       return;
     }
@@ -51,12 +51,12 @@ class ImageWatermark {
     this.drew = true;
   }
 
-  destroy() {
+  destroy(): void {
     this.options.dom!.src = <string>this.originalSrc;
     this.drew = false;
   }
 
-  private getBackgroundImage() {
+  private getBackgroundImage(): HTMLImageElement | undefined {
     if (this.options.dom) {
       return this.options.dom;
     }

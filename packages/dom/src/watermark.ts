@@ -45,7 +45,7 @@ class Watermark {
     args: Partial<WatermarkOptions> = {},
     mode: ChangeOptionsMode = 'overwrite',
     redraw: boolean = true
-  ) {
+  ): Promise<void> {
     this.initConfigData(args, mode);
     if (redraw) {
       this.remove();
@@ -56,7 +56,7 @@ class Watermark {
   /**
    * Creating a watermark.
    */
-  async create() {
+  async create(): Promise<void> {
     if (!this.validateUnique()) {
       return;
     }
@@ -123,19 +123,19 @@ class Watermark {
   /**
    * Delete this watermark.
    */
-  destroy() {
+  destroy(): void {
     this.remove();
     this.watermarkDom = undefined;
   }
 
-  async check() {
+  async check(): Promise<void> {
     if (!this.parentElement.contains(<Node>this.watermarkDom)) {
       this.remove();
       await this.create();
     }
   }
 
-  private remove() {
+  private remove(): void {
     this.options.onBeforeDestroy?.();
     this.observer?.disconnect();
     this.parentObserve?.disconnect();
@@ -144,7 +144,10 @@ class Watermark {
     this.options.onDestroyed?.();
   }
 
-  private initConfigData(args: Partial<WatermarkOptions>, mode: ChangeOptionsMode = 'overwrite') {
+  private initConfigData(
+    args: Partial<WatermarkOptions>,
+    mode: ChangeOptionsMode = 'overwrite'
+  ): void {
     if (mode === 'append') {
       Object.keys(args).forEach((key) => {
         this.props &&
@@ -158,7 +161,7 @@ class Watermark {
     this.watermarkCanvas = new WatermarkCanvas(<Partial<WatermarkOptions>>this.props, this.options);
   }
 
-  private changeParentElement(parent: Element | string) {
+  private changeParentElement(parent: Element | string): void {
     if (typeof parent === 'string') {
       const parentElement = document.querySelector(parent);
       parentElement && (this.parentElement = parentElement);
@@ -189,18 +192,19 @@ class Watermark {
       case 'rich-text':
       case 'text':
         return this.options.content.length > 0;
+      default:
+        return false;
     }
-    return false;
   }
 
-  private checkParentElementType() {
+  private checkParentElementType(): string {
     if (['html', 'body'].indexOf(this.parentElement.tagName.toLocaleLowerCase()) > -1) {
       return 'root';
     }
     return 'custom';
   }
 
-  private async checkWatermarkElement() {
+  private async checkWatermarkElement(): Promise<void> {
     if (!this.parentElement.contains(<Node>this.watermarkDom)) {
       this.remove();
       await this.create();

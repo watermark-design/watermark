@@ -21,7 +21,7 @@ class BlindWatermark extends Watermark {
    * Decode blind watermark.
    * @param props - decode options
    */
-  static decode(props: Partial<DecodeBlindWatermarkOptions>) {
+  static decode(props: Partial<DecodeBlindWatermarkOptions>): void {
     const options = Object.assign(
       {
         url: '',
