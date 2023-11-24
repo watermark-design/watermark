@@ -1,5 +1,11 @@
 # @watermark-design/shared
 
+## 1.0.4
+
+### Patch Changes
+
+- [`a391356`](https://github.com/watermark-design/watermark/commit/a39135685c133513d338810bbdb6991f7464746e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - optimize typescript types
+
 ## 1.0.3
 
 ### Patch Changes
