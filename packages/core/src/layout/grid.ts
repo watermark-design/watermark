@@ -19,7 +19,8 @@ class GridLayout {
     this.partialHeight = this.options.height;
     this.rows = this.options.gridLayoutOptions?.rows || 1;
     this.cols = this.options.gridLayoutOptions?.cols || 1;
-    this.matrix = this.options.gridLayoutOptions?.matrix || generateMatrix(this.rows, this.cols, 1);
+    this.matrix =
+      this.options.gridLayoutOptions?.matrix || generateMatrix<number>(this.rows, this.cols, 1);
     this.gap = this.options.gridLayoutOptions?.gap || [0, 0];
     this.partialCanvas = partialCanvas;
   }

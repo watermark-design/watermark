@@ -3,6 +3,7 @@ import type {
   TextAlignType,
   TextBaselineType,
   WatermarkOptions,
+  RecommendOptions,
 } from './types';
 import { isUndefined } from '@watermark-design/shared';
 import { getMultiLineData } from './utils';
@@ -45,7 +46,7 @@ export const generateRecommendOptions = (
   canvas: HTMLCanvasElement,
   options: WatermarkOptions,
   args: Partial<WatermarkOptions>
-) => {
+): RecommendOptions => {
   const ctx = canvas.getContext('2d');
   if (ctx === null) {
     throw new Error('get context error');
@@ -58,7 +59,7 @@ export const generateRecommendOptions = (
   if (isUndefined(args.textRowMaxWidth)) {
     options.textRowMaxWidth = options.width;
   }
-  const result = {
+  const result: RecommendOptions = {
     image: {
       rect: {
         width: options.imageWidth,

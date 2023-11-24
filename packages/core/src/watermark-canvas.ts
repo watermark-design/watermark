@@ -36,7 +36,7 @@ class WatermarkCanvas {
    * Clean the canvas
    * @param canvas
    */
-  static clearCanvas(canvas: HTMLCanvasElement) {
+  static clearCanvas(canvas: HTMLCanvasElement): void {
     const ctx = canvas.getContext('2d');
     if (ctx === null) {
       throw new Error('get context error');
@@ -49,7 +49,7 @@ class WatermarkCanvas {
     return this.canvas;
   }
 
-  clear() {
+  clear(): void {
     WatermarkCanvas.clearCanvas(this.canvas);
   }
 
@@ -97,7 +97,7 @@ class WatermarkCanvas {
     });
   }
 
-  private setStyle(ctx: CanvasRenderingContext2D) {
+  private setStyle(ctx: CanvasRenderingContext2D): void {
     let propName: 'fillStyle' | 'strokeStyle' = 'fillStyle';
     if (this.options.textType === 'stroke') {
       propName = 'strokeStyle';
@@ -242,7 +242,7 @@ class WatermarkCanvas {
   private setText(
     ctx: CanvasRenderingContext2D,
     params: { text: string; x: number; y: number; maxWidth?: number }
-  ) {
+  ): void {
     let methodName: 'fillText' | 'strokeText' = 'fillText';
     if (this.options.textType === 'stroke') {
       methodName = 'strokeText';
@@ -250,7 +250,7 @@ class WatermarkCanvas {
     ctx[methodName] && ctx[methodName](params.text, params.x, params.y, params.maxWidth);
   }
 
-  private drawText(ctx: CanvasRenderingContext2D, resolve: Function) {
+  private drawText(ctx: CanvasRenderingContext2D, resolve: Function): void {
     this.setText(ctx, {
       text: this.options.content,
       x: 0,
@@ -260,7 +260,7 @@ class WatermarkCanvas {
     resolve(ctx.canvas);
   }
 
-  private drawImage(ctx: CanvasRenderingContext2D, resolve: Function) {
+  private drawImage(ctx: CanvasRenderingContext2D, resolve: Function): void {
     loadImage(<string>this.options.image).then((image) => {
       const { width: imageWidth, height: imageHeight } = this.getImageRect(image);
       const imagePosition = this.getDrawImagePosition(imageWidth, imageHeight);
@@ -269,7 +269,7 @@ class WatermarkCanvas {
     });
   }
 
-  private drawMultiLineText(ctx: CanvasRenderingContext2D, resolve: Function) {
+  private drawMultiLineText(ctx: CanvasRenderingContext2D, resolve: Function): void {
     // image.width = this.options.width
     // image.height = this.options.height
     // const element = createCustomContentSvg(context, this.options)
@@ -294,7 +294,7 @@ class WatermarkCanvas {
     resolve(ctx.canvas);
   }
 
-  private drawRichText(ctx: CanvasRenderingContext2D, resolve: Function) {
+  private drawRichText(ctx: CanvasRenderingContext2D, resolve: Function): void {
     const obj = createCustomContentSVG(ctx, this.options);
     loadImage(convertSVGToImage(obj.element), obj.width, obj.height).then((image) => {
       const imagePosition = this.getDrawImagePosition(image.width, image.height);
@@ -303,7 +303,7 @@ class WatermarkCanvas {
     });
   }
 
-  private getImageRect(image: HTMLImageElement) {
+  private getImageRect(image: HTMLImageElement): { width: number; height: number } {
     const rect = { width: this.options.imageWidth || 0, height: this.options.imageHeight || 0 };
     switch (true) {
       case rect.width !== 0 && rect.height === 0:
@@ -320,7 +320,7 @@ class WatermarkCanvas {
     return rect;
   }
 
-  private getDrawImagePosition(imageWidth: number, imageHeight: number) {
+  private getDrawImagePosition(imageWidth: number, imageHeight: number): { x: number; y: number } {
     const result = {
       x: -imageWidth / 2,
       y: -imageHeight / 2,
