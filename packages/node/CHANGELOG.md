@@ -1,5 +1,11 @@
 # @watermark-design/node
 
+## 1.2.2
+
+### Patch Changes
+
+- [`a64e307`](https://github.com/watermark-design/watermark/commit/a64e3076e63df7e26920ee53e3c786c1d37de860) Thanks [@zhensherlock](https://github.com/zhensherlock)! - optimize typescript types
+
 ## 1.2.1
 
 ### Patch Changes
