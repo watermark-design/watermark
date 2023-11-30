@@ -1,5 +1,29 @@
 # @watermark-design/shared
 
+## 1.0.5
+
+### Patch Changes
+
+- [`596a228`](https://github.com/watermark-design/watermark/commit/596a228ba1e849301fc818d64f73f899bbccd214) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.6.1
+
+- [`ca3d4a0`](https://github.com/watermark-design/watermark/commit/ca3d4a04c34db4743acfefd0b554a36e3a58d001) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update babel monorepo to v7.23.5
+
+- [`1a996bd`](https://github.com/watermark-design/watermark/commit/1a996bdb08f4db2073146fa21636117961e7fb12) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-dts to v3.6.4
+
+- [`c0c7135`](https://github.com/watermark-design/watermark/commit/c0c7135d2eb32ff41d787c1d727a53e3a424ddcf) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @changesets/cli to v2.27.1
+
+- [`27defb9`](https://github.com/watermark-design/watermark/commit/27defb9c8a37aeb68662392b08a8fdb94dbde4b5) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @element-plus/icons-vue to v2.3.1
+
+- [`b6b501e`](https://github.com/watermark-design/watermark/commit/b6b501ec833c23ede4f69b0fb814d91ac302cd62) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.4.3
+
+- [`9bccd0b`](https://github.com/watermark-design/watermark/commit/9bccd0bb341b05a97b9ed34b2134a95abb018ca0) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.4.3
+
+- [`bbb7d60`](https://github.com/watermark-design/watermark/commit/bbb7d602f342e4965c6ee847f5cbe1604e5c7ea0) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.13.1
+
+- [`d2c9795`](https://github.com/watermark-design/watermark/commit/d2c97958ab44e814b9c992fd537d8fccabd77262) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @iconify-json/ic to v1.1.16
+
+- [`7fce4ee`](https://github.com/watermark-design/watermark/commit/7fce4eef30472a95e25e29cdb1cf441d7b0b4dbb) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.0.4
+
 ## 1.0.4
 
 ### Patch Changes
