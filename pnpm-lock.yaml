@@ -144,7 +144,7 @@ importers:
         version: 1.12.21(rollup@4.6.1)
       rollup-plugin-vue:
         specifier: ^6.0.0
-        version: 6.0.0(@vue/compiler-sfc@3.3.8)
+        version: 6.0.0(@vue/compiler-sfc@3.3.9)
       sass:
         specifier: ^1.69.5
         version: 1.69.5
@@ -271,8 +271,8 @@ importers:
         version: 2.0.0
     devDependencies:
       '@types/react':
-        specifier: ^18.2.38
-        version: 18.2.38
+        specifier: ^18.2.39
+        version: 18.2.39
       '@types/react-dom':
         specifier: ^18.2.17
         version: 18.2.17
@@ -334,8 +334,8 @@ importers:
         version: 1.7.2(vue@3.3.9)
     devDependencies:
       '@types/react':
-        specifier: ^18.2.38
-        version: 18.2.38
+        specifier: ^18.2.39
+        version: 18.2.39
       '@types/react-dom':
         specifier: ^18.2.17
         version: 18.2.17
@@ -4755,11 +4755,11 @@ packages:
   /@types/react-dom@18.2.17:
     resolution: {integrity: sha512-rvrT/M7Df5eykWFxn6MYt5Pem/Dbyc1N8Y0S9Mrkw2WFCRiqUgw9P7ul2NpwsXCSM1DVdENzdG9J5SreqfAIWg==}
     dependencies:
-      '@types/react': 18.2.38
+      '@types/react': 18.2.39
     dev: true
 
-  /@types/react@18.2.38:
-    resolution: {integrity: sha512-cBBXHzuPtQK6wNthuVMV6IjHAFkdl/FOPFIlkd81/Cd1+IqkHu/A+w4g43kaQQoYHik/ruaQBDL72HyCy1vuMw==}
+  /@types/react@18.2.39:
+    resolution: {integrity: sha512-Oiw+ppED6IremMInLV4HXGbfbG6GyziY3kqAwJYOR0PNbkYDmLWQA3a95EhdSmamsvbkJN96ZNN+YD+fGjzSBA==}
     dependencies:
       '@types/prop-types': 15.7.9
       '@types/scheduler': 0.16.5
@@ -15431,12 +15431,12 @@ packages:
       terser: 5.24.0
     dev: true
 
-  /rollup-plugin-vue@6.0.0(@vue/compiler-sfc@3.3.8):
+  /rollup-plugin-vue@6.0.0(@vue/compiler-sfc@3.3.9):
     resolution: {integrity: sha512-oVvUd84d5u73M2HYM3XsMDLtZRIA/tw2U0dmHlXU2UWP5JARYHzh/U9vcxaN/x/9MrepY7VH3pHFeOhrWpxs/Q==}
     peerDependencies:
       '@vue/compiler-sfc': '*'
     dependencies:
-      '@vue/compiler-sfc': 3.3.8
+      '@vue/compiler-sfc': 3.3.9
       debug: 4.3.4
       hash-sum: 2.0.0
       rollup-pluginutils: 2.8.2
