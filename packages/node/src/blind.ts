@@ -30,13 +30,14 @@ export const decode = async ({
 
   let resultImage = '';
   await loadImage(imageBuffer).then((img) => {
-    const canvas = createCanvas(img.width, img.height);
+    const { width, height } = img;
+    const canvas = createCanvas(width, height);
     const ctx = canvas.getContext('2d');
-    ctx.drawImage(img, 0, 0, img.width, img.height);
+    ctx.drawImage(img, 0, 0, width, height);
     ctx.globalCompositeOperation = compositeOperation as GlobalCompositeOperation;
     ctx.fillStyle = fillColor;
     for (let i = 0; i < compositeTimes; i++) {
-      ctx.fillRect(0, 0, img.width, img.height);
+      ctx.fillRect(0, 0, width, height);
     }
     resultImage = canvas.toDataURL();
   });
