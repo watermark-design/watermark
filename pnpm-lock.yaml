@@ -228,8 +228,8 @@ importers:
         specifier: ^2.2.5
         version: 2.2.5(@algolia/client-search@4.20.0)(search-insights@2.9.0)(vitepress@1.0.0-rc.31)(vue@3.3.8)
       element-plus:
-        specifier: ^2.4.2
-        version: 2.4.2(vue@3.3.8)
+        specifier: ^2.4.3
+        version: 2.4.3(vue@3.3.8)
 
   packages/core:
     dependencies:
@@ -8470,8 +8470,8 @@ packages:
       - '@vue/composition-api'
     dev: true
 
-  /element-plus@2.4.2(vue@3.3.8):
-    resolution: {integrity: sha512-E/HwXX7JF1LPvQSjs0fZ8WblIoc0quoXsRXQZiL7QDq7xJdNGSUaXtdk7xiEv7axPmLfEFtxE5du9fFspDrmJw==}
+  /element-plus@2.4.3(vue@3.3.8):
+    resolution: {integrity: sha512-b3q26j+lM4SBqiyzw8HybybGnP2pk4MWgrnzzzYW5qKQUgV6EG1Zg7nMCfgCVccI8tNvZoTiUHb2mFaiB9qT8w==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
