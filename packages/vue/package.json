@@ -67,7 +67,7 @@
     "@watermark-design/shared": "workspace:^",
     "lodash.debounce": "^4.0.8",
     "lodash.omit": "^4.5.0",
-    "nanoid": "^5.0.3",
+    "nanoid": "^5.0.4",
     "vue-demi": "^0.14.6"
   },
   "peerDependencies": {
