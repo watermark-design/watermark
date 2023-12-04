@@ -1,5 +1,17 @@
 # @watermark-design/vue
 
+## 1.2.5
+
+### Patch Changes
+
+- [`94743fd`](https://github.com/watermark-design/watermark/commit/94743fdd002d4616ab157a7b20b92ab10a7594b4) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @vitejs/plugin-vue to v4.5.1
+
+- [`abd1cfd`](https://github.com/watermark-design/watermark/commit/abd1cfd16e13efc03b7952e9823ced5a02fcf1be) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency nanoid to v5.0.4
+
+- Updated dependencies [[`246e53f`](https://github.com/watermark-design/watermark/commit/246e53f95c1fea525700ba49fb3fa4dd75130f85), [`123eea9`](https://github.com/watermark-design/watermark/commit/123eea9a6a7e4976c2ccbfa6579c1b640bee4567), [`d5bf7a6`](https://github.com/watermark-design/watermark/commit/d5bf7a67a323d99f236717d79f5152b0c0caec50)]:
+  - @watermark-design/shared@1.0.6
+  - @watermark-design/core@1.0.7
+
 ## 1.2.4
 
 ### Patch Changes
