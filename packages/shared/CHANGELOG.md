@@ -1,5 +1,15 @@
 # @watermark-design/shared
 
+## 1.0.6
+
+### Patch Changes
+
+- [`246e53f`](https://github.com/watermark-design/watermark/commit/246e53f95c1fea525700ba49fb3fa4dd75130f85) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint to v8.55.0
+
+- [`123eea9`](https://github.com/watermark-design/watermark/commit/123eea9a6a7e4976c2ccbfa6579c1b640bee4567) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency lint-staged to v15.2.0
+
+- [`d5bf7a6`](https://github.com/watermark-design/watermark/commit/d5bf7a67a323d99f236717d79f5152b0c0caec50) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-config-prettier to v9.1.0
+
 ## 1.0.5
 
 ### Patch Changes
