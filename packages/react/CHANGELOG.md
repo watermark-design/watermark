@@ -1,5 +1,15 @@
 # @watermark-design/react
 
+## 1.1.6
+
+### Patch Changes
+
+- [`2f56ecd`](https://github.com/watermark-design/watermark/commit/2f56ecd3a779f75463ed245f498578ea939e8ae3) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/react to v18.2.41
+
+- Updated dependencies [[`246e53f`](https://github.com/watermark-design/watermark/commit/246e53f95c1fea525700ba49fb3fa4dd75130f85), [`123eea9`](https://github.com/watermark-design/watermark/commit/123eea9a6a7e4976c2ccbfa6579c1b640bee4567), [`d5bf7a6`](https://github.com/watermark-design/watermark/commit/d5bf7a67a323d99f236717d79f5152b0c0caec50)]:
+  - @watermark-design/shared@1.0.6
+  - @watermark-design/core@1.0.7
+
 ## 1.1.5
 
 ### Patch Changes
