@@ -1,4 +1,4 @@
-import { createCanvas, GlobalCompositeOperation, loadImage } from 'canvas';
+import { createCanvas, loadImage, GlobalCompositeOperation } from 'canvas';
 import fetch from 'node-fetch';
 import path from 'path';
 import fs from 'fs';
@@ -28,18 +28,18 @@ export const decode = async ({
     imageBuffer = Buffer.from(await response.arrayBuffer());
   }
 
-  let resultImage = '';
-  await loadImage(imageBuffer).then((img) => {
-    const { width, height } = img;
-    const canvas = createCanvas(width, height);
-    const ctx = canvas.getContext('2d');
-    ctx.drawImage(img, 0, 0, width, height);
-    ctx.globalCompositeOperation = compositeOperation as GlobalCompositeOperation;
-    ctx.fillStyle = fillColor;
-    for (let i = 0; i < compositeTimes; i++) {
-      ctx.fillRect(0, 0, width, height);
-    }
-    resultImage = canvas.toDataURL();
-  });
-  return resultImage;
+  const img = await loadImage(imageBuffer);
+  const { width, height } = img;
+
+  const canvas = createCanvas(width, height);
+  const ctx = canvas.getContext('2d');
+
+  ctx.drawImage(img, 0, 0, width, height);
+  ctx.globalCompositeOperation = compositeOperation as GlobalCompositeOperation;
+  ctx.fillStyle = fillColor;
+
+  for (let i = 0; i < compositeTimes; i++) {
+    ctx.fillRect(0, 0, width, height);
+  }
+  return canvas.toDataURL();
 };
