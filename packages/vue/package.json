@@ -82,7 +82,7 @@
   "devDependencies": {
     "@types/lodash.debounce": "^4.0.9",
     "@types/lodash.omit": "^4.5.9",
-    "@vitejs/plugin-vue": "^4.5.1",
+    "@vitejs/plugin-vue": "^4.5.2",
     "vue": "^3.3.9"
   }
 }
