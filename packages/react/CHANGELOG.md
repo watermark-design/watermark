@@ -1,5 +1,17 @@
 # @watermark-design/react
 
+## 1.1.7
+
+### Patch Changes
+
+- [`fa902b9`](https://github.com/watermark-design/watermark/commit/fa902b9c79b0e303e4bdb6f7fd2e9ba8aed44d27) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/react to v18.2.42
+
+- [`42bb667`](https://github.com/watermark-design/watermark/commit/42bb6676d0a602542b0e776d65eff98b61f28feb) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @vitejs/plugin-react to v4.2.1
+
+- Updated dependencies [[`525f56a`](https://github.com/watermark-design/watermark/commit/525f56a2e22faa98d0a0dafa2aab020391e80c4f), [`a6427df`](https://github.com/watermark-design/watermark/commit/a6427df2cbc696b31df05a71382fbecbb72998b8), [`47d1c74`](https://github.com/watermark-design/watermark/commit/47d1c74e20db64871cca96aba2a97a28a787a465), [`cf74b47`](https://github.com/watermark-design/watermark/commit/cf74b4748803dc42cf685c4057f0a45649b5b418), [`402a0b2`](https://github.com/watermark-design/watermark/commit/402a0b2ccdd32e5888e8189caf0ac9853a838aca)]:
+  - @watermark-design/shared@1.0.7
+  - @watermark-design/core@1.0.8
+
 ## 1.1.6
 
 ### Patch Changes
