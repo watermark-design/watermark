@@ -1,5 +1,19 @@
 # @watermark-design/shared
 
+## 1.0.7
+
+### Patch Changes
+
+- [`525f56a`](https://github.com/watermark-design/watermark/commit/525f56a2e22faa98d0a0dafa2aab020391e80c4f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.26.0
+
+- [`a6427df`](https://github.com/watermark-design/watermark/commit/a6427df2cbc696b31df05a71382fbecbb72998b8) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency core-js to v3.34.0
+
+- [`47d1c74`](https://github.com/watermark-design/watermark/commit/47d1c74e20db64871cca96aba2a97a28a787a465) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.0.6
+
+- [`cf74b47`](https://github.com/watermark-design/watermark/commit/cf74b4748803dc42cf685c4057f0a45649b5b418) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency typescript to v5.3.3
+
+- [`402a0b2`](https://github.com/watermark-design/watermark/commit/402a0b2ccdd32e5888e8189caf0ac9853a838aca) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.13.2
+
 ## 1.0.6
 
 ### Patch Changes
