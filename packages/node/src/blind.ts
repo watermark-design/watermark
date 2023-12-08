@@ -1,7 +1,7 @@
 import { createCanvas, loadImage, GlobalCompositeOperation } from 'canvas';
 import fetch from 'node-fetch';
 import path from 'path';
-import fs from 'fs';
+import fs from 'fs/promises';
 
 export interface DecodeBlindWatermarkOptions {
   url: string;
@@ -19,10 +19,12 @@ export const decode = async ({
   if (!url) {
     return '';
   }
+
   let imageBuffer: Buffer;
+
   if (/^\./.test(url) || path.isAbsolute(url)) {
     const imagePath = path.isAbsolute(url) ? url : path.resolve(url);
-    imageBuffer = fs.readFileSync(imagePath);
+    imageBuffer = await fs.readFile(imagePath);
   } else {
     const response = await fetch(url);
     imageBuffer = Buffer.from(await response.arrayBuffer());
@@ -41,5 +43,6 @@ export const decode = async ({
   for (let i = 0; i < compositeTimes; i++) {
     ctx.fillRect(0, 0, width, height);
   }
+
   return canvas.toDataURL();
 };
