@@ -1,5 +1,29 @@
 # @watermark-design/shared
 
+## 1.0.8
+
+### Patch Changes
+
+- [`43a0177`](https://github.com/watermark-design/watermark/commit/43a017783f3cd7aea2de452856c938573c277926) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.14.0
+
+- [`dc5b9bc`](https://github.com/watermark-design/watermark/commit/dc5b9bc2aeb38ccb7bc231553a1cd47d11896e40) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency prettier to v3.1.1
+
+- [`80b2fc4`](https://github.com/watermark-design/watermark/commit/80b2fc4196300c1b2b820eb02b4e2e77ce1331bb) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update babel monorepo to v7.23.6 (@babel/core, @babel/plugin-transform-runtime, @babel/preset-env)
+
+- [`c13d617`](https://github.com/watermark-design/watermark/commit/c13d617593cd90fe68878162c3ac0668bbce6308) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency ts-node to v10.9.2
+
+- [`0e0cec7`](https://github.com/watermark-design/watermark/commit/0e0cec7f6b37f2467387ce28824a8a85a099cb87) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency unplugin-vue-define-options to v1.4.1
+
+- [`7a10260`](https://github.com/watermark-design/watermark/commit/7a102600fb46cc70acf8d01fd92a7c00e9554ebf) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.0.7
+
+- [`ecfd1c0`](https://github.com/watermark-design/watermark/commit/ecfd1c0a27cd97b45c0fa70c6925b00bece7d3ad) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @iconify-json/ic to v1.1.17
+
+- [`f0add80`](https://github.com/watermark-design/watermark/commit/f0add8071b20380ab83189e42901d8c8d3f21334) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency stylelint-order to v6.0.4
+
+- [`b1d971e`](https://github.com/watermark-design/watermark/commit/b1d971e3e6782a8d944b350696dd65c3d806a097) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency stylelint to v16.0.2
+
+- [`b83a3a7`](https://github.com/watermark-design/watermark/commit/b83a3a7c3661cae93fc9d5b3b71683155302a0fc) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.8.0
+
 ## 1.0.7
 
 ### Patch Changes
