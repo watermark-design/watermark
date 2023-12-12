@@ -1,5 +1,11 @@
 # @watermark-design/node
 
+## 1.3.0
+
+### Minor Changes
+
+- [`952472f`](https://github.com/watermark-design/watermark/commit/952472feb3ff51a52beebd6827bc79ef347b27fd) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore: update babel config
+
 ## 1.2.5
 
 ### Patch Changes
