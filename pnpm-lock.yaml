@@ -47,8 +47,8 @@ importers:
         specifier: ^9.0.5
         version: 9.0.5(rollup@4.9.0)
       '@rollup/plugin-json':
-        specifier: ^6.0.1
-        version: 6.0.1(rollup@4.9.0)
+        specifier: ^6.1.0
+        version: 6.1.0(rollup@4.9.0)
       '@rollup/plugin-node-resolve':
         specifier: ^15.2.3
         version: 15.2.3(rollup@4.9.0)
@@ -3973,8 +3973,8 @@ packages:
       - supports-color
     dev: true
 
-  /@rollup/plugin-json@6.0.1(rollup@4.9.0):
-    resolution: {integrity: sha512-RgVfl5hWMkxN1h/uZj8FVESvPuBJ/uf6ly6GTj0GONnkfoBN5KC0MSz+PN2OLDgYXMhtG0mWpTrkiOjoxAIevw==}
+  /@rollup/plugin-json@6.1.0(rollup@4.9.0):
+    resolution: {integrity: sha512-EGI2te5ENk1coGeADSIwZ7G2Q8CJS2sF120T7jLw4xFw9n7wIOXHo+kIYRAoVpJAN+kmqZSoO3Fp4JtoNF4ReA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0||^3.0.0||^4.0.0
@@ -3982,7 +3982,7 @@ packages:
       rollup:
         optional: true
     dependencies:
-      '@rollup/pluginutils': 5.0.5(rollup@4.9.0)
+      '@rollup/pluginutils': 5.1.0(rollup@4.9.0)
       rollup: 4.9.0
     dev: true
 
