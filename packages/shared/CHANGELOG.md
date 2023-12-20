@@ -1,5 +1,17 @@
 # @watermark-design/shared
 
+## 1.0.10
+
+### Patch Changes
+
+- [`d0873e8`](https://github.com/watermark-design/watermark/commit/d0873e8558bd854e982ecdd9461da6a9f008717c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-prettier to v5.1.0
+
+- [`d3fa967`](https://github.com/watermark-design/watermark/commit/d3fa967b1a27d67180eec69af5f4e15c5ba3372a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.15.0
+
+- [`63cd59e`](https://github.com/watermark-design/watermark/commit/63cd59ed7ad7d6004bec42c2e9102b8888a83709) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-babel to v1.2.0
+
+- [`2a0150c`](https://github.com/watermark-design/watermark/commit/2a0150c53d3f9cda9cfdcbc3cfe6669357aebc23) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.9.1
+
 ## 1.0.9
 
 ### Patch Changes
