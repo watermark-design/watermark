@@ -1,5 +1,11 @@
 # @watermark-design/shared
 
+## 1.0.11
+
+### Patch Changes
+
+- [`4703300`](https://github.com/watermark-design/watermark/commit/4703300c9a77fe6468f26d28f366446c6e53557e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-prettier to v5.1.1
+
 ## 1.0.10
 
 ### Patch Changes
