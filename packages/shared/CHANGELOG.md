@@ -1,5 +1,19 @@
 # @watermark-design/shared
 
+## 1.0.12
+
+### Patch Changes
+
+- [`9c8887e`](https://github.com/watermark-design/watermark/commit/9c8887e26365e6a0e109b5af25009ed5635738c2) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency stylelint to v16.1.0
+
+- [`aa73fbb`](https://github.com/watermark-design/watermark/commit/aa73fbbaaadf5293a970ef5a72a84d416a7e028e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.58.2 (@unocss/postcss, unocss)
+
+- [`5c25f03`](https://github.com/watermark-design/watermark/commit/5c25f03ca76f3207ef47132558c3322fd0fc94ff) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.16.0
+
+- [`a1e9366`](https://github.com/watermark-design/watermark/commit/a1e9366d84e42a4bf6bec36301c013ae8e21ea74) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-define-config to v2.1.0
+
+- [`6a95c3a`](https://github.com/watermark-design/watermark/commit/6a95c3ad676ebedb62ec3a02e12c079bec723c84) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-dts to v3.7.0
+
 ## 1.0.11
 
 ### Patch Changes
