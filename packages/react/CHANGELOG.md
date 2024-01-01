@@ -1,5 +1,17 @@
 # @watermark-design/react
 
+## 1.1.13
+
+### Patch Changes
+
+- [`45b30c5`](https://github.com/watermark-design/watermark/commit/45b30c587590a9c2727a3ba22475a33d8816af9a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/react to v18.2.46
+
+- [`a5ed383`](https://github.com/watermark-design/watermark/commit/a5ed3839e019e4cdfc714ba8488290f50fe33c20) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency clsx to v2.1.0
+
+- Updated dependencies [[`38f2258`](https://github.com/watermark-design/watermark/commit/38f2258e3e36b30a83defb4025aa6ac3357d6308), [`3fa9df9`](https://github.com/watermark-design/watermark/commit/3fa9df93206ab6a13ef4332f04f0e1f8c251b1a4), [`785b4bf`](https://github.com/watermark-design/watermark/commit/785b4bf262699243de1acd6d0045d2202a3be13f), [`f1be36f`](https://github.com/watermark-design/watermark/commit/f1be36f8388c597bf1158c909a541f63ebf4ef88)]:
+  - @watermark-design/shared@1.0.13
+  - @watermark-design/core@1.0.14
+
 ## 1.1.12
 
 ### Patch Changes
