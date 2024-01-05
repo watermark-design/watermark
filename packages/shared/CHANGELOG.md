@@ -1,5 +1,19 @@
 # @watermark-design/shared
 
+## 1.0.14
+
+### Patch Changes
+
+- [`7851481`](https://github.com/watermark-design/watermark/commit/7851481db22f4a987ab54467d341227b98da5baa) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency cssnano to v6.0.3
+
+- [`8da32cc`](https://github.com/watermark-design/watermark/commit/8da32cc0ae9c57a4478b70818ec593b7cb2054d9) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.58.3 (@unocss/postcss, unocss)
+
+- [`07c494a`](https://github.com/watermark-design/watermark/commit/07c494a06b1ecdeb3b0ab492e5098dd00ff7107e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update commitlint monorepo to v18.4.4 (@commitlint/cli, @commitlint/config-conventional)
+
+- [`a81f572`](https://github.com/watermark-design/watermark/commit/a81f57251fc2d22ec85e3edc87c1a3a0838e1a52) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.17.0
+
+- [`fdd42cd`](https://github.com/watermark-design/watermark/commit/fdd42cd92418e88c7d43773fa8c5d09da15f23f5) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.69.7
+
 ## 1.0.13
 
 ### Patch Changes
