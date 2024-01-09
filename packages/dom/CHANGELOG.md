@@ -1,5 +1,13 @@
 # @watermark-design/dom
 
+## 1.1.16
+
+### Patch Changes
+
+- Updated dependencies [[`f721142`](https://github.com/watermark-design/watermark/commit/f721142cffac36cb39534f4f04d057fc8094b12b), [`0a48992`](https://github.com/watermark-design/watermark/commit/0a489920c23a25007dd898ce8f784a47bc006fef), [`8b5ed58`](https://github.com/watermark-design/watermark/commit/8b5ed5834b65272d359578fdbef1b49de394c043), [`edb5b6f`](https://github.com/watermark-design/watermark/commit/edb5b6f79556661d5b8f644bbaedf5a774883099), [`e06c850`](https://github.com/watermark-design/watermark/commit/e06c85066b805050187c3aeb6b9afdef06ad3775)]:
+  - @watermark-design/shared@1.0.15
+  - @watermark-design/core@1.0.16
+
 ## 1.1.15
 
 ### Patch Changes
