@@ -1,5 +1,19 @@
 # @watermark-design/shared
 
+## 1.0.15
+
+### Patch Changes
+
+- [`f721142`](https://github.com/watermark-design/watermark/commit/f721142cffac36cb39534f4f04d057fc8094b12b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.18.1
+
+- [`0a48992`](https://github.com/watermark-design/watermark/commit/0a489920c23a25007dd898ce8f784a47bc006fef) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.0.11
+
+- [`8b5ed58`](https://github.com/watermark-design/watermark/commit/8b5ed5834b65272d359578fdbef1b49de394c043) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @babel/preset-env to v7.23.8
+
+- [`edb5b6f`](https://github.com/watermark-design/watermark/commit/edb5b6f79556661d5b8f644bbaedf5a774883099) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vue-eslint-parser to v9.4.0
+
+- [`e06c850`](https://github.com/watermark-design/watermark/commit/e06c85066b805050187c3aeb6b9afdef06ad3775) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.9.4
+
 ## 1.0.14
 
 ### Patch Changes
