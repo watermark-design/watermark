@@ -1,5 +1,23 @@
 # @watermark-design/shared
 
+## 1.0.16
+
+### Patch Changes
+
+- [`4ff1ea7`](https://github.com/watermark-design/watermark/commit/4ff1ea7121822910554487739f6a1fac76bec9ab) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.5.1
+
+- [`2efcef7`](https://github.com/watermark-design/watermark/commit/2efcef7f44f456f9b3068327a3c23e827681c820) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-prettier to v5.1.3
+
+- [`bfa23ea`](https://github.com/watermark-design/watermark/commit/bfa23eac44f09c47f94ac3b0dfb41813a8680c95) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency prettier to v3.2.1
+
+- [`14331da`](https://github.com/watermark-design/watermark/commit/14331da2b1a800e319c88f945c9b18cd42036114) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @rollup/plugin-typescript to v11.1.6
+
+- [`3e066fb`](https://github.com/watermark-design/watermark/commit/3e066fbf24c2d124dc162da2e1e1957b7fa39499) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.9.5
+
+- [`4f29284`](https://github.com/watermark-design/watermark/commit/4f29284a81c0a5cd916cc760351faa9130223443) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency postcss-html to v1.6.0
+
+- [`b026637`](https://github.com/watermark-design/watermark/commit/b026637cc045c6d8ae245e8e541178ca5a8c3538) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-vue to v9.20.1
+
 ## 1.0.15
 
 ### Patch Changes
