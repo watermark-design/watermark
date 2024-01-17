@@ -1,5 +1,12 @@
 # @watermark-design/core
 
+## 1.0.18
+
+### Patch Changes
+
+- Updated dependencies [[`968efa5`](https://github.com/watermark-design/watermark/commit/968efa588bc641ac22c6774ed8a0a5aa237ed360), [`b12bf54`](https://github.com/watermark-design/watermark/commit/b12bf545ccf50a9e8d10e1813b35ecb41a6e0ccd), [`c59af86`](https://github.com/watermark-design/watermark/commit/c59af86e66ea05c8be7947a5e63554bcb8e0e8c0)]:
+  - @watermark-design/shared@1.0.17
+
 ## 1.0.17
 
 ### Patch Changes
