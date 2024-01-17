@@ -1,5 +1,15 @@
 # @watermark-design/shared
 
+## 1.0.17
+
+### Patch Changes
+
+- [`968efa5`](https://github.com/watermark-design/watermark/commit/968efa588bc641ac22c6774ed8a0a5aa237ed360) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-dts to v3.7.1
+
+- [`b12bf54`](https://github.com/watermark-design/watermark/commit/b12bf545ccf50a9e8d10e1813b35ecb41a6e0ccd) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency prettier to v3.2.2
+
+- [`c59af86`](https://github.com/watermark-design/watermark/commit/c59af86e66ea05c8be7947a5e63554bcb8e0e8c0) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.19.0
+
 ## 1.0.16
 
 ### Patch Changes
