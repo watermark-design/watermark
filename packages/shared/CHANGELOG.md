@@ -1,5 +1,27 @@
 # @watermark-design/shared
 
+## 1.0.18
+
+### Patch Changes
+
+- [`4f8b980`](https://github.com/watermark-design/watermark/commit/4f8b9802d7da6171572d7a79e519a80b80c44d37) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency prettier to v3.2.4
+
+- [`8016b77`](https://github.com/watermark-design/watermark/commit/8016b77b906fa018d1fd4e38226ac7d6203ae50f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.5.2
+
+- [`9768895`](https://github.com/watermark-design/watermark/commit/97688957cf70ca9aaa529fbf314fef59454f3b2a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.70.0
+
+- [`67964c0`](https://github.com/watermark-design/watermark/commit/67964c0492c7ce209037f33bc59e32ab2c54488b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency core-js to v3.35.1
+
+- [`6c5683e`](https://github.com/watermark-design/watermark/commit/6c5683ef196ff2cabd63c4442107818c7b854733) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency autoprefixer to v10.4.17
+
+- [`07e64fe`](https://github.com/watermark-design/watermark/commit/07e64fe5aa436234794458a6d2d6ec1d8db1d533) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency stylelint to v16.2.0
+
+- [`0ebaf6f`](https://github.com/watermark-design/watermark/commit/0ebaf6f2c92209fbc07c3d99c478145068772eee) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.27.0
+
+- [`c2c3a04`](https://github.com/watermark-design/watermark/commit/c2c3a043268e2934e93d650e342182e7a1458c8b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency unplugin-vue-define-options to v1.4.2
+
+- [`162f3fb`](https://github.com/watermark-design/watermark/commit/162f3fb57ce1b94f0cdac1238d00f4477530bd04) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.0.12
+
 ## 1.0.17
 
 ### Patch Changes
