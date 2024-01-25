@@ -203,8 +203,8 @@ importers:
         specifier: 1.0.0-rc.40
         version: 1.0.0-rc.40(@algolia/client-search@4.20.0)(@types/node@20.8.7)(postcss@8.4.33)(sass@1.70.0)(search-insights@2.9.0)(terser@5.27.0)(typescript@5.3.3)
       vue-eslint-parser:
-        specifier: ^9.4.0
-        version: 9.4.0(eslint@8.56.0)
+        specifier: ^9.4.2
+        version: 9.4.2(eslint@8.56.0)
 
   docs:
     dependencies:
@@ -9228,7 +9228,7 @@ packages:
       nth-check: 2.1.1
       postcss-selector-parser: 6.0.15
       semver: 7.5.4
-      vue-eslint-parser: 9.4.0(eslint@8.56.0)
+      vue-eslint-parser: 9.4.2(eslint@8.56.0)
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
       - supports-color
@@ -17431,8 +17431,8 @@ packages:
       vue: 3.4.15(typescript@5.3.3)
     dev: true
 
-  /vue-eslint-parser@9.4.0(eslint@8.56.0):
-    resolution: {integrity: sha512-7KsNBb6gHFA75BtneJsoK/dbZ281whUIwFYdQxA68QrCrGMXYzUMbPDHGcOQ0OocIVKrWSKWXZ4mL7tonCXoUw==}
+  /vue-eslint-parser@9.4.2(eslint@8.56.0):
+    resolution: {integrity: sha512-Ry9oiGmCAK91HrKMtCrKFWmSFWvYkpGglCeFAIqDdr9zdXmMMpJOmUJS7WWsW7fX81h6mwHmUZCQQ1E0PkSwYQ==}
     engines: {node: ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
