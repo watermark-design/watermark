@@ -28,7 +28,7 @@
     "@watermark-design/shared": "workspace:^",
     "@watermark-design/style": "workspace:^",
     "@watermark-design/vue": "workspace:^",
-    "element-plus": "^2.5.2",
+    "element-plus": "^2.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
