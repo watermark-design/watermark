@@ -1,5 +1,17 @@
 # @watermark-design/shared
 
+## 1.0.20
+
+### Patch Changes
+
+- [`2b441a5`](https://github.com/watermark-design/watermark/commit/2b441a5e0bcfa7424d12b59cbb0fdbb6f5c7a2b8) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency husky to v9
+
+- [`2ee706b`](https://github.com/watermark-design/watermark/commit/2ee706b943964f29b1cb013d19db1b37eeb94046) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update commitlint monorepo to v18.6.0 (@commitlint/cli, @commitlint/config-conventional)
+
+- [`21b044f`](https://github.com/watermark-design/watermark/commit/21b044fb219be86d4abe267857694a7e567af9ab) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.58.4 (@unocss/postcss, unocss)
+
+- [`c8b5fcc`](https://github.com/watermark-design/watermark/commit/c8b5fcc2c5a44df9c0bceab4262dcbdb3858ed50) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update babel monorepo to v7.23.9 (@babel/core, @babel/eslint-parser, @babel/plugin-transform-runtime, @babel/preset-env)
+
 ## 1.0.19
 
 ### Patch Changes
