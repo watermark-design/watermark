@@ -1,5 +1,19 @@
 # @watermark-design/shared
 
+## 1.0.21
+
+### Patch Changes
+
+- [`bc11c2f`](https://github.com/watermark-design/watermark/commit/bc11c2fb237e6f9a09a904b9df53fe8a044bd993) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @babel/eslint-parser to v7.23.10
+
+- [`79768c4`](https://github.com/watermark-design/watermark/commit/79768c489cbf35a0da4b795c7310aeeb32f90fc5) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency husky to v9.0.7
+
+- [`c8388f4`](https://github.com/watermark-design/watermark/commit/c8388f40c3f61586613f9503239de638a4dd394b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-vue to v9.21.1
+
+- [`b03993c`](https://github.com/watermark-design/watermark/commit/b03993c9153902601cca01288c5937780306ac72) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v6.20.0
+
+- [`917474d`](https://github.com/watermark-design/watermark/commit/917474da35ce1c944a1a27d7524c8460411e4191) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency lint-staged to v15.2.1
+
 ## 1.0.20
 
 ### Patch Changes
