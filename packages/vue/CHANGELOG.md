@@ -1,5 +1,15 @@
 # @watermark-design/vue
 
+## 1.2.20
+
+### Patch Changes
+
+- [`7dbe4e4`](https://github.com/watermark-design/watermark/commit/7dbe4e456a4d7f74c03ad5da735a939d156c1c0f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vue-demi to v0.14.7
+
+- Updated dependencies [[`bc11c2f`](https://github.com/watermark-design/watermark/commit/bc11c2fb237e6f9a09a904b9df53fe8a044bd993), [`79768c4`](https://github.com/watermark-design/watermark/commit/79768c489cbf35a0da4b795c7310aeeb32f90fc5), [`c8388f4`](https://github.com/watermark-design/watermark/commit/c8388f40c3f61586613f9503239de638a4dd394b), [`b03993c`](https://github.com/watermark-design/watermark/commit/b03993c9153902601cca01288c5937780306ac72), [`917474d`](https://github.com/watermark-design/watermark/commit/917474da35ce1c944a1a27d7524c8460411e4191)]:
+  - @watermark-design/shared@1.0.21
+  - @watermark-design/core@1.0.22
+
 ## 1.2.19
 
 ### Patch Changes
