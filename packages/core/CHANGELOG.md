@@ -1,5 +1,16 @@
 # @watermark-design/core
 
+## 1.1.0
+
+### Minor Changes
+
+- [`96511d1`](https://github.com/watermark-design/watermark/commit/96511d1459c40781200e8c6d7d05b183d3f19b85) Thanks [@zhensherlock](https://github.com/zhensherlock)! - feat: add letterSpacing
+
+### Patch Changes
+
+- Updated dependencies [[`88e8e1f`](https://github.com/watermark-design/watermark/commit/88e8e1f29f70772f4811821a26957d73c1831fd2)]:
+  - @watermark-design/shared@1.0.23
+
 ## 1.0.23
 
 ### Patch Changes
