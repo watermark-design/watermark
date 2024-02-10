@@ -1,5 +1,11 @@
 # @watermark-design/shared
 
+## 1.0.23
+
+### Patch Changes
+
+- [`88e8e1f`](https://github.com/watermark-design/watermark/commit/88e8e1f29f70772f4811821a26957d73c1831fd2) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.1.1
+
 ## 1.0.22
 
 ### Patch Changes
