@@ -1,5 +1,19 @@
 # @watermark-design/vue
 
+## 1.3.0
+
+### Minor Changes
+
+- [`96511d1`](https://github.com/watermark-design/watermark/commit/96511d1459c40781200e8c6d7d05b183d3f19b85) Thanks [@zhensherlock](https://github.com/zhensherlock)! - feat: add letterSpacing
+
+### Patch Changes
+
+- [`a899092`](https://github.com/watermark-design/watermark/commit/a899092945c126522521afa7050e7a16246d0cbe) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @vitejs/plugin-vue to v5.0.4
+
+- Updated dependencies [[`96511d1`](https://github.com/watermark-design/watermark/commit/96511d1459c40781200e8c6d7d05b183d3f19b85), [`88e8e1f`](https://github.com/watermark-design/watermark/commit/88e8e1f29f70772f4811821a26957d73c1831fd2)]:
+  - @watermark-design/core@1.1.0
+  - @watermark-design/shared@1.0.23
+
 ## 1.2.21
 
 ### Patch Changes
