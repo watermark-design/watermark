@@ -321,8 +321,8 @@ importers:
         specifier: ^4.5.9
         version: 4.5.9
       '@vitejs/plugin-vue':
-        specifier: ^5.0.3
-        version: 5.0.3(vite@5.1.1)(vue@3.4.15)
+        specifier: ^5.0.4
+        version: 5.0.4(vite@5.1.1)(vue@3.4.15)
       vue:
         specifier: ^3.4.15
         version: 3.4.15(typescript@5.3.3)
@@ -343,8 +343,8 @@ importers:
         specifier: ^4.2.1
         version: 4.2.1(vite@5.1.1)
       '@vitejs/plugin-vue':
-        specifier: ^5.0.3
-        version: 5.0.3(vite@5.1.1)(vue@3.4.15)
+        specifier: ^5.0.4
+        version: 5.0.4(vite@5.1.1)(vue@3.4.15)
       '@watermark-design/dom':
         specifier: workspace:^
         version: link:../packages/dom
@@ -5256,6 +5256,17 @@ packages:
 
   /@vitejs/plugin-vue@5.0.3(vite@5.1.1)(vue@3.4.15):
     resolution: {integrity: sha512-b8S5dVS40rgHdDrw+DQi/xOM9ed+kSRZzfm1T74bMmBDCd8XO87NKlFYInzCtwvtWwXZvo1QxE2OSspTATWrbA==}
+    engines: {node: ^18.0.0 || >=20.0.0}
+    peerDependencies:
+      vite: ^5.0.0
+      vue: ^3.2.25
+    dependencies:
+      vite: 5.1.1(@types/node@20.8.7)(sass@1.70.0)(terser@5.27.0)
+      vue: 3.4.15(typescript@5.3.3)
+    dev: true
+
+  /@vitejs/plugin-vue@5.0.4(vite@5.1.1)(vue@3.4.15):
+    resolution: {integrity: sha512-WS3hevEszI6CEVEx28F8RjTX97k3KsrcY6kvTg7+Whm5y3oYvcqzVeGCU3hxSAn4uY2CLCkeokkGKpoctccilQ==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
       vite: ^5.0.0
