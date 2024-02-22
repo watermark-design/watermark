@@ -1,5 +1,15 @@
 # @watermark-design/vue
 
+## 1.3.3
+
+### Patch Changes
+
+- [`9c9bdb7`](https://github.com/watermark-design/watermark/commit/9c9bdb77dfc10e4331b8c787d53b08605d6b8215) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency nanoid to v5.0.6
+
+- Updated dependencies [[`0d29ca9`](https://github.com/watermark-design/watermark/commit/0d29ca9b84e407f035524272d1cfdbda09e3da2a), [`2dbd93a`](https://github.com/watermark-design/watermark/commit/2dbd93ae440cbf5d8c28a182d3d390094475af14), [`54bde69`](https://github.com/watermark-design/watermark/commit/54bde69b2107d95f996c13c76ffd1258427c78b1), [`4dcc9cb`](https://github.com/watermark-design/watermark/commit/4dcc9cbc3aacf33c54cc9974826043b67e02151c), [`548bb17`](https://github.com/watermark-design/watermark/commit/548bb17fb5d0351eabcda86c548d1d9630cc9252), [`8f9aced`](https://github.com/watermark-design/watermark/commit/8f9aceda41191213746307a45cf2ed220ccdf0ec)]:
+  - @watermark-design/shared@1.0.26
+  - @watermark-design/core@1.1.3
+
 ## 1.3.2
 
 ### Patch Changes
