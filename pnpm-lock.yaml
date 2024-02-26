@@ -271,7 +271,7 @@ importers:
         version: 2.1.0
     devDependencies:
       '@types/react':
-        specifier: ^18.2.57
+        specifier: ^18.2.58
         version: 18.2.58
       '@types/react-dom':
         specifier: ^18.2.19
@@ -334,7 +334,7 @@ importers:
         version: 1.7.2(vue@3.4.19)
     devDependencies:
       '@types/react':
-        specifier: ^18.2.57
+        specifier: ^18.2.58
         version: 18.2.58
       '@types/react-dom':
         specifier: ^18.2.19
