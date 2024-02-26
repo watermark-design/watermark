@@ -1,5 +1,17 @@
 # @watermark-design/shared
 
+## 1.0.27
+
+### Patch Changes
+
+- [`0de567d`](https://github.com/watermark-design/watermark/commit/0de567d004c666695fd7250198bd545955e57a5e) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.28.1
+
+- [`832889e`](https://github.com/watermark-design/watermark/commit/832889ee5414257de7bc066e8cfdad822a39f3eb) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint to v8.57.0
+
+- [`faed909`](https://github.com/watermark-design/watermark/commit/faed9092944757197aa0420d1725aff941463fba) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency cssnano to v6.0.5
+
+- [`6914c63`](https://github.com/watermark-design/watermark/commit/6914c63cec8d13207533eec305d219b188b56577) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-vue to v9.22.0
+
 ## 1.0.26
 
 ### Patch Changes
