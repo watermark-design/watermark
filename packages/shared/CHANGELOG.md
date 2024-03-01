@@ -1,5 +1,13 @@
 # @watermark-design/shared
 
+## 1.0.28
+
+### Patch Changes
+
+- [`9bd50ad`](https://github.com/watermark-design/watermark/commit/9bd50ad39b79176cb8a0747977e704c77872a377) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update commitlint monorepo to v19.0.3 (@commitlint/cli, @commitlint/config-conventional)
+
+- [`48d1af3`](https://github.com/watermark-design/watermark/commit/48d1af3ba808cb1d700ecfff2850156357c9d44b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.1.0
+
 ## 1.0.27
 
 ### Patch Changes
