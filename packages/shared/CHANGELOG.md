@@ -1,5 +1,17 @@
 # @watermark-design/shared
 
+## 1.0.29
+
+### Patch Changes
+
+- [`fd83e0b`](https://github.com/watermark-design/watermark/commit/fd83e0bf520f7cf5e4bbf852337193ea1adc1839) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency autoprefixer to v10.4.18
+
+- [`61ba2ea`](https://github.com/watermark-design/watermark/commit/61ba2ea95b4afd0e3f26dedcba82038cbfaa5277) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.1.5
+
+- [`5c1fec6`](https://github.com/watermark-design/watermark/commit/5c1fec6c3228a3624ed5c1e7f00f0e6986cf3a9a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.6.0
+
+- [`73ac938`](https://github.com/watermark-design/watermark/commit/73ac9380c6b34b1d0fec7ab144f227b1f87e8c0c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.1.1
+
 ## 1.0.28
 
 ### Patch Changes
