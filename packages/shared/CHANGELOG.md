@@ -1,5 +1,19 @@
 # @watermark-design/shared
 
+## 1.0.31
+
+### Patch Changes
+
+- [`ca549ea`](https://github.com/watermark-design/watermark/commit/ca549ea69b760093003f3266e02bfbe65d8110ad) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.2.0
+
+- [`d23b69f`](https://github.com/watermark-design/watermark/commit/d23b69fc0383baa09a0b2c6aea4b8f8c8349fbfe) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.13.0
+
+- [`047dd7b`](https://github.com/watermark-design/watermark/commit/047dd7b836710c61c750fa6a7f62488c6031dd52) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update commitlint monorepo to v19.1.0 (@commitlint/cli, @commitlint/config-conventional)
+
+- [`42557e6`](https://github.com/watermark-design/watermark/commit/42557e669ba599add35199b5637313a71f69d821) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.1.6
+
+- [`b98cfc9`](https://github.com/watermark-design/watermark/commit/b98cfc91776d6e213f8b60f7a3bff5e4b283cc99) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-vue to v9.23.0
+
 ## 1.0.30
 
 ### Patch Changes
