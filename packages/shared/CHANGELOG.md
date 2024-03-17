@@ -1,5 +1,17 @@
 # @watermark-design/shared
 
+## 1.0.32
+
+### Patch Changes
+
+- [`41cf31f`](https://github.com/watermark-design/watermark/commit/41cf31f5cb32af8d4cd113e5844a861ea482a80a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @commitlint/cli to v19.2.0
+
+- [`e834bfc`](https://github.com/watermark-design/watermark/commit/e834bfce6af21de0dd7f38215d9bd6773dd2be0f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.72.0
+
+- [`edca9fa`](https://github.com/watermark-design/watermark/commit/edca9faa741fb6289a6f4d6147f5a1de1a7308da) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.29.2
+
+- [`01dd2f7`](https://github.com/watermark-design/watermark/commit/01dd2f72c4694d46dab09f90c951f98009b27928) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.58.6 (@unocss/postcss, unocss)
+
 ## 1.0.31
 
 ### Patch Changes
