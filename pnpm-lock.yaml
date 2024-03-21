@@ -29,7 +29,7 @@ importers:
         specifier: ^2.27.1
         version: 2.27.1
       '@commitlint/cli':
-        specifier: ^19.2.0
+        specifier: ^19.2.1
         version: 19.2.1(@types/node@20.11.30)(typescript@5.4.3)
       '@commitlint/config-conventional':
         specifier: ^19.1.0
@@ -3286,7 +3286,7 @@ packages:
     resolution: {integrity: sha512-+xrD2BWLpvHKNmX2QbpdpsBaWnRxahMwJjO+KZk2JOElj5nSmKezyS1B4u+QbHMTX69t4ukm6hh9lsYQ7GHCKA==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/code-frame': 7.23.5
+      '@babel/code-frame': 7.24.2
       '@babel/parser': 7.24.0
       '@babel/types': 7.23.9
     dev: true
@@ -3304,7 +3304,7 @@ packages:
     resolution: {integrity: sha512-I/4UJ9vs90OkBtY6iiiTORVMyIhJ4kAVmsKo9KFc8UOxMeUfi2hvtIBsET5u9GizXE6/GFSuKCTNfgCswuEjRg==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/code-frame': 7.23.5
+      '@babel/code-frame': 7.24.2
       '@babel/generator': 7.23.6
       '@babel/helper-environment-visitor': 7.22.20
       '@babel/helper-function-name': 7.23.0
