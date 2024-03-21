@@ -1,5 +1,13 @@
 # @watermark-design/dom
 
+## 1.2.10
+
+### Patch Changes
+
+- Updated dependencies [[`35ff9e2`](https://github.com/watermark-design/watermark/commit/35ff9e2f2789d252d5e96304f5c61a80ac3857d2), [`3c7a417`](https://github.com/watermark-design/watermark/commit/3c7a41758c7f3819d03d90195e0311874c012bfb), [`1ce46d9`](https://github.com/watermark-design/watermark/commit/1ce46d9bd7c3a24dbc3c4ab5a7047b1295459038), [`69f3006`](https://github.com/watermark-design/watermark/commit/69f30068c87cc6557014d01670523af2405ee7ec), [`260d8cd`](https://github.com/watermark-design/watermark/commit/260d8cd7f828ddbf7a36fdcc046af2f9dd88c099), [`c7552d7`](https://github.com/watermark-design/watermark/commit/c7552d71f868d9290745394ad5ca5387ab66b955), [`78363bc`](https://github.com/watermark-design/watermark/commit/78363bc2239bb958efb366f49f7bd071a0caba0c), [`398083b`](https://github.com/watermark-design/watermark/commit/398083b9e428f3f2f46285cf273c38f65b668890)]:
+  - @watermark-design/shared@1.0.33
+  - @watermark-design/core@1.1.10
+
 ## 1.2.9
 
 ### Patch Changes
