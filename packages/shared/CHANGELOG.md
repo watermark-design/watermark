@@ -1,5 +1,15 @@
 # @watermark-design/shared
 
+## 1.0.34
+
+### Patch Changes
+
+- [`06a6276`](https://github.com/watermark-design/watermark/commit/06a62765a25f53983179ae8a2fe5d11979c48ddf) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.6.2
+
+- [`99c898c`](https://github.com/watermark-design/watermark/commit/99c898c98294a8dc880989979329530583b2aac1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency stylelint to v16.3.0
+
+- [`a71f208`](https://github.com/watermark-design/watermark/commit/a71f208f5b26381fdb3b092fcac2aaaf4cfb8daa) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.2.6
+
 ## 1.0.33
 
 ### Patch Changes
