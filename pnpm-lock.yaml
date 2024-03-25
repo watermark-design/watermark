@@ -149,7 +149,7 @@ importers:
         specifier: ^1.72.0
         version: 1.72.0
       stylelint:
-        specifier: ^16.2.1
+        specifier: ^16.3.0
         version: 16.3.0(typescript@5.4.3)
       stylelint-config-prettier:
         specifier: ^9.0.5
@@ -7954,7 +7954,7 @@ packages:
     engines: {node: ^10 || ^12.20.0 || ^14.13.0 || >=15.0.0}
     dependencies:
       mdn-data: 2.0.30
-      source-map-js: 1.0.2
+      source-map-js: 1.2.0
     dev: true
 
   /css-what@3.4.2:
