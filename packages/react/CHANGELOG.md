@@ -1,5 +1,15 @@
 # @watermark-design/react
 
+## 1.2.12
+
+### Patch Changes
+
+- [`3207013`](https://github.com/watermark-design/watermark/commit/32070136e0e36b8d27e2931d65d53a9cb8032334) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update react monorepo (@types/react, @types/react-dom)
+
+- Updated dependencies [[`942d4ba`](https://github.com/watermark-design/watermark/commit/942d4ba1603744586ecb631829d0093e5c5c66a7), [`c7ded89`](https://github.com/watermark-design/watermark/commit/c7ded89d8fe344f838b07eec0eae1fcf70f5f1d5), [`e1f2d91`](https://github.com/watermark-design/watermark/commit/e1f2d9116dce6752627f80aaef098dbebeb3a7d0), [`d3f5026`](https://github.com/watermark-design/watermark/commit/d3f50268b43ca7b32cface735de91e285d2c8391), [`0bc0ca9`](https://github.com/watermark-design/watermark/commit/0bc0ca9164ffe37225b25dac2fdb66f4fb6d493f), [`aa98ce2`](https://github.com/watermark-design/watermark/commit/aa98ce209e84703197c8b761c30de493c742b09b), [`add8c58`](https://github.com/watermark-design/watermark/commit/add8c58646835087080853a544e965dde09cca93), [`9e80a14`](https://github.com/watermark-design/watermark/commit/9e80a1451720074e9fbe2de53e705e9799140efa)]:
+  - @watermark-design/shared@1.0.35
+  - @watermark-design/core@1.1.12
+
 ## 1.2.11
 
 ### Patch Changes
