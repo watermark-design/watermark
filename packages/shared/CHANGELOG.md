@@ -1,5 +1,25 @@
 # @watermark-design/shared
 
+## 1.0.35
+
+### Patch Changes
+
+- [`942d4ba`](https://github.com/watermark-design/watermark/commit/942d4ba1603744586ecb631829d0093e5c5c66a7) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.4.0
+
+- [`c7ded89`](https://github.com/watermark-design/watermark/commit/c7ded89d8fe344f838b07eec0eae1fcf70f5f1d5) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-dts to v3.8.1
+
+- [`e1f2d91`](https://github.com/watermark-design/watermark/commit/e1f2d9116dce6752627f80aaef098dbebeb3a7d0) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.58.8 (@unocss/postcss, unocss)
+
+- [`d3f5026`](https://github.com/watermark-design/watermark/commit/d3f50268b43ca7b32cface735de91e285d2c8391) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.13.2
+
+- [`0bc0ca9`](https://github.com/watermark-design/watermark/commit/0bc0ca9164ffe37225b25dac2fdb66f4fb6d493f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-vue to v9.24.0
+
+- [`aa98ce2`](https://github.com/watermark-design/watermark/commit/aa98ce209e84703197c8b761c30de493c742b09b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency stylelint to v16.3.1
+
+- [`add8c58`](https://github.com/watermark-design/watermark/commit/add8c58646835087080853a544e965dde09cca93) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.30.0
+
+- [`9e80a14`](https://github.com/watermark-design/watermark/commit/9e80a1451720074e9fbe2de53e705e9799140efa) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency cssnano to v6.1.2
+
 ## 1.0.34
 
 ### Patch Changes
