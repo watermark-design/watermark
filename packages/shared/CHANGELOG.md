@@ -1,5 +1,21 @@
 # @watermark-design/shared
 
+## 1.0.36
+
+### Patch Changes
+
+- [`e4ace5a`](https://github.com/watermark-design/watermark/commit/e4ace5ad60038460afceba3c92cc27699d37a43d) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update unocss monorepo to v0.58.9 (@unocss/postcss, unocss)
+
+- [`60b113f`](https://github.com/watermark-design/watermark/commit/60b113fcb4b4f7c87722f9375766d45901ecfbd6) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.5.0
+
+- [`4ae5f21`](https://github.com/watermark-design/watermark/commit/4ae5f2100dea9ab3dc5b2716b895b74b8e26f5eb) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.6.3
+
+- [`55d7c41`](https://github.com/watermark-design/watermark/commit/55d7c41ac0f7b2c2e9ad0da096f425cae87fab5a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.2.7
+
+- [`a336908`](https://github.com/watermark-design/watermark/commit/a336908444555ecc70c0bcb1989b0c89fc56c64f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency unplugin-vue-define-options to v1.4.3
+
+- [`39ac7db`](https://github.com/watermark-design/watermark/commit/39ac7db862d6788701536b55ff4c9258ac35ec3a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.30.1
+
 ## 1.0.35
 
 ### Patch Changes
