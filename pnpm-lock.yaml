@@ -182,7 +182,7 @@ importers:
         specifier: ^0.8.0
         version: 0.8.0(rollup@4.13.2)
       unplugin-vue-define-options:
-        specifier: ^1.4.2
+        specifier: ^1.4.3
         version: 1.4.3(rollup@4.13.2)(vue@2.6.14)
       vite:
         specifier: ^5.2.7
@@ -17673,7 +17673,7 @@ packages:
   /vite-plugin-dynamic-import@1.5.0:
     resolution: {integrity: sha512-Qp85c+AVJmLa8MLni74U4BDiWpUeFNx7NJqbGZyR2XJOU7mgW0cb7nwlAMucFyM4arEd92Nfxp4j44xPi6Fu7g==}
     dependencies:
-      acorn: 8.10.0
+      acorn: 8.11.3
       es-module-lexer: 1.3.1
       fast-glob: 3.3.2
       magic-string: 0.30.5
