@@ -71,7 +71,7 @@ importers:
         specifier: ^7.5.0
         version: 7.5.0(eslint@8.57.0)(typescript@5.4.3)
       '@unocss/postcss':
-        specifier: ^0.58.8
+        specifier: ^0.58.9
         version: 0.58.9(postcss@8.4.38)
       autoprefixer:
         specifier: ^10.4.18
@@ -176,7 +176,7 @@ importers:
         specifier: ^5.4.3
         version: 5.4.3
       unocss:
-        specifier: ^0.58.8
+        specifier: ^0.58.9
         version: 0.58.9(postcss@8.4.38)(rollup@4.13.2)(vite@5.2.7)
       unplugin-element-plus:
         specifier: ^0.8.0
