@@ -63,7 +63,7 @@
   "dependencies": {
     "@watermark-design/core": "workspace:^",
     "@watermark-design/shared": "workspace:^",
-    "ahooks": "^3.7.10",
+    "ahooks": "^3.7.11",
     "clsx": "^2.1.0"
   },
   "peerDependencies": {
