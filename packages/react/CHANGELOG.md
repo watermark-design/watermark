@@ -1,5 +1,15 @@
 # @watermark-design/react
 
+## 1.2.13
+
+### Patch Changes
+
+- [`4d920f5`](https://github.com/watermark-design/watermark/commit/4d920f5cc06148ca7adc4e444a526e87ff120f01) Thanks [@zhensherlock](https://github.com/zhensherlock)! - fix(deps): update dependency ahooks to v3.7.11
+
+- Updated dependencies [[`e4ace5a`](https://github.com/watermark-design/watermark/commit/e4ace5ad60038460afceba3c92cc27699d37a43d), [`60b113f`](https://github.com/watermark-design/watermark/commit/60b113fcb4b4f7c87722f9375766d45901ecfbd6), [`4ae5f21`](https://github.com/watermark-design/watermark/commit/4ae5f2100dea9ab3dc5b2716b895b74b8e26f5eb), [`55d7c41`](https://github.com/watermark-design/watermark/commit/55d7c41ac0f7b2c2e9ad0da096f425cae87fab5a), [`a336908`](https://github.com/watermark-design/watermark/commit/a336908444555ecc70c0bcb1989b0c89fc56c64f), [`39ac7db`](https://github.com/watermark-design/watermark/commit/39ac7db862d6788701536b55ff4c9258ac35ec3a)]:
+  - @watermark-design/shared@1.0.36
+  - @watermark-design/core@1.1.13
+
 ## 1.2.12
 
 ### Patch Changes
