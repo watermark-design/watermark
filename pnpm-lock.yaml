@@ -173,7 +173,7 @@ importers:
         specifier: ^2.6.2
         version: 2.6.2
       typescript:
-        specifier: ^5.4.3
+        specifier: ^5.4.4
         version: 5.4.4
       unocss:
         specifier: ^0.59.0
