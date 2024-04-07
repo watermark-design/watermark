@@ -1,5 +1,23 @@
 # @watermark-design/shared
 
+## 1.0.37
+
+### Patch Changes
+
+- [`b5db786`](https://github.com/watermark-design/watermark/commit/b5db7865f2cee8e07acc3f5ad6ac0b2f18b239e4) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency typescript to v5.4.4
+
+- [`ab8c2ff`](https://github.com/watermark-design/watermark/commit/ab8c2ffcf5b8a2a1d0968b5f1593ef95cab47125) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.30.3
+
+- [`1f82033`](https://github.com/watermark-design/watermark/commit/1f82033fb57f4affdb2a85eedf40f4135d1f8611) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.14.0
+
+- [`6458972`](https://github.com/watermark-design/watermark/commit/64589727fb0ea4630b2b084f7bcafbee81eee3b0) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency stylelint-config-standard-scss to v13.1.0
+
+- [`4ee30f4`](https://github.com/watermark-design/watermark/commit/4ee30f45af407cc4b0df928e63f39d27c195d953) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update babel monorepo to v7.24.4
+
+- [`ef52349`](https://github.com/watermark-design/watermark/commit/ef5234966e8ad05db5395ff0c142220111ff2d9a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.2.8
+
+- [`8658a08`](https://github.com/watermark-design/watermark/commit/8658a08ffe1bbfe70485da311b94cef29ee9589d) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.74.1
+
 ## 1.0.36
 
 ### Patch Changes
