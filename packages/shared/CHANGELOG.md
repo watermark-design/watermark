@@ -1,5 +1,17 @@
 # @watermark-design/shared
 
+## 1.0.38
+
+### Patch Changes
+
+- [`f046aa6`](https://github.com/watermark-design/watermark/commit/f046aa6afb47c9d118b6e94475a3dee55ec06bd1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.75.0
+
+- [`cb58894`](https://github.com/watermark-design/watermark/commit/cb5889422dff12c4fb0f6524e119da990f5a6255) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.14.1
+
+- [`7ffeccf`](https://github.com/watermark-design/watermark/commit/7ffeccf83cc135360aecedc5947e5414c8d5cd46) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.6.0
+
+- [`73b9a95`](https://github.com/watermark-design/watermark/commit/73b9a951e8cf33ecd8fba0feb755fb0962b63b34) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-vue to v9.24.1
+
 ## 1.0.37
 
 ### Patch Changes
