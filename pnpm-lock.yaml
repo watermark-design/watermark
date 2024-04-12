@@ -271,10 +271,10 @@ importers:
         version: 2.1.0
     devDependencies:
       '@types/react':
-        specifier: ^18.2.75
+        specifier: ^18.2.77
         version: 18.2.77
       '@types/react-dom':
-        specifier: ^18.2.24
+        specifier: ^18.2.25
         version: 18.2.25
       '@vitejs/plugin-react':
         specifier: ^4.2.1
@@ -334,10 +334,10 @@ importers:
         version: 1.7.2(vue@3.4.21)
     devDependencies:
       '@types/react':
-        specifier: ^18.2.75
+        specifier: ^18.2.77
         version: 18.2.77
       '@types/react-dom':
-        specifier: ^18.2.24
+        specifier: ^18.2.25
         version: 18.2.25
       '@vitejs/plugin-react':
         specifier: ^4.2.1
