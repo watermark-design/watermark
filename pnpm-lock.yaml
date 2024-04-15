@@ -229,7 +229,7 @@ importers:
         version: 2.2.5(@algolia/client-search@4.23.3)(search-insights@2.13.0)(vitepress@1.1.0)(vue@3.4.21)
       element-plus:
         specifier: ^2.6.3
-        version: 2.6.3(vue@3.4.21)
+        version: 2.7.0(vue@3.4.21)
 
   packages/core:
     dependencies:
@@ -359,7 +359,7 @@ importers:
         version: link:../packages/vue
       element-plus:
         specifier: ^2.6.3
-        version: 2.6.3(vue@3.4.21)
+        version: 2.7.0(vue@3.4.21)
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -8584,8 +8584,8 @@ packages:
     resolution: {integrity: sha512-vDarADhwntXiULEdmWd77g2dV6FrNGa8ecAC29MZ4TwPut2fvosD0/5sJd1qWNNe8HcJFAC+F5Lf9jW1NPtWmw==}
     dev: true
 
-  /element-plus@2.6.3(vue@3.4.21):
-    resolution: {integrity: sha512-U4L/mr+1r+EmAUYUHrs0V/8hHMdBGP07rPymSC72LZCN4jK1UwygQYICegTQ5us4mxeqBvW6wfoEfo003fwCqw==}
+  /element-plus@2.7.0(vue@3.4.21):
+    resolution: {integrity: sha512-WAiaFLavuWFxof9qwkC27jvkh9nRcNnB506g1vvJSiVaVqjCBWUFCIyJKeN11M1qcv2cS5VV5PfSLjTIkrw87A==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
