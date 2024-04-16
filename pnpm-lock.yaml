@@ -194,7 +194,7 @@ importers:
         specifier: ^0.10.1
         version: 0.10.1
       vite-plugin-dts:
-        specifier: ^3.8.2
+        specifier: ^3.8.3
         version: 3.8.3(@types/node@20.12.7)(rollup@4.14.3)(typescript@5.4.5)(vite@5.2.8)(vue@2.6.14)
       vite-plugin-eslint:
         specifier: ^1.8.1
