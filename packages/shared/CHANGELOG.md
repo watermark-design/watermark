@@ -1,5 +1,25 @@
 # @watermark-design/shared
 
+## 1.0.39
+
+### Patch Changes
+
+- [`2a3f21e`](https://github.com/watermark-design/watermark/commit/2a3f21eea04e1746eb002e2f992d22cae7b24a96) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-dts to v3.8.3
+
+- [`aeaf081`](https://github.com/watermark-design/watermark/commit/aeaf081957646d6c0e97e479de50471f57305eab) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update commitlint monorepo to v19.2.2
+
+- [`c7704f6`](https://github.com/watermark-design/watermark/commit/c7704f61aa78760f9d123935d48cafdb3d37caf4) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.14.3
+
+- [`7f017e6`](https://github.com/watermark-design/watermark/commit/7f017e6c60a23c3df42cc2491e6f523a32cdb3d1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-dts to v3.8.2
+
+- [`922231d`](https://github.com/watermark-design/watermark/commit/922231d9ae1f789e8e288afd5ba00dfaba868a95) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.7.0
+
+- [`05ff2ca`](https://github.com/watermark-design/watermark/commit/05ff2caf2679d8c70f43bb69ec89ce9c9353715a) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.7.0
+
+- [`b160aa4`](https://github.com/watermark-design/watermark/commit/b160aa4730293e3b94a4e027b59a367bbdad92a7) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @types/markdown-it to v14.0.1
+
+- [`c3779cf`](https://github.com/watermark-design/watermark/commit/c3779cf675193843d90f8c290a898d21039104fa) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-vue to v9.25.0
+
 ## 1.0.38
 
 ### Patch Changes
