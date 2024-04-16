@@ -68,7 +68,7 @@ importers:
         specifier: ^14.0.1
         version: 14.0.1
       '@typescript-eslint/parser':
-        specifier: ^7.6.0
+        specifier: ^7.7.0
         version: 7.7.0(eslint@8.57.0)(typescript@5.4.5)
       '@unocss/postcss':
         specifier: ^0.58.9
@@ -271,7 +271,7 @@ importers:
         version: 2.1.0
     devDependencies:
       '@types/react':
-        specifier: ^18.2.77
+        specifier: ^18.2.79
         version: 18.2.79
       '@types/react-dom':
         specifier: ^18.2.25
@@ -334,7 +334,7 @@ importers:
         version: 1.7.2(vue@3.4.21)
     devDependencies:
       '@types/react':
-        specifier: ^18.2.77
+        specifier: ^18.2.79
         version: 18.2.79
       '@types/react-dom':
         specifier: ^18.2.25
