@@ -1,5 +1,15 @@
 # @watermark-design/vue
 
+## 1.3.16
+
+### Patch Changes
+
+- [`2911e70`](https://github.com/watermark-design/watermark/commit/2911e7012efec9712bd3c2e3809686eaa1d306ea) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update vue monorepo
+
+- Updated dependencies [[`2a3f21e`](https://github.com/watermark-design/watermark/commit/2a3f21eea04e1746eb002e2f992d22cae7b24a96), [`aeaf081`](https://github.com/watermark-design/watermark/commit/aeaf081957646d6c0e97e479de50471f57305eab), [`c7704f6`](https://github.com/watermark-design/watermark/commit/c7704f61aa78760f9d123935d48cafdb3d37caf4), [`7f017e6`](https://github.com/watermark-design/watermark/commit/7f017e6c60a23c3df42cc2491e6f523a32cdb3d1), [`922231d`](https://github.com/watermark-design/watermark/commit/922231d9ae1f789e8e288afd5ba00dfaba868a95), [`05ff2ca`](https://github.com/watermark-design/watermark/commit/05ff2caf2679d8c70f43bb69ec89ce9c9353715a), [`b160aa4`](https://github.com/watermark-design/watermark/commit/b160aa4730293e3b94a4e027b59a367bbdad92a7), [`c3779cf`](https://github.com/watermark-design/watermark/commit/c3779cf675193843d90f8c290a898d21039104fa)]:
+  - @watermark-design/shared@1.0.39
+  - @watermark-design/core@1.1.16
+
 ## 1.3.15
 
 ### Patch Changes
