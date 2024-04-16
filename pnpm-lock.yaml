@@ -131,7 +131,7 @@ importers:
         specifier: ^5.0.5
         version: 5.0.5
       rollup:
-        specifier: ^4.14.1
+        specifier: ^4.14.3
         version: 4.14.3
       rollup-plugin-filesize:
         specifier: ^10.0.0
