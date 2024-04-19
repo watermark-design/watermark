@@ -140,7 +140,7 @@ importers:
         specifier: ^4.0.2
         version: 4.0.2(postcss@8.4.38)
       rollup-plugin-sass:
-        specifier: ^1.12.21
+        specifier: ^1.12.22
         version: 1.12.22(rollup@4.14.3)
       rollup-plugin-vue:
         specifier: ^6.0.0
