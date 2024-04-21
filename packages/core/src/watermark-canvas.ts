@@ -294,8 +294,8 @@ class WatermarkCanvas {
     resolve(ctx.canvas);
   }
 
-  private drawRichText(ctx: CanvasRenderingContext2D, resolve: Function): void {
-    const obj = createCustomContentSVG(ctx, this.options);
+  private async drawRichText(ctx: CanvasRenderingContext2D, resolve: Function): Promise<void> {
+    const obj = await createCustomContentSVG(ctx, this.options);
     loadImage(convertSVGToImage(obj.element), obj.width, obj.height).then((image) => {
       const imagePosition = this.getDrawImagePosition(image.width, image.height);
       ctx.drawImage(image, imagePosition.x, imagePosition.y, image.width, image.height);

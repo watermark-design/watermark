@@ -1,4 +1,4 @@
-import { isUndefined } from '@watermark-design/shared';
+import { isUndefined, isString } from '@watermark-design/shared';
 import type { CustomContentSVGType, WatermarkOptions } from '../types';
 
 export const loadImage = (
@@ -19,7 +19,11 @@ export const loadImage = (
 };
 
 export const convertSVGToImage = (svg: Element): string => {
-  const richContent = svg.outerHTML.replace(/\n/g, '').replace(/\t/g, '').replace(/#/g, '%23');
+  const richContent = svg.outerHTML
+    .replace(/<img(.*?)>/g, '<img$1/>')
+    .replace(/\n/g, '')
+    .replace(/\t/g, '')
+    .replace(/#/g, '%23');
   return `data:image/svg+xml;charset=utf-8,${richContent}`;
 };
 
@@ -35,10 +39,10 @@ export const createSVGElement = (
   return element;
 };
 
-export const createCustomContentSVG = (
+export const createCustomContentSVG = async (
   ctx: CanvasRenderingContext2D,
   options: WatermarkOptions
-): CustomContentSVGType => {
+): Promise<CustomContentSVGType> => {
   const svgElement = createSVGElement('svg', {
     xmlns: 'http://www.w3.org/2000/svg',
   });
@@ -56,6 +60,8 @@ export const createCustomContentSVG = (
 `;
   bodyElement.innerHTML = `<div class="rich-text-content">${options.content}</div>`;
   document.body.appendChild(bodyElement);
+  // convert all images to base64
+  await convertImgToBase64(bodyElement);
   const { offsetHeight, offsetWidth } = <HTMLElement>(
     bodyElement.querySelector('.rich-text-content')
   );
@@ -75,4 +81,29 @@ export const createCustomContentSVG = (
     width,
     height,
   };
+};
+
+export const convertImgToBase64 = async (bodyElement: HTMLElement) => {
+  const imgElements = bodyElement.querySelectorAll('img');
+
+  for (const img of Array.from(imgElements)) {
+    const src = img.getAttribute('src');
+    if (src) {
+      try {
+        const response = await fetch(src);
+        const blob = await response.blob();
+        const imgData = await new Promise((resolve, reject) => {
+          const reader = new FileReader();
+          reader.onloadend = () => resolve(reader.result);
+          reader.onerror = reject;
+          reader.readAsDataURL(blob);
+        });
+        if (isString(imgData)) {
+          img.setAttribute('src', imgData as string);
+        }
+      } catch (error) {
+        console.error(`Error converting ${src} to base64:`, error);
+      }
+    }
+  }
 };
