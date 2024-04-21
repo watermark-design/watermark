@@ -1,5 +1,23 @@
 # @watermark-design/shared
 
+## 1.0.40
+
+### Patch Changes
+
+- [`55d8d64`](https://github.com/watermark-design/watermark/commit/55d8d641d6c2b4dedd82358a0053e2747dfcd971) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency core-js to v3.37.0
+
+- [`25e9011`](https://github.com/watermark-design/watermark/commit/25e9011dc07309bfcbded5acdeb1fc85244dfda6) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.2.9
+
+- [`2bc3d68`](https://github.com/watermark-design/watermark/commit/2bc3d684652c97489f585ea1ba3a62b9b7041cbc) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.2.10
+
+- [`98c92ce`](https://github.com/watermark-design/watermark/commit/98c92cecc53b96175fc0fe6ff892f413985e09ce) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup-plugin-sass to v1.12.22
+
+- [`1ba7b71`](https://github.com/watermark-design/watermark/commit/1ba7b71f14b3fae32de5cf76b99937b16fbc5063) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.15.0
+
+- [`2d33041`](https://github.com/watermark-design/watermark/commit/2d330416951ff8c2305bda4641915a9d294f26f3) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.16.0
+
+- [`7c442d1`](https://github.com/watermark-design/watermark/commit/7c442d1ef255fefc02d2fba3041e8be50e2b974f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.7.1
+
 ## 1.0.39
 
 ### Patch Changes
