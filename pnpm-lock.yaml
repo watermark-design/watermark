@@ -229,7 +229,7 @@ importers:
         version: 2.2.5(@algolia/client-search@4.23.3)(@types/react@18.2.79)(@vue/composition-api@1.7.2(vue@3.4.23(typescript@5.4.5)))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(search-insights@2.13.0)(vitepress@1.1.3(@algolia/client-search@4.23.3)(@types/node@20.12.7)(@types/react@18.2.79)(@vue/composition-api@1.7.2(vue@3.4.23(typescript@5.4.5)))(async-validator@4.2.5)(postcss@8.4.38)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.75.0)(search-insights@2.13.0)(terser@5.30.3)(typescript@5.4.5))(vue@3.4.23(typescript@5.4.5))
       element-plus:
         specifier: ^2.7.0
-        version: 2.7.0(@vue/composition-api@1.7.2(vue@3.4.23(typescript@5.4.5)))(vue@3.4.23(typescript@5.4.5))
+        version: 2.7.1(@vue/composition-api@1.7.2(vue@3.4.23(typescript@5.4.5)))(vue@3.4.23(typescript@5.4.5))
 
   packages/core:
     dependencies:
@@ -359,7 +359,7 @@ importers:
         version: link:../packages/vue
       element-plus:
         specifier: ^2.7.0
-        version: 2.7.0(@vue/composition-api@1.7.2(vue@3.4.23(typescript@5.4.5)))(vue@3.4.23(typescript@5.4.5))
+        version: 2.7.1(@vue/composition-api@1.7.2(vue@3.4.23(typescript@5.4.5)))(vue@3.4.23(typescript@5.4.5))
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -4490,8 +4490,8 @@ packages:
   electron-to-chromium@1.4.744:
     resolution: {integrity: sha512-nAGcF0yeKKfrP13LMFr5U1eghfFSvFLg302VUFzWlcjPOnUYd52yU5x6PBYrujhNbc4jYmZFrGZFK+xasaEzVA==}
 
-  element-plus@2.7.0:
-    resolution: {integrity: sha512-WAiaFLavuWFxof9qwkC27jvkh9nRcNnB506g1vvJSiVaVqjCBWUFCIyJKeN11M1qcv2cS5VV5PfSLjTIkrw87A==}
+  element-plus@2.7.1:
+    resolution: {integrity: sha512-yk/vXFwJp0flMrd2kfcR0XlumhwtPjB19HJvwcf0n3DvRE7UK8LeSK14LVghSzk0TzPsFFElweMnZEEv7+MYuQ==}
     peerDependencies:
       vue: ^3.2.0
 
@@ -13977,7 +13977,7 @@ snapshots:
 
   electron-to-chromium@1.4.744: {}
 
-  element-plus@2.7.0(@vue/composition-api@1.7.2(vue@3.4.23(typescript@5.4.5)))(vue@3.4.23(typescript@5.4.5)):
+  element-plus@2.7.1(@vue/composition-api@1.7.2(vue@3.4.23(typescript@5.4.5)))(vue@3.4.23(typescript@5.4.5)):
     dependencies:
       '@ctrl/tinycolor': 3.6.1
       '@element-plus/icons-vue': 2.3.1(vue@3.4.23(typescript@5.4.5))
