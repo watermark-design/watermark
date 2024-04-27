@@ -83,7 +83,7 @@ importers:
         specifier: ^3.37.0
         version: 3.37.0
       cssnano:
-        specifier: ^7.0.0
+        specifier: ^7.0.1
         version: 7.0.1(postcss@8.4.38)
       eslint:
         specifier: ^8.57.0
