@@ -20,8 +20,8 @@
     }
   },
   "devDependencies": {
-    "@types/react": "^18.2.79",
-    "@types/react-dom": "^18.2.25",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.2.1",
     "@vitejs/plugin-vue": "^5.0.4",
     "@watermark-design/dom": "workspace:^",
@@ -29,8 +29,8 @@
     "@watermark-design/style": "workspace:^",
     "@watermark-design/vue": "workspace:^",
     "element-plus": "^2.7.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
     "react-scripts": "5.0.1",
     "vue": "^3.4.22",
     "vue-demi": "^0.14.7"
