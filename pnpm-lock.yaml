@@ -167,7 +167,7 @@ importers:
         specifier: ^6.0.4
         version: 6.0.4(stylelint@16.4.0)
       terser:
-        specifier: ^5.30.3
+        specifier: ^5.30.4
         version: 5.30.4
       tslib:
         specifier: ^2.6.2
