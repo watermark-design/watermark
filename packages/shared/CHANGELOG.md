@@ -1,5 +1,17 @@
 # @watermark-design/shared
 
+## 1.0.42
+
+### Patch Changes
+
+- [`efa2edd`](https://github.com/watermark-design/watermark/commit/efa2edd5e999870e3df46e0f5733c84b653ae5a6) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency terser to v5.31.0
+
+- [`7c9d4b2`](https://github.com/watermark-design/watermark/commit/7c9d4b2372874e4b770691903b8f52d0951d47fc) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update babel monorepo to v7.24.5
+
+- [`a6a0917`](https://github.com/watermark-design/watermark/commit/a6a0917bb207bd6d5692776b1ebc7ea375090bb7) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.8.0
+
+- [`3f7302f`](https://github.com/watermark-design/watermark/commit/3f7302f2828e7ad193af9c0d437def0e1f2e2417) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rollup to v4.17.2
+
 ## 1.0.41
 
 ### Patch Changes
