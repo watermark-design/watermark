@@ -1,5 +1,11 @@
 # @watermark-design/node
 
+## 1.4.0
+
+### Minor Changes
+
+- [`71c8f9f`](https://github.com/watermark-design/watermark/commit/71c8f9fd52eb6668dd022aac5a91d0e25e61bbd5) Thanks [@zhensherlock](https://github.com/zhensherlock)! - feat: support exports import node environment
+
 ## 1.3.0
 
 ### Minor Changes
