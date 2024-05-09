@@ -1,5 +1,17 @@
 # @watermark-design/shared
 
+## 1.1.0
+
+### Minor Changes
+
+- [`2d38048`](https://github.com/watermark-design/watermark/commit/2d380489ea6fe6a337a356eeab5e99e0cd1815ac) Thanks [@zhensherlock](https://github.com/zhensherlock)! - support exports import node environment
+
+- [`b71d57a`](https://github.com/watermark-design/watermark/commit/b71d57aa8245aacebadb3d21d16317f90d572dd2) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.77.0
+
+- [`cfafc89`](https://github.com/watermark-design/watermark/commit/cfafc899a71f805896c2a55ebc6115b5419e2084) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite-plugin-dts to v3.9.1
+
+- [`ae55591`](https://github.com/watermark-design/watermark/commit/ae555912fac0b496edb2a06bb113542c0c02db21) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency postcss-html to v1.7.0
+
 ## 1.0.43
 
 ### Patch Changes
