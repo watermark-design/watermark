@@ -83,6 +83,6 @@
     "@types/lodash.debounce": "^4.0.9",
     "@types/lodash.omit": "^4.5.9",
     "@vitejs/plugin-vue": "^5.0.4",
-    "vue": "^3.4.26"
+    "vue": "^3.4.27"
   }
 }
