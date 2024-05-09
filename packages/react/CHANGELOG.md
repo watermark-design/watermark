@@ -1,5 +1,13 @@
 # @watermark-design/react
 
+## 1.2.21
+
+### Patch Changes
+
+- Updated dependencies [[`2d38048`](https://github.com/watermark-design/watermark/commit/2d380489ea6fe6a337a356eeab5e99e0cd1815ac), [`d82ceeb`](https://github.com/watermark-design/watermark/commit/d82ceeb7f51a0011b5e0951f2f1b1d8e46b3463e), [`b71d57a`](https://github.com/watermark-design/watermark/commit/b71d57aa8245aacebadb3d21d16317f90d572dd2), [`cfafc89`](https://github.com/watermark-design/watermark/commit/cfafc899a71f805896c2a55ebc6115b5419e2084), [`ae55591`](https://github.com/watermark-design/watermark/commit/ae555912fac0b496edb2a06bb113542c0c02db21)]:
+  - @watermark-design/shared@1.1.0
+  - @watermark-design/core@1.3.0
+
 ## 1.2.20
 
 ### Patch Changes
