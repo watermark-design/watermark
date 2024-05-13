@@ -1,5 +1,15 @@
 # @watermark-design/shared
 
+## 1.1.1
+
+### Patch Changes
+
+- [`2049b72`](https://github.com/watermark-design/watermark/commit/2049b728ab2642fb53bd74a03c7a78cb5fc0a4de) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency eslint-plugin-vue to v9.26.0
+
+- [`59d63d4`](https://github.com/watermark-design/watermark/commit/59d63d4fd0a49ba274b8fdb99f28b0a921bdff16) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency rimraf to v5.0.7
+
+- [`c99512d`](https://github.com/watermark-design/watermark/commit/c99512dfebce36d64267fe9dd2a1188029019e25) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.77.1
+
 ## 1.1.0
 
 ### Minor Changes
