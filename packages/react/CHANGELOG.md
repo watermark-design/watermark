@@ -1,5 +1,13 @@
 # @watermark-design/react
 
+## 1.2.22
+
+### Patch Changes
+
+- Updated dependencies [[`2049b72`](https://github.com/watermark-design/watermark/commit/2049b728ab2642fb53bd74a03c7a78cb5fc0a4de), [`59d63d4`](https://github.com/watermark-design/watermark/commit/59d63d4fd0a49ba274b8fdb99f28b0a921bdff16), [`c99512d`](https://github.com/watermark-design/watermark/commit/c99512dfebce36d64267fe9dd2a1188029019e25)]:
+  - @watermark-design/shared@1.1.1
+  - @watermark-design/core@1.3.1
+
 ## 1.2.21
 
 ### Patch Changes
