@@ -9,9 +9,8 @@ import {
 import type { WatermarkOptions } from '@watermark-design/core';
 import { useMount, useDebounceFn } from 'ahooks';
 
-type OmittedWatermarkOptions = Omit<
-  WatermarkOptions,
-  'parent' | 'mutationObserve' | 'appendToBody'
+type OmittedWatermarkOptions = Partial<
+  Omit<WatermarkOptions, 'parent' | 'mutationObserve' | 'appendToBody'>
 >;
 
 export type WatermarkProps = OmittedWatermarkOptions & {
