@@ -1,5 +1,14 @@
 # @watermark-design/core
 
+## 1.3.2
+
+### Patch Changes
+
+- [`2aa117d`](https://github.com/watermark-design/watermark/commit/2aa117d62475b829fd1342b5b1439a9a87c15219) Thanks [@zhensherlock](https://github.com/zhensherlock)! - feat: export types
+
+- Updated dependencies [[`0edf8e7`](https://github.com/watermark-design/watermark/commit/0edf8e7dad3cd4a0830e53e06c4d941c6ec9b31c), [`cc24f62`](https://github.com/watermark-design/watermark/commit/cc24f622be41967dfb096028753aa10ffc554ddc), [`5f63cde`](https://github.com/watermark-design/watermark/commit/5f63cde1a5ef8bf4d9a4a592506633c9b557112f), [`7e37bf3`](https://github.com/watermark-design/watermark/commit/7e37bf3fa3d69dc22fbe743d12f8cbdf5ea4bd91), [`006ca7e`](https://github.com/watermark-design/watermark/commit/006ca7e9d23a970e6cc84efc1e1e8d4ed9318bf9), [`7da7fb9`](https://github.com/watermark-design/watermark/commit/7da7fb90b1ce9e1940e977ea9c9e8f05fb050c57)]:
+  - @watermark-design/shared@1.1.2
+
 ## 1.3.1
 
 ### Patch Changes
