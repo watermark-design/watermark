@@ -1,5 +1,21 @@
 # @watermark-design/shared
 
+## 1.1.2
+
+### Patch Changes
+
+- [`0edf8e7`](https://github.com/watermark-design/watermark/commit/0edf8e7dad3cd4a0830e53e06c4d941c6ec9b31c) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @changesets/cli to v2.27.2
+
+- [`cc24f62`](https://github.com/watermark-design/watermark/commit/cc24f622be41967dfb096028753aa10ffc554ddc) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.77.2
+
+- [`5f63cde`](https://github.com/watermark-design/watermark/commit/5f63cde1a5ef8bf4d9a4a592506633c9b557112f) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency core-js to v3.37.1
+
+- [`7e37bf3`](https://github.com/watermark-design/watermark/commit/7e37bf3fa3d69dc22fbe743d12f8cbdf5ea4bd91) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.9.0
+
+- [`006ca7e`](https://github.com/watermark-design/watermark/commit/006ca7e9d23a970e6cc84efc1e1e8d4ed9318bf9) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependencies
+
+- [`7da7fb9`](https://github.com/watermark-design/watermark/commit/7da7fb90b1ce9e1940e977ea9c9e8f05fb050c57) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency element-plus to v2.7.3
+
 ## 1.1.1
 
 ### Patch Changes
