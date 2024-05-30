@@ -26,7 +26,7 @@ importers:
         specifier: ^0.5.0
         version: 0.5.0
       '@changesets/cli':
-        specifier: ^2.27.3
+        specifier: ^2.27.5
         version: 2.27.5
       '@commitlint/cli':
         specifier: ^19.3.0
