@@ -1,5 +1,27 @@
 # @watermark-design/shared
 
+## 1.1.3
+
+### Patch Changes
+
+- [`a9c957a`](https://github.com/watermark-design/watermark/commit/a9c957a4f43ad56401c1783499ee9e0fa6fd5671) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency vite to v5.2.12
+
+- [`4ae1f94`](https://github.com/watermark-design/watermark/commit/4ae1f94f50fad6746f52367cd59a052d2f945689) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @vue/theme to v2.2.12
+
+- [`f4ab102`](https://github.com/watermark-design/watermark/commit/f4ab102ad6450f3b273f2c503cbed4bb4c7253f1) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @typescript-eslint/parser to v7.11.0
+
+- [`353e25f`](https://github.com/watermark-design/watermark/commit/353e25f97545d85011b30bc1979b8b695423e52b) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency unplugin-vue-define-options to v1.4.5
+
+- [`aea891f`](https://github.com/watermark-design/watermark/commit/aea891fc70fa93d73e0c7afdb4f599fcbf7044a2) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency stylelint to v16.6.1
+
+- [`6f613db`](https://github.com/watermark-design/watermark/commit/6f613db91b96e237e38bf852ac06443c060a6f33) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @changesets/cli to v2.27.5
+
+- [`f5ee226`](https://github.com/watermark-design/watermark/commit/f5ee226a931e88fa6154775117ce93431d20d254) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency @rollup/plugin-commonjs to v25.0.8
+
+- [`e57023d`](https://github.com/watermark-design/watermark/commit/e57023df87894d855d9df20106ab4f441a0570ae) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update babel monorepo to v7.24.6 (@babel/core, @babel/eslint-parser, @babel/plugin-transform-runtime, @babel/preset-env)
+
+- [`c7d468f`](https://github.com/watermark-design/watermark/commit/c7d468f5a52c140f5276d3e96882bdc2742b9477) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependency sass to v1.77.3
+
 ## 1.1.2
 
 ### Patch Changes
