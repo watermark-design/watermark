@@ -41,7 +41,7 @@ importers:
         specifier: ^6.0.4
         version: 6.0.4(@babel/core@7.24.6)(rollup@4.18.0)
       '@rollup/plugin-commonjs':
-        specifier: ^25.0.7
+        specifier: ^25.0.8
         version: 25.0.8(rollup@4.18.0)
       '@rollup/plugin-eslint':
         specifier: ^9.0.5
@@ -10108,6 +10108,7 @@ packages:
   /glob@8.1.0:
     resolution: {integrity: sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==}
     engines: {node: '>=12'}
+    deprecated: Glob versions prior to v9 are no longer supported
     dependencies:
       fs.realpath: 1.0.0
       inflight: 1.0.6
