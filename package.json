@@ -86,7 +86,7 @@
     "typescript": "^5.4.4",
     "unocss": "^0.58.9",
     "unplugin-element-plus": "^0.8.0",
-    "unplugin-vue-define-options": "^1.4.4",
+    "unplugin-vue-define-options": "^1.4.5",
     "vite": "^5.2.11",
     "vite-plugin-babel": "^1.2.0",
     "vite-plugin-commonjs": "^0.10.1",

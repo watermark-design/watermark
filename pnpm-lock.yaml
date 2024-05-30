@@ -182,7 +182,7 @@ importers:
         specifier: ^0.8.0
         version: 0.8.0(rollup@4.18.0)
       unplugin-vue-define-options:
-        specifier: ^1.4.4
+        specifier: ^1.4.5
         version: 1.4.5(rollup@4.18.0)(vue@2.6.14)
       vite:
         specifier: ^5.2.11
@@ -915,7 +915,6 @@ packages:
     hasBin: true
     dependencies:
       '@babel/types': 7.24.6
-    dev: true
 
   /@babel/plugin-bugfix-firefox-class-in-computed-class-key@7.24.6(@babel/core@7.24.6):
     resolution: {integrity: sha512-bYndrJ6Ph6Ar+GaB5VAc0JPoP80bQCm4qon6JEzXfRl5QZyQ8Ur1K6k7htxWmPA5z+k7JQvaMUrtXlqclWYzKw==}
@@ -5488,7 +5487,7 @@ packages:
   /@vue/compiler-core@3.4.27:
     resolution: {integrity: sha512-E+RyqY24KnyDXsCuQrI+mlcdW3ALND6U7Gqa/+bVwbcpcR3BRRIckFoz7Qyd4TTlnugtwuI7YgjbvsLmxb+yvg==}
     dependencies:
-      '@babel/parser': 7.24.5
+      '@babel/parser': 7.24.6
       '@vue/shared': 3.4.27
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -5503,7 +5502,7 @@ packages:
   /@vue/compiler-sfc@2.7.16:
     resolution: {integrity: sha512-KWhJ9k5nXuNtygPU7+t1rX6baZeqOYLEforUPjgNDBnLicfHCoi48H87Q8XyLZOrNNsmhuwKqtpDQWjEFe6Ekg==}
     dependencies:
-      '@babel/parser': 7.24.5
+      '@babel/parser': 7.24.6
       postcss: 8.4.38
       source-map: 0.6.1
     optionalDependencies:
