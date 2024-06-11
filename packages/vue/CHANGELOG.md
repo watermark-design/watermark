@@ -1,5 +1,18 @@
 # @watermark-design/vue
 
+## 1.4.0
+
+### Minor Changes
+
+- [`7ab7b63`](https://github.com/watermark-design/watermark/commit/7ab7b63755a304fc5d8ed905b1846e7d078fa321) Thanks [@zhensherlock](https://github.com/zhensherlock)! - feat: refactor code for support vue2
+
+### Patch Changes
+
+- Updated dependencies [[`7ab7b63`](https://github.com/watermark-design/watermark/commit/7ab7b63755a304fc5d8ed905b1846e7d078fa321)]:
+  - @watermark-design/shared@1.1.4
+  - @watermark-design/core@1.3.4
+  - @watermark-design/dom@1.3.4
+
 ## 1.3.24
 
 ### Patch Changes
