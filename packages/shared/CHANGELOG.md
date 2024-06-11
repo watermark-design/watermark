@@ -1,5 +1,11 @@
 # @watermark-design/shared
 
+## 1.1.4
+
+### Patch Changes
+
+- [`7ab7b63`](https://github.com/watermark-design/watermark/commit/7ab7b63755a304fc5d8ed905b1846e7d078fa321) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependencies
+
 ## 1.1.3
 
 ### Patch Changes
