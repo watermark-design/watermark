@@ -14,14 +14,14 @@ export default defineConfig({
   },
   build: {
     minify: false,
+    sourcemap: true,
     rollupOptions: {
-      external: ['vue'],
+      external: ['vue', 'vue-demi', '@watermark-design/dom', '@watermark-design/core'],
       input: ['./src/main.ts'],
       output: [
         {
           format: 'es',
           entryFileNames: 'index.mjs',
-          sourcemap: true,
           // preserveModules: true,
           exports: 'named',
           dir: 'es',
@@ -29,7 +29,6 @@ export default defineConfig({
         {
           format: 'cjs',
           entryFileNames: 'index.js',
-          sourcemap: true,
           // preserveModules: true,
           exports: 'named',
           dir: 'lib',

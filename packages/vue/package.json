@@ -63,12 +63,13 @@
     "url": "https://github.com/watermark-design/watermark/issues"
   },
   "dependencies": {
+    "@watermark-design/dom": "workspace:^",
     "@watermark-design/core": "workspace:^",
     "@watermark-design/shared": "workspace:^",
     "lodash.debounce": "^4.0.8",
     "lodash.omit": "^4.5.0",
     "nanoid": "^5.0.7",
-    "vue-demi": "^0.14.7"
+    "vue-demi": "^0.14.8"
   },
   "peerDependencies": {
     "@vue/composition-api": "^1.7.2",
@@ -82,7 +83,7 @@
   "devDependencies": {
     "@types/lodash.debounce": "^4.0.9",
     "@types/lodash.omit": "^4.5.9",
-    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue": "^5.0.5",
     "vue": "^3.4.27"
   }
 }

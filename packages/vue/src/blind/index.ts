@@ -1,3 +1,3 @@
-import blind from './src/blind.vue';
+import { BlindWatermark } from './src/blind';
 
-export default blind;
+export default BlindWatermark;

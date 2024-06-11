@@ -2,14 +2,12 @@
   <div>
     <h1>Watermark Design Vue3 Playground</h1>
     <Watermark
-      v-model="form.visible"
-      layout="grid"
-      :content="form.content"
-      :width="form.width"
-      :height="form.height"
-      :appendToBody="form.appendToBody"
-      :gridLayoutOptions="gridLayoutOptions"
-      :advancedStyle="advancedStyle"
+      ref="watermarkDom"
+      v-model="visible"
+      :options="form"
+      :is-body="false"
+      @draw="handleDraw"
+      @destroy="handleDestroy"
     >
       <div style="height: 500px">
         <el-form :model="form" label-width="80px">
@@ -17,10 +15,7 @@
             <el-input v-model="form.content" />
           </el-form-item>
           <el-form-item label="Visible">
-            <el-switch v-model="form.visible" />
-          </el-form-item>
-          <el-form-item label="appendToBody">
-            <el-switch v-model="form.appendToBody" />
+            <el-switch v-model="visible" />
           </el-form-item>
         </el-form>
       </div>
@@ -28,36 +23,46 @@
   </div>
 </template>
 <script lang="ts" setup>
-  import { reactive } from 'vue-demi';
-  import type { GridLayoutOptions, AdvancedStyleType } from '../../packages/core';
+  import { reactive, ref } from 'vue-demi';
+  const visible = ref(true)
+  const watermarkDom = ref()
   const form = reactive({
-    visible: true,
-    appendToBody: false,
     content: 'hello watermark',
     width: 200,
     height: 200,
+    gridLayoutOptions: {
+      rows: 2,
+      cols: 2,
+      gap: [20, 20],
+      matrix: [
+        [1, 0],
+        [0, 1],
+      ],
+    },
+    advancedStyle: {
+      type: 'linear',
+      colorStops: [
+        {
+          offset: 0,
+          color: 'red',
+        },
+        {
+          offset: 1,
+          color: 'blue',
+        },
+      ],
+    }
   });
-  const gridLayoutOptions: GridLayoutOptions = {
-    rows: 2,
-    cols: 2,
-    gap: [20, 20],
-    matrix: [
-      [1, 0],
-      [0, 1],
-    ],
-  };
 
-  const advancedStyle: AdvancedStyleType = {
-    type: 'linear',
-    colorStops: [
-      {
-        offset: 0,
-        color: 'red',
-      },
-      {
-        offset: 1,
-        color: 'blue',
-      },
-    ],
-  };
+  // const handleChange = () => {
+  //   console.log('change')
+  // }
+
+  const handleDraw = () => {
+    console.log('draw')
+  }
+
+  const handleDestroy = () => {
+    console.log('destroy')
+  }
 </script>

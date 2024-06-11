@@ -1,3 +1,3 @@
-import watermark from './src/watermark.vue';
+import { Watermark } from './src/watermark';
 
-export default watermark;
+export default Watermark;

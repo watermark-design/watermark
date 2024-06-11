@@ -1,12 +1,18 @@
 <template>
   <div>
     <h1>Watermark Design Vue2.6 Playground</h1>
-    <Watermark :content="text" :width="200" :height="200" :appendToBody="true">
+    <Watermark
+      ref="watermarkDom"
+      v-model="visible"
+      :options="form"
+      :is-body="false"
+      @draw="handleDraw"
+      @destroy="handleDestroy"
+    >
       <div style="height: 500px;">
-        <div>hello world</div>
+        <input type="text" v-model="form.content">
       </div>
     </Watermark>
-    <input type="text" v-model="text">
   </div>
 </template>
 <script>
@@ -14,8 +20,43 @@
     name: 'App',
     data() {
       return {
-        text: 'ssssss'
+        visible: false,
+        form: {
+          content: 'hello watermark',
+          width: 200,
+          height: 200,
+          gridLayoutOptions: {
+            rows: 2,
+            cols: 2,
+            gap: [20, 20],
+            matrix: [
+              [1, 0],
+              [0, 1],
+            ],
+          },
+          advancedStyle: {
+            type: 'linear',
+            colorStops: [
+              {
+                offset: 0,
+                color: 'red',
+              },
+              {
+                offset: 1,
+                color: 'blue',
+              },
+            ],
+          }
+        }
       };
     },
+    methods: {
+      handleDraw() {
+        console.log('draw')
+      },
+      handleDestroy () {
+        console.log('destroy')
+      }
+    }
   };
 </script>
