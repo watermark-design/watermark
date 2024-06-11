@@ -1,5 +1,15 @@
 # @watermark-design/react
 
+## 1.3.2
+
+### Patch Changes
+
+- [`0ef70c9`](https://github.com/watermark-design/watermark/commit/0ef70c950eb8d4dcd8f3cbbda3f2933fb4ff1e03) Thanks [@zhensherlock](https://github.com/zhensherlock)! - chore(deps): update dependencies
+
+- Updated dependencies [[`7ab7b63`](https://github.com/watermark-design/watermark/commit/7ab7b63755a304fc5d8ed905b1846e7d078fa321)]:
+  - @watermark-design/shared@1.1.4
+  - @watermark-design/core@1.3.4
+
 ## 1.3.1
 
 ### Patch Changes
