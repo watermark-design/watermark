@@ -10,8 +10,8 @@ export default {
     import('element-plus').then((module) => {
       app.use(module);
     });
-    import('@watermark-design/vue').then((module) => {
-      app.use(module.default);
-    });
+    // import('@watermark-design/vue').then((module) => {
+    //   app.use(module.default);
+    // });
   },
 };

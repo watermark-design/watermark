@@ -209,16 +209,13 @@ importers:
   docs:
     dependencies:
       '@watermark-design/dom':
-        specifier: workspace:^
+        specifier: ^1.3.4
         version: link:../packages/dom
       '@watermark-design/shared':
-        specifier: workspace:^
+        specifier: ^1.1.4
         version: link:../packages/shared
-      '@watermark-design/style':
-        specifier: workspace:^
-        version: link:../packages/style
       '@watermark-design/vue':
-        specifier: workspace:^
+        specifier: ^1.4.0
         version: link:../packages/vue
     devDependencies:
       '@element-plus/icons-vue':
