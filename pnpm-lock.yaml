@@ -141,7 +141,7 @@ importers:
         version: 4.0.2(postcss@8.4.38)
       rollup-plugin-sass:
         specifier: ^1.12.22
-        version: 1.12.22(rollup@4.18.0)
+        version: 1.13.0(rollup@4.18.0)
       rollup-plugin-vue:
         specifier: ^6.0.0
         version: 6.0.0(@vue/compiler-sfc@3.4.30)
@@ -12833,7 +12833,7 @@ packages:
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
       hosted-git-info: 6.1.1
-      is-core-module: 2.13.1
+      is-core-module: 2.14.0
       semver: 7.6.2
       validate-npm-package-license: 3.0.4
     dev: true
@@ -15223,7 +15223,7 @@ packages:
   /resolve@1.19.0:
     resolution: {integrity: sha512-rArEXAgsBG4UgRGcynxWIWKFvh/XZCcS8UJdHhwy91zwAvCZIbcs+vAbflgBnNjYMs/i/i+/Ux6IZhML1yPvxg==}
     dependencies:
-      is-core-module: 2.13.1
+      is-core-module: 2.14.0
       path-parse: 1.0.7
     dev: true
 
@@ -15231,7 +15231,7 @@ packages:
     resolution: {integrity: sha512-oKWePCxqpd6FlLvGV1VU0x7bkPmmCNolxzjMf4NczoDnQcIWrAF+cPtZn5i6n+RfD2d9i0tzpKnG6Yk168yIyw==}
     hasBin: true
     dependencies:
-      is-core-module: 2.13.1
+      is-core-module: 2.14.0
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
@@ -15240,7 +15240,7 @@ packages:
     resolution: {integrity: sha512-U7WjGVG9sH8tvjW5SmGbQuui75FiyjAX72HX15DwBBwF9dNiQZRQAg9nnPhYy+TUnE0+VcrttuvNI8oSxZcocA==}
     hasBin: true
     dependencies:
-      is-core-module: 2.13.1
+      is-core-module: 2.14.0
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
@@ -15327,8 +15327,8 @@ packages:
       - ts-node
     dev: true
 
-  /rollup-plugin-sass@1.12.22(rollup@4.18.0):
-    resolution: {integrity: sha512-bwlXqkmRDc1rVjkbN+wxXFh1jfnMEi3vHr5TufM+loUFYKd6RskGMx5Xz4sIVdxIu1oAilZkM4Px8P3QlmwfUA==}
+  /rollup-plugin-sass@1.13.0(rollup@4.18.0):
+    resolution: {integrity: sha512-TL/pBbuqN3Qftiub1rLWiPnUGyL5PC7/+4x1ZgFJWzu1Y8n2vwYILt1kPR83AUzPOwqgFfD+B/LqgV6ee0+CYQ==}
     engines: {node: '>=10'}
     dependencies:
       '@rollup/pluginutils': 5.1.0(rollup@4.18.0)
