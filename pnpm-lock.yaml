@@ -84,7 +84,7 @@ importers:
         version: 3.37.1
       cssnano:
         specifier: ^7.0.2
-        version: 7.0.3(postcss@8.4.39)
+        version: 7.0.4(postcss@8.4.39)
       eslint:
         specifier: ^8.57.0
         version: 8.57.0
@@ -790,7 +790,7 @@ packages:
     dependencies:
       '@babel/compat-data': 7.24.7
       '@babel/helper-validator-option': 7.24.7
-      browserslist: 4.23.1
+      browserslist: 4.23.2
       lru-cache: 5.1.1
       semver: 6.3.1
     dev: true
@@ -3969,9 +3969,9 @@ packages:
     peerDependencies:
       postcss: ^8.2
     dependencies:
-      '@csstools/selector-specificity': 2.2.0(postcss-selector-parser@6.1.0)
+      '@csstools/selector-specificity': 2.2.0(postcss-selector-parser@6.1.1)
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /@csstools/postcss-color-function@1.1.1(postcss@8.4.38):
@@ -4022,9 +4022,9 @@ packages:
     peerDependencies:
       postcss: ^8.2
     dependencies:
-      '@csstools/selector-specificity': 2.2.0(postcss-selector-parser@6.1.0)
+      '@csstools/selector-specificity': 2.2.0(postcss-selector-parser@6.1.1)
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /@csstools/postcss-nested-calc@1.0.0(postcss@8.4.38):
@@ -4107,13 +4107,13 @@ packages:
       postcss: 8.4.38
     dev: true
 
-  /@csstools/selector-specificity@2.2.0(postcss-selector-parser@6.1.0):
+  /@csstools/selector-specificity@2.2.0(postcss-selector-parser@6.1.1):
     resolution: {integrity: sha512-+OJ9konv95ClSTOJCmMZqpd5+YGsB2S+x6w3E1oaM8UuR5j8nTNHYSz8c9BEPGDOCMQYIEEGlVPj/VY64iTbGw==}
     engines: {node: ^14 || ^16 || >=18}
     peerDependencies:
       postcss-selector-parser: ^6.0.10
     dependencies:
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /@csstools/selector-specificity@3.1.1(postcss-selector-parser@6.1.0):
@@ -6926,7 +6926,7 @@ packages:
       lru-cache: 4.1.5
       merge-source-map: 1.1.0
       postcss: 7.0.39
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
       source-map: 0.6.1
       vue-template-es2015-compiler: 1.9.1
     optionalDependencies:
@@ -7880,7 +7880,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001642
+      caniuse-lite: 1.0.30001621
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.1
@@ -8263,17 +8263,6 @@ packages:
       update-browserslist-db: 1.0.16(browserslist@4.23.0)
     dev: true
 
-  /browserslist@4.23.1:
-    resolution: {integrity: sha512-TUfofFo/KsK/bWZ9TWQ5O26tsWW4Uhmt8IYklbnUa70udB6P2wA7w7o4PY4muaEPBQaAX+CEnmmIA41NVHtPVw==}
-    engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
-    hasBin: true
-    dependencies:
-      caniuse-lite: 1.0.30001642
-      electron-to-chromium: 1.4.827
-      node-releases: 2.0.14
-      update-browserslist-db: 1.1.0(browserslist@4.23.1)
-    dev: true
-
   /browserslist@4.23.2:
     resolution: {integrity: sha512-qkqSyistMYdxAcw+CzbZwlBy8AGmS/eEWs+sEV5TnLRGDOL+C5M2EnH6tlZyg0YoAxGJAFKh61En9BR941GnHA==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
@@ -8406,7 +8395,7 @@ packages:
   /caniuse-api@3.0.0:
     resolution: {integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==}
     dependencies:
-      browserslist: 4.23.1
+      browserslist: 4.23.2
       caniuse-lite: 1.0.30001642
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
@@ -9155,7 +9144,7 @@ packages:
   /core-js-compat@3.37.1:
     resolution: {integrity: sha512-9TNiImhKvQqSUkOvk/mMRZzOANTiEVC7WaBNhHcKM7x+/5E1l5NvsysR19zuDQScE8k+kfQXWRN3AtS/eOSHpg==}
     dependencies:
-      browserslist: 4.23.1
+      browserslist: 4.23.2
     dev: true
 
   /core-js-pure@3.37.1:
@@ -9258,7 +9247,7 @@ packages:
       postcss: ^8.4
     dependencies:
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /css-declaration-sorter@6.4.1(postcss@8.4.38):
@@ -9301,7 +9290,7 @@ packages:
       postcss: ^8.4
     dependencies:
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /css-loader@6.11.0(webpack@5.91.0):
@@ -9526,19 +9515,19 @@ packages:
       postcss-unique-selectors: 5.1.1(postcss@8.4.39)
     dev: true
 
-  /cssnano-preset-default@7.0.3(postcss@8.4.39):
-    resolution: {integrity: sha512-dQ3Ba1p/oewICp/szF1XjFFgql8OlOBrI2YNBUUwhHQnJNoMOcQTa+Bi7jSJN8r/eM1egW0Ud1se/S7qlduWKA==}
+  /cssnano-preset-default@7.0.4(postcss@8.4.39):
+    resolution: {integrity: sha512-jQ6zY9GAomQX7/YNLibMEsRZguqMUGuupXcEk2zZ+p3GUxwCAsobqPYE62VrJ9qZ0l9ltrv2rgjwZPBIFIjYtw==}
     engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
     peerDependencies:
       postcss: ^8.4.31
     dependencies:
-      browserslist: 4.23.1
+      browserslist: 4.23.2
       css-declaration-sorter: 7.2.0(postcss@8.4.39)
       cssnano-utils: 5.0.0(postcss@8.4.39)
       postcss: 8.4.39
       postcss-calc: 10.0.0(postcss@8.4.39)
       postcss-colormin: 7.0.1(postcss@8.4.39)
-      postcss-convert-values: 7.0.1(postcss@8.4.39)
+      postcss-convert-values: 7.0.2(postcss@8.4.39)
       postcss-discard-comments: 7.0.1(postcss@8.4.39)
       postcss-discard-duplicates: 7.0.0(postcss@8.4.39)
       postcss-discard-empty: 7.0.0(postcss@8.4.39)
@@ -9616,13 +9605,13 @@ packages:
       yaml: 1.10.2
     dev: true
 
-  /cssnano@7.0.3(postcss@8.4.39):
-    resolution: {integrity: sha512-lsekJctOTqdCn4cNrtrSwsuMR/fHC+oiVMHkp/OugBWtwjH8XJag1/OtGaYJGtz0un1fQcRy4ryfYTQsfh+KSQ==}
+  /cssnano@7.0.4(postcss@8.4.39):
+    resolution: {integrity: sha512-rQgpZra72iFjiheNreXn77q1haS2GEy69zCMbu4cpXCFPMQF+D4Ik5V7ktMzUF/sA7xCIgcqHwGPnCD+0a1vHg==}
     engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
     peerDependencies:
       postcss: ^8.4.31
     dependencies:
-      cssnano-preset-default: 7.0.3(postcss@8.4.39)
+      cssnano-preset-default: 7.0.4(postcss@8.4.39)
       lilconfig: 3.1.2
       postcss: 8.4.39
     dev: true
@@ -14847,7 +14836,7 @@ packages:
       postcss: ^8.2
     dependencies:
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-browser-comments@4.0.0(browserslist@4.23.0)(postcss@8.4.38):
@@ -14868,7 +14857,7 @@ packages:
       postcss: ^8.4.38
     dependencies:
       postcss: 8.4.39
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -14878,7 +14867,7 @@ packages:
       postcss: ^8.2.2
     dependencies:
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -14888,7 +14877,7 @@ packages:
       postcss: ^8.2.2
     dependencies:
       postcss: 8.4.39
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -14964,7 +14953,7 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
     dependencies:
-      browserslist: 4.23.1
+      browserslist: 4.23.2
       caniuse-api: 3.0.0
       colord: 2.9.3
       postcss: 8.4.39
@@ -14993,13 +14982,13 @@ packages:
       postcss-value-parser: 4.2.0
     dev: true
 
-  /postcss-convert-values@7.0.1(postcss@8.4.39):
-    resolution: {integrity: sha512-9x2ofb+hYPwHWMlWAzyWys2yMDZYGfkX9LodbaVTmLdlupmtH2AGvj8Up95wzzNPRDEzPIxQIkUaPJew3bT6xA==}
+  /postcss-convert-values@7.0.2(postcss@8.4.39):
+    resolution: {integrity: sha512-MuZIF6HJ4izko07Q0TgW6pClalI4al6wHRNPkFzqQdwAwG7hPn0lA58VZdxyb2Vl5AYjJ1piO+jgF9EnTjQwQQ==}
     engines: {node: ^18.12.0 || ^20.9.0 || >=22.0}
     peerDependencies:
       postcss: ^8.4.31
     dependencies:
-      browserslist: 4.23.1
+      browserslist: 4.23.2
       postcss: 8.4.39
       postcss-value-parser: 4.2.0
     dev: true
@@ -15031,7 +15020,7 @@ packages:
       postcss: ^8.3
     dependencies:
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-dir-pseudo-class@6.0.5(postcss@8.4.38):
@@ -15041,7 +15030,7 @@ packages:
       postcss: ^8.2
     dependencies:
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-discard-comments@5.1.2(postcss@8.4.38):
@@ -15069,7 +15058,7 @@ packages:
       postcss: ^8.4.31
     dependencies:
       postcss: 8.4.39
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-discard-duplicates@5.1.0(postcss@8.4.38):
@@ -15189,7 +15178,7 @@ packages:
       postcss: ^8.4
     dependencies:
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-focus-within@5.0.4(postcss@8.4.38):
@@ -15199,7 +15188,7 @@ packages:
       postcss: ^8.4
     dependencies:
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-font-variant@5.0.0(postcss@8.4.38):
@@ -15393,7 +15382,7 @@ packages:
       caniuse-api: 3.0.0
       cssnano-utils: 3.1.0(postcss@8.4.38)
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-merge-rules@5.1.4(postcss@8.4.39):
@@ -15406,7 +15395,7 @@ packages:
       caniuse-api: 3.0.0
       cssnano-utils: 3.1.0(postcss@8.4.39)
       postcss: 8.4.39
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-merge-rules@7.0.2(postcss@8.4.39):
@@ -15415,11 +15404,11 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
     dependencies:
-      browserslist: 4.23.1
+      browserslist: 4.23.2
       caniuse-api: 3.0.0
       cssnano-utils: 5.0.0(postcss@8.4.39)
       postcss: 8.4.39
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-minify-font-values@5.1.0(postcss@8.4.38):
@@ -15518,7 +15507,7 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
     dependencies:
-      browserslist: 4.23.1
+      browserslist: 4.23.2
       cssnano-utils: 5.0.0(postcss@8.4.39)
       postcss: 8.4.39
       postcss-value-parser: 4.2.0
@@ -15531,7 +15520,7 @@ packages:
       postcss: ^8.2.15
     dependencies:
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-minify-selectors@5.2.1(postcss@8.4.39):
@@ -15541,7 +15530,7 @@ packages:
       postcss: ^8.2.15
     dependencies:
       postcss: 8.4.39
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-minify-selectors@7.0.2(postcss@8.4.39):
@@ -15552,7 +15541,7 @@ packages:
     dependencies:
       cssesc: 3.0.0
       postcss: 8.4.39
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-modules-extract-imports@3.1.0(postcss@8.4.38):
@@ -15581,7 +15570,7 @@ packages:
     dependencies:
       icss-utils: 5.1.0(postcss@8.4.38)
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -15593,7 +15582,7 @@ packages:
     dependencies:
       icss-utils: 5.1.0(postcss@8.4.39)
       postcss: 8.4.39
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -15604,7 +15593,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-modules-scope@3.2.0(postcss@8.4.39):
@@ -15614,7 +15603,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       postcss: 8.4.39
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-modules-values@4.0.0(postcss@8.4.38):
@@ -15660,7 +15649,7 @@ packages:
       postcss: ^8.2.14
     dependencies:
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-nesting@10.2.0(postcss@8.4.38):
@@ -15669,9 +15658,9 @@ packages:
     peerDependencies:
       postcss: ^8.2
     dependencies:
-      '@csstools/selector-specificity': 2.2.0(postcss-selector-parser@6.1.0)
+      '@csstools/selector-specificity': 2.2.0(postcss-selector-parser@6.1.1)
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-normalize-charset@5.1.0(postcss@8.4.38):
@@ -15879,7 +15868,7 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
     dependencies:
-      browserslist: 4.23.1
+      browserslist: 4.23.2
       postcss: 8.4.39
       postcss-value-parser: 4.2.0
     dev: true
@@ -16095,7 +16084,7 @@ packages:
       postcss: ^8.2
     dependencies:
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-reduce-initial@5.1.2(postcss@8.4.38):
@@ -16126,7 +16115,7 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
     dependencies:
-      browserslist: 4.23.1
+      browserslist: 4.23.2
       caniuse-api: 3.0.0
       postcss: 8.4.39
     dev: true
@@ -16207,11 +16196,19 @@ packages:
       postcss: ^8.2
     dependencies:
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-selector-parser@6.1.0:
     resolution: {integrity: sha512-UMz42UD0UY0EApS0ZL9o1XnLhSTtvvvLe5Dc2H2O56fvRZi+KulDyf5ctDhhtYJBGKStV2FL1fy6253cmLgqVQ==}
+    engines: {node: '>=4'}
+    dependencies:
+      cssesc: 3.0.0
+      util-deprecate: 1.0.2
+    dev: true
+
+  /postcss-selector-parser@6.1.1:
+    resolution: {integrity: sha512-b4dlw/9V8A71rLIDsSwVmak9z2DuBUB7CA1/wSdelNEzqsjoSPeADTWNO09lpH49Diy3/JIZ2bSPB1dI3LJCHg==}
     engines: {node: '>=4'}
     dependencies:
       cssesc: 3.0.0
@@ -16266,7 +16263,7 @@ packages:
       postcss: ^8.2.15
     dependencies:
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-unique-selectors@5.1.1(postcss@8.4.39):
@@ -16276,7 +16273,7 @@ packages:
       postcss: ^8.2.15
     dependencies:
       postcss: 8.4.39
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-unique-selectors@7.0.1(postcss@8.4.39):
@@ -16286,7 +16283,7 @@ packages:
       postcss: ^8.4.31
     dependencies:
       postcss: 8.4.39
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /postcss-value-parser@4.2.0:
@@ -17920,7 +17917,7 @@ packages:
     dependencies:
       browserslist: 4.23.0
       postcss: 8.4.38
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /stylehacks@5.1.1(postcss@8.4.39):
@@ -17931,7 +17928,7 @@ packages:
     dependencies:
       browserslist: 4.23.0
       postcss: 8.4.39
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /stylehacks@7.0.2(postcss@8.4.39):
@@ -17940,9 +17937,9 @@ packages:
     peerDependencies:
       postcss: ^8.4.31
     dependencies:
-      browserslist: 4.23.1
+      browserslist: 4.23.2
       postcss: 8.4.39
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
     dev: true
 
   /stylelint-config-html@1.1.0(postcss-html@1.7.0)(stylelint@16.6.1):
@@ -18285,7 +18282,7 @@ packages:
       postcss-js: 4.0.1(postcss@8.4.38)
       postcss-load-config: 4.0.2(postcss@8.4.38)
       postcss-nested: 6.0.1(postcss@8.4.38)
-      postcss-selector-parser: 6.1.0
+      postcss-selector-parser: 6.1.1
       resolve: 1.22.8
       sucrase: 3.35.0
     transitivePeerDependencies:
@@ -18886,17 +18883,6 @@ packages:
       browserslist: '>= 4.21.0'
     dependencies:
       browserslist: 4.23.0
-      escalade: 3.1.2
-      picocolors: 1.0.1
-    dev: true
-
-  /update-browserslist-db@1.1.0(browserslist@4.23.1):
-    resolution: {integrity: sha512-EdRAaAyk2cUE1wOf2DkEhzxqOQvFOoRJFNS6NeyJ01Gp2beMRpBAINjM2iDXE3KCuKhwnvHIQCJm6ThL2Z+HzQ==}
-    hasBin: true
-    peerDependencies:
-      browserslist: '>= 4.21.0'
-    dependencies:
-      browserslist: 4.23.1
       escalade: 3.1.2
       picocolors: 1.0.1
     dev: true
