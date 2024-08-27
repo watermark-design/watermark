@@ -60,7 +60,7 @@ importers:
         version: 0.4.4(rollup@4.21.0)
       '@rollup/plugin-typescript':
         specifier: ^11.1.6
-        version: 11.1.6(rollup@4.21.0)(tslib@2.6.3)(typescript@5.5.4)
+        version: 11.1.6(rollup@4.21.0)(tslib@2.7.0)(typescript@5.5.4)
       '@types/crypto-js':
         specifier: ^4.2.2
         version: 4.2.2
@@ -171,7 +171,7 @@ importers:
         version: 5.31.6
       tslib:
         specifier: ^2.6.3
-        version: 2.6.3
+        version: 2.7.0
       typescript:
         specifier: ^5.4.4
         version: 5.5.4
@@ -8678,6 +8678,9 @@ packages:
   tslib@2.6.3:
     resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
 
+  tslib@2.7.0:
+    resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
+
   tsutils@3.21.0:
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
     engines: {node: '>= 6'}
@@ -11464,14 +11467,14 @@ snapshots:
     optionalDependencies:
       rollup: 4.21.0
 
-  '@rollup/plugin-typescript@11.1.6(rollup@4.21.0)(tslib@2.6.3)(typescript@5.5.4)':
+  '@rollup/plugin-typescript@11.1.6(rollup@4.21.0)(tslib@2.7.0)(typescript@5.5.4)':
     dependencies:
       '@rollup/pluginutils': 5.1.0(rollup@4.21.0)
       resolve: 1.22.8
       typescript: 5.5.4
     optionalDependencies:
       rollup: 4.21.0
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   '@rollup/pluginutils@3.1.0(rollup@2.79.1)':
     dependencies:
@@ -13292,7 +13295,7 @@ snapshots:
   camel-case@4.1.2:
     dependencies:
       pascal-case: 3.1.2
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   camelcase-css@2.0.1: {}
 
@@ -14026,7 +14029,7 @@ snapshots:
   dot-case@3.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   dot-prop@5.3.0:
     dependencies:
@@ -16290,7 +16293,7 @@ snapshots:
 
   lower-case@2.0.2:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   lru-cache@10.4.3: {}
 
@@ -16590,7 +16593,7 @@ snapshots:
   no-case@3.0.4:
     dependencies:
       lower-case: 2.0.2
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   node-domexception@1.0.0: {}
 
@@ -16926,7 +16929,7 @@ snapshots:
   param-case@3.0.4:
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   parent-module@1.0.1:
     dependencies:
@@ -16946,7 +16949,7 @@ snapshots:
   pascal-case@3.1.2:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   path-browserify@1.0.1: {}
 
@@ -18166,7 +18169,7 @@ snapshots:
 
   rxjs@7.8.1:
     dependencies:
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   safe-array-concat@1.1.2:
     dependencies:
@@ -18849,7 +18852,7 @@ snapshots:
   synckit@0.9.1:
     dependencies:
       '@pkgr/core': 0.1.1
-      tslib: 2.6.3
+      tslib: 2.7.0
 
   tabbable@6.2.0: {}
 
@@ -19032,6 +19035,8 @@ snapshots:
   tslib@1.14.1: {}
 
   tslib@2.6.3: {}
+
+  tslib@2.7.0: {}
 
   tsutils@3.21.0(typescript@5.5.4):
     dependencies:
