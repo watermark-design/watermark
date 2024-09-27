@@ -32,6 +32,7 @@ export const initialOptions: WatermarkOptions = {
   fontWeight: 'normal',
   filter: 'none',
   letterSpacing: '0px',
+  wordSpacing: '0px',
   globalAlpha: 0.5,
   mode: 'default',
   mutationObserve: true,
