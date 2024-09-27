@@ -2,7 +2,7 @@ import { defineConfig } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import dts from 'vite-plugin-dts';
 import commonjs from 'vite-plugin-commonjs';
-import eslint from 'vite-plugin-eslint';
+import eslintPlugin from '@nabla/vite-plugin-eslint';
 import UnoCss from 'unocss/vite';
 // import babel from 'vite-plugin-babel';
 import DefineOptions from 'unplugin-vue-define-options/vite';
@@ -60,7 +60,7 @@ export default defineConfig({
   },
   plugins: [
     commonjs(),
-    eslint({
+    eslintPlugin({
       include: ['src/**/*.ts', 'src/**/*.vue'],
       // exclude: /node_modules|style/,
     }),
