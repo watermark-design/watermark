@@ -10,6 +10,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
     steps:
       - name: Get package name
         id: package
@@ -26,7 +29,7 @@ jobs:
       - name: Install Node
         uses: actions/setup-node@v4
         with:
-          node-version: 18
+          node-version: 20
 
       - name: Install PNPM
         run: npm i pnpm@latest -g
@@ -46,6 +49,6 @@ jobs:
       - name: Publish NPM Package
         run: |
           cd packages/$PACKAGE_NAME
-          pnpm publish --no-git-checks
+          pnpm publish --no-git-checks --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
