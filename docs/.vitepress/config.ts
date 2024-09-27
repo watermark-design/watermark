@@ -82,11 +82,11 @@ export default {
         },
       ],
     },
-    // algolia: {
-    //   appId: 'V6CF28P0PS',
-    //   apiKey: '692752b7b3c6f794997d8ae22aed79fa',
-    //   indexName: 'dev_docs'
-    // },
+    algolia: {
+      appId: 'V6CF28P0PS',
+      apiKey: '692752b7b3c6f794997d8ae22aed79fa',
+      indexName: 'watermark-design',
+    },
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2022-present Michael Sun',

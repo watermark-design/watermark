@@ -1,6 +1,6 @@
 {
   "name": "watermark-design",
-  "version": "1.0.0",
+  "version": "1.x",
   "private": true,
   "description": "watermark-design monorepo",
   "workspaces": [
