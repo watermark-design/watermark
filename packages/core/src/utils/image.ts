@@ -62,12 +62,12 @@ export const createCustomContentSVG = async (
   document.body.appendChild(bodyElement);
   // convert all images to base64
   await convertImgToBase64(bodyElement);
-  const { offsetHeight, offsetWidth } = <HTMLElement>(
-    bodyElement.querySelector('.rich-text-content')
-  );
+  const rect = bodyElement.querySelector('.rich-text-content')?.getBoundingClientRect();
+  const rectWidth = rect?.width;
+  const rectHeight = rect?.height;
   document.body.removeChild(bodyElement);
-  const width = options.richTextWidth || offsetWidth || options.width;
-  const height = options.richTextHeight || offsetHeight || options.height;
+  const width = options.richTextWidth || rectWidth || options.width;
+  const height = options.richTextHeight || rectHeight || options.height;
   svgElement.setAttribute('width', width.toString());
   svgElement.setAttribute('height', height.toString());
   const foreignObjectElement = createSVGElement('foreignObject', {
