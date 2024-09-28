@@ -139,11 +139,8 @@ class Watermark {
     this.watermarkDom = undefined;
   }
 
-  async check(): Promise<void> {
-    if (!this.parentElement.contains(<Node>this.watermarkDom)) {
-      this.remove();
-      await this.create();
-    }
+  async check(): Promise<boolean> {
+    return this.parentElement.contains(<Node>this.watermarkDom);
   }
 
   private remove(): void {
