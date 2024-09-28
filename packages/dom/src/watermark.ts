@@ -22,6 +22,7 @@ class Watermark {
   private layoutCanvas?: HTMLCanvasElement;
   private checkWatermarkElementRequestID?: number;
   private watermarkCanvas?: WatermarkCanvas;
+  private isCreating: Boolean = false;
 
   /**
    * Watermark constructor
@@ -57,11 +58,17 @@ class Watermark {
    * Creating a watermark.
    */
   async create(): Promise<void> {
+    if (this.isCreating) {
+      return;
+    }
+    this.isCreating = true;
     if (!this.validateUnique()) {
+      this.isCreating = false;
       return;
     }
 
     if (!this.validateContent()) {
+      this.isCreating = false;
       return;
     }
     const firstDraw = isUndefined(this.watermarkDom);
@@ -118,6 +125,7 @@ class Watermark {
       }
     }
     firstDraw && this.options.onSuccess?.();
+    this.isCreating = false;
   }
 
   /**
