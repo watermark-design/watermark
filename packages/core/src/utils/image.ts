@@ -20,7 +20,7 @@ export const loadImage = (
 
 export const convertSVGToImage = (svg: Element): string => {
   const richContent = svg.outerHTML
-    .replace(/<img(.*?)>/g, '<img$1/>')
+    .replace(/<(img|br|input|hr|embed)(.*?)>/g, '<$1$2/>')
     .replace(/\n/g, '')
     .replace(/\t/g, '')
     .replace(/#/g, '%23');
