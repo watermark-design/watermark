@@ -168,6 +168,10 @@ class Watermark {
     } else {
       this.parentElement = parent;
     }
+
+    if (!this.parentElement) {
+      console.error('please pass a valid parent element.')
+    }
   }
 
   private validateUnique(): boolean {
