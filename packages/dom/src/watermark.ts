@@ -7,7 +7,7 @@ import {
   renderLayout,
   WatermarkCanvas,
 } from '@watermark-design/core';
-// import bootstrap from '../utils/bootstrap'
+import protection from '../utils/protection';
 
 /**
  * Watermark class
@@ -36,7 +36,7 @@ class Watermark {
     };
     this.changeParentElement(this.options.parent);
     this.watermarkCanvas = new WatermarkCanvas(this.props, this.options);
-    // bootstrap()
+    protection(this.options.monitorProtection);
   }
 
   /**
@@ -51,6 +51,7 @@ class Watermark {
     redraw: boolean = true
   ): Promise<void> {
     this.initConfigData(args, mode);
+    protection(this.options.monitorProtection);
     if (redraw) {
       this.remove();
       await this.create();

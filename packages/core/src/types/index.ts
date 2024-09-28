@@ -123,6 +123,7 @@ export interface WatermarkOptions {
   globalAlpha: number;
   zIndex: number;
   mutationObserve: boolean;
+  monitorProtection: boolean;
   movable: boolean;
   mode: CreateWatermarkModeType;
   parent: Element | string;
