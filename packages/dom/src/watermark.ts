@@ -1,5 +1,4 @@
 import { isUndefined } from '@watermark-design/shared';
-import type { ChangeOptionsMode, WatermarkDom, WatermarkOptions } from '@watermark-design/core';
 import {
   convertImage,
   initialOptions,
@@ -7,7 +6,8 @@ import {
   renderLayout,
   WatermarkCanvas,
 } from '@watermark-design/core';
-// import bootstrap from '../utils/bootstrap'
+import { protection } from './utils';
+import type { ChangeOptionsMode, WatermarkDom, WatermarkOptions } from '@watermark-design/core';
 
 /**
  * Watermark class
@@ -22,6 +22,7 @@ class Watermark {
   private layoutCanvas?: HTMLCanvasElement;
   private checkWatermarkElementRequestID?: number;
   private watermarkCanvas?: WatermarkCanvas;
+  private isCreating: Boolean = false;
 
   /**
    * Watermark constructor
@@ -29,10 +30,13 @@ class Watermark {
    */
   constructor(args: Partial<WatermarkOptions> = {}) {
     this.props = args;
-    this.options = Object.assign({}, initialOptions, args);
+    this.options = {
+      ...initialOptions,
+      ...args,
+    };
     this.changeParentElement(this.options.parent);
     this.watermarkCanvas = new WatermarkCanvas(this.props, this.options);
-    // bootstrap()
+    protection(this.options.monitorProtection);
   }
 
   /**
@@ -47,6 +51,7 @@ class Watermark {
     redraw: boolean = true
   ): Promise<void> {
     this.initConfigData(args, mode);
+    protection(this.options.monitorProtection);
     if (redraw) {
       this.remove();
       await this.create();
@@ -57,11 +62,17 @@ class Watermark {
    * Creating a watermark.
    */
   async create(): Promise<void> {
+    if (this.isCreating) {
+      return;
+    }
+    this.isCreating = true;
     if (!this.validateUnique()) {
+      this.isCreating = false;
       return;
     }
 
     if (!this.validateContent()) {
+      this.isCreating = false;
       return;
     }
     const firstDraw = isUndefined(this.watermarkDom);
@@ -107,7 +118,7 @@ class Watermark {
           : ''
       }
     `;
-    this.watermarkDom.append(watermarkInnerDom);
+    this.watermarkDom.appendChild(watermarkInnerDom);
     this.parentElement.appendChild(this.watermarkDom);
 
     if (this.options.mutationObserve) {
@@ -118,6 +129,7 @@ class Watermark {
       }
     }
     firstDraw && this.options.onSuccess?.();
+    this.isCreating = false;
   }
 
   /**
@@ -128,11 +140,8 @@ class Watermark {
     this.watermarkDom = undefined;
   }
 
-  async check(): Promise<void> {
-    if (!this.parentElement.contains(<Node>this.watermarkDom)) {
-      this.remove();
-      await this.create();
-    }
+  async check(): Promise<boolean> {
+    return this.parentElement.contains(<Node>this.watermarkDom);
   }
 
   private remove(): void {
@@ -140,7 +149,7 @@ class Watermark {
     this.observer?.disconnect();
     this.parentObserve?.disconnect();
     this.unbindCheckWatermarkElementEvent();
-    this.watermarkDom?.remove();
+    this.watermarkDom?.parentNode?.removeChild(this.watermarkDom);
     this.options.onDestroyed?.();
   }
 
@@ -156,7 +165,10 @@ class Watermark {
     } else {
       this.props = args;
     }
-    this.options = Object.assign({}, initialOptions, this.props);
+    this.options = {
+      ...initialOptions,
+      ...this.props,
+    };
     this.changeParentElement(this.options.parent);
     this.watermarkCanvas = new WatermarkCanvas(<Partial<WatermarkOptions>>this.props, this.options);
   }
@@ -168,11 +180,15 @@ class Watermark {
     } else {
       this.parentElement = parent;
     }
+
+    if (!this.parentElement) {
+      console.error('please pass a valid parent element.');
+    }
   }
 
   private validateUnique(): boolean {
     let result = true;
-    this.parentElement.childNodes.forEach((node) => {
+    Array.from(this.parentElement.childNodes).forEach((node) => {
       if (!result) {
         return;
       }
