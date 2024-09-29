@@ -1,4 +1,4 @@
-export default (need: boolean) => {
+export const protection = (need: boolean) => {
   if (typeof window === 'undefined') {
     return;
   }

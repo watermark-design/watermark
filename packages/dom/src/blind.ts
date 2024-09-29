@@ -1,7 +1,7 @@
-import type { DecodeBlindWatermarkOptions, WatermarkOptions } from '@watermark-design/core';
 import { isFunction } from '@watermark-design/shared';
 import { Watermark } from './watermark';
 import { WatermarkCanvas, convertImage } from '@watermark-design/core';
+import type { DecodeBlindWatermarkOptions, WatermarkOptions } from '@watermark-design/core';
 
 /**
  * BlindWatermark class

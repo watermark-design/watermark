@@ -1,10 +1,10 @@
-import type { ImageWatermarkOptions, WatermarkOptions } from '@watermark-design/core';
 import {
   WatermarkCanvas,
   renderLayout,
   initialOptions,
   convertImage,
 } from '@watermark-design/core';
+import type { ImageWatermarkOptions, WatermarkOptions } from '@watermark-design/core';
 
 /**
  * ImageWatermark class

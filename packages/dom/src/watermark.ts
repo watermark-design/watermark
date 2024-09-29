@@ -1,5 +1,4 @@
 import { isUndefined } from '@watermark-design/shared';
-import type { ChangeOptionsMode, WatermarkDom, WatermarkOptions } from '@watermark-design/core';
 import {
   convertImage,
   initialOptions,
@@ -7,7 +6,8 @@ import {
   renderLayout,
   WatermarkCanvas,
 } from '@watermark-design/core';
-import protection from '../utils/protection';
+import { protection } from './utils';
+import type { ChangeOptionsMode, WatermarkDom, WatermarkOptions } from '@watermark-design/core';
 
 /**
  * Watermark class
