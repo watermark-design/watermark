@@ -48,7 +48,8 @@
   },
   "scripts": {
     "clean:dist": "rimraf dist",
-    "build": "npm run clean:dist && rollup -c --bundleConfigAsCjs --environment NODE_ENV:production"
+    "build": "npm run clean:dist && rollup -c --bundleConfigAsCjs --environment NODE_ENV:production",
+    "test": "jest --no-cache"
   },
   "bugs": {
     "url": "https://github.com/watermark-design/watermark/issues"
