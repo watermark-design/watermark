@@ -1,7 +1,7 @@
-import type { WatermarkOptions, RecommendOptions } from './types';
 import { getValue, isFunction, isUndefined } from '@watermark-design/shared';
 import { generateRecommendOptions } from './initialization';
 import { convertSVGToImage, createCustomContentSVG, loadImage } from './utils';
+import type { WatermarkOptions, RecommendOptions } from './types';
 
 class WatermarkCanvas {
   private readonly options: WatermarkOptions;
