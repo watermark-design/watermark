@@ -55,7 +55,7 @@
     "@unocss/postcss": "^0.58.9",
     "autoprefixer": "^10.4.20",
     "codecov": "^3.8.3",
-    "concurrently": "^8.2.2",
+    "concurrently": "^9.0.0",
     "core-js": "^3.38.1",
     "cssnano": "^7.0.6",
     "eslint": "^8.57.1",
