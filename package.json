@@ -99,7 +99,7 @@
     "vite-plugin-commonjs": "^0.10.3",
     "vite-plugin-dts": "^3.9.1",
     "vite-plugin-eslint": "^1.8.1",
-    "vitepress": "1.4.0",
+    "vitepress": "1.4.1",
     "vue-eslint-parser": "^9.4.3"
   },
   "pnpm": {
